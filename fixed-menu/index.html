@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font: 500 16px/20px "Poppins", sans-serif;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 25px 0;
+            z-index: 9;
+            border-bottom: 0px;
+            -webkit-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+        }
+
+        .navbar_fixed {
+            background: #fff;
+            width: 100%;
+            top: 0;
+            left: 0;
+            -webkit-box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.06);
+            box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.06);
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        .navbar__LN {
+            display: flex;
+            padding: 0 15px;
+        }
+
+        .logo img {
+            max-width: 156px;
+        }
+
+        .nav {
+            display: flex;
+            padding-left: 0;
+            margin: auto;
+            list-style: none;
+        }
+
+        .nav-item:not(:first-child) {
+            margin-left: 30px;
+        }
+
+        .nav-link {
+            color: #2c2c51;
+            position: relative;
+            padding: 0;
+            text-transform: capitalize;
+            text-decoration: none;
+        }
+
+        .nav-link:hover {
+            color: #5e2ced;
+        }
+
+        .banner {
+            min-height: 720px;
+            height: 100vh;
+            background: #f5f7fb;
+            display: flex;
+        }
+
+        .banner__title {
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__LN">
+            <a href="https://hoc.drkhoe.vn" class="logo">
+                <img src="logo2.png" alt="Logo" srcset="logo2x-d.png">
+            </a>
+            <ul class="nav">
+                <li class="nav-item"><a href="https://hoc.drkhoe.vn" class="nav-link">Trang chủ</a></li>
+                <li class="nav-item"><a href="https://hoc.drkhoe.vn/html" class="nav-link">Học HTML</a></li>
+                <li class="nav-item"><a href="https://hoc.drkhoe.vn/javascript" class="nav-link">Học Javascript</a></li>
+                <li class="nav-item"><a href="https://hoc.drkhoe.vn/css" class="nav-link">Học CSS</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="banner">
+        <h2 class="banner__title">
+            Scroll xuống dưới.
+        </h2>
+    </section>
+    <section class="banner">
+        <h2 class="banner__title">
+            Scroll xuống dưới.
+        </h2>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        //* Navbar Fixed  
+        function navbarFixed() {
+            if ($('.navbar').length) {
+                $(window).scroll(function () {
+                    var scroll = $(window).scrollTop();
+                    if (scroll) {
+                        $(".navbar").addClass("navbar_fixed");
+                    } else {
+                        $(".navbar").removeClass("navbar_fixed");
+                    }
+                });
+            };
+        };
+        navbarFixed();
+    </script>
+</body>
+
+</html>
