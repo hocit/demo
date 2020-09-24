@@ -1,0 +1,13 @@
+.c13.c-card-list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.c13.c-card-list .c-card-list-even {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.c13.c-card-list .c-card-list-odd {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}

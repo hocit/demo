@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="printer_3_" data-name="printer (3)" transform="translate(0 0.384)">
+    <path id="Path_6005" data-name="Path 6005" d="M31,60v7.281H55.272V60Z" transform="translate(-29.328 -56.764)" fill="#444"/>
+    <rect id="Rectangle_2210" data-name="Rectangle 2210" width="12" height="7" transform="translate(14 3.616)" fill="#292929"/>
+    <path id="Path_6006" data-name="Path 6006" d="M91,0V11.327h17.8V0Z" transform="translate(-86.092)" fill="#e7e7e7"/>
+    <rect id="Rectangle_2211" data-name="Rectangle 2211" width="9" height="12" transform="translate(14 -0.384)" fill="#d3d3d8"/>
+    <rect id="Rectangle_2212" data-name="Rectangle 2212" width="28" height="11" transform="translate(0 9.616)" fill="#00abe9"/>
+    <rect id="Rectangle_2213" data-name="Rectangle 2213" width="14" height="11" transform="translate(14 9.616)" fill="#0095ff"/>
+    <path id="Path_6007" data-name="Path 6007" d="M91,300v11.435h17.8V300Z" transform="translate(-86.092 -283.819)" fill="#e7e7e7"/>
+    <rect id="Rectangle_2214" data-name="Rectangle 2214" width="9" height="11" transform="translate(14 16.616)" fill="#d3d3d8"/>
+    <g id="Group_775" data-name="Group 775" transform="translate(19.515 12.887)">
+      <rect id="Rectangle_2215" data-name="Rectangle 2215" width="1" height="2" transform="translate(3.485 -0.271)" fill="#dfd7d5"/>
+      <rect id="Rectangle_2216" data-name="Rectangle 2216" width="1" height="2" transform="translate(0.485 -0.271)" fill="#dfd7d5"/>
+    </g>
+    <rect id="Rectangle_2217" data-name="Rectangle 2217" width="12" height="2" transform="translate(8 20.616)" fill="#d3d3d8"/>
+    <rect id="Rectangle_2218" data-name="Rectangle 2218" width="6" height="2" transform="translate(14 20.616)" fill="#babac0"/>
+  </g>
+</svg>

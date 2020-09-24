@@ -1,0 +1,80 @@
+.c4.c-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px solid #E1E1E1;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.c4.c-card:hover {
+    text-decoration: none;
+}
+
+.c4.c-card .c-card-avatar {
+    min-width: 82px;
+    height: 82px;
+    border-radius: 82px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.c4.c-card .c-card-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #212121;
+}
+
+.c4.c-card .c-card-group {
+    font-size: 12px;
+    color: #212121;
+    margin-bottom: 4px;
+}
+
+.c4.c-card .c-card-todaylist {
+    color: #515151;
+    font-size: 14px;
+}
+
+.c4.c-card .c-card-score {
+    min-width: 56px;
+    min-height: 23px;
+}
+
+.c4.c-card .c-card-col-1 {
+    margin-right: auto;
+}
+
+.c4.c-card .c-card-col-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.c4.c-card .c-card-detail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #A7A7A7;
+    font-size: 14px;
+    white-space: nowrap;
+
+}
+
+.c4.c-card .c-card-detail-icon {
+    margin-left: 10px;
+}
+
+.c4.c-card .c-card-detail-icon svg {
+    width: 6px;
+    margin: auto;
+}

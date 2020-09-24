@@ -1,0 +1,39 @@
+.items-c1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.items-c1 .item-c1 {
+    width: calc(100% / 3);
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background: white;
+    margin-right: 12px;
+    text-align: center;
+    padding: 15px 8px;
+    padding-top:15px;
+    padding-bottom: 25px;
+}
+
+.items-c1 .item-c1:last-child {
+    margin-right: 0;
+}
+
+.items-c1 .item-c1-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 21px;
+    color:#5D5D5D;
+}
+
+.items-c1 .item-c1-progress {
+    margin-bottom: 20px;
+}
+
+.item-c1 .item-c1-scores {
+    font-size: 16px;
+    font-weight: bold;
+    color:#5D5D5D;
+}

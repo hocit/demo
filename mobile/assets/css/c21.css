@@ -1,0 +1,47 @@
+.c21.c-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
+    padding: 30px 10px;
+    border-radius: 5px;
+}
+
+.c21.c-card .c-card-col-2 {
+    width: 50%;
+}
+
+.c21.c-card .c-card-col-1 {
+    width: 100%;
+}
+
+.c21.c-card .c-card-title {
+    color: #A7A7A7;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.c21.c-card .c-card-col-2,
+.c21.c-card .c-card-col-1 {
+    margin-bottom: 10px;
+}
+
+.c21.c-card .c-card-add-new {
+    -webkit-box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.1);
+    background: #22DBCA;
+    border-radius: 35px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+}
+
+.c21.c-card .c-card-add-new svg {
+    margin: auto;
+
+}

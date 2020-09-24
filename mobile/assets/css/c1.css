@@ -1,0 +1,36 @@
+.c1 {
+    border-radius: 12px;
+    height: 23px;
+    min-width: 56px;
+    line-height: 23px;
+    padding:0;
+    -webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.1);
+    font-weight: 400;
+
+}
+
+.badge-\#FF9B04 {
+    background: #FF9B04;
+    color: white;
+}
+
+.badge-\#F25767 {
+    background: #F25767;
+    color: white;
+}
+
+.badge-\#20DDC6 {
+    background: #20DDC6;
+    color: white;
+}
+
+.badge-\#30D6E3 {
+    background: #30D6E3;
+    color: white;
+}
+
+.badge-\#9C26DF {
+    background: #9C26DF;
+    color: white;
+}

@@ -1,0 +1,17 @@
+.c38.c-card-2 {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.c38.c-card-2 .c-card-2-icon {
+    display: flex;
+    margin-right: 10px;
+}
+
+.c38.c-card-2 .c-card-2-icon svg {
+    margin: auto;
+}
+
+.c38.c-card-2 .c-card-2-title {
+    color: #616161;
+}

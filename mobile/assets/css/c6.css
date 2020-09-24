@@ -1,0 +1,5 @@
+.c6.body {
+    height: calc(100vh - 86px);
+    padding: 0 10px;
+    overflow-x: auto;
+}

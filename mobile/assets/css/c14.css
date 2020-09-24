@@ -1,0 +1,53 @@
+
+.c14.c-card {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.c-card:hover {
+    text-decoration: none;
+}
+
+.c14.c-card .c-card-icon {
+    width: 92px;
+    height: 92px;
+    display: flex;
+    border-radius: 9px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
+    margin: auto;
+    margin-bottom: 6px;
+}
+
+.c14.c-card .c-card-icon svg {
+    margin: auto;
+}
+
+
+.c14.c-card .c-card-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #272727;
+    text-align: center;
+}
+
+.bg-\#2695DF {
+    background: #2695DF;
+}
+
+.bg-\#5D5D5D {
+    background: #5D5D5D;
+}
+
+.bg-\#9C26DF {
+    background: #9C26DF;
+}
+
+.bg-\#F68B1E {
+    background: #F68B1E;
+}
+
+.bg-\#2AE1E8 {
+    background: #2AE1E8;
+}

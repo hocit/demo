@@ -1,0 +1,65 @@
+.c7.header {
+    height: 55px;
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    padding: 0 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    top: 0;
+    background: white;
+}
+
+.c7.header .header-col-1 {
+    margin: auto 0;
+}
+
+.c7.header .header-col-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.c7.header .header-add-new {
+    -webkit-box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.1);
+    background: #22DBCA;
+    border-radius: 35px;
+    width: 35px;
+    height: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+}
+
+.c7.header .header-add-new svg {
+    margin: auto;
+}
+
+.c7.header .header-line {
+    height: 37px;
+    border-right: 1px solid #D2D2D2;
+    margin: auto;
+}
+
+.c7.header .header-search,
+.c7.header .header-user,
+.c7.header .header-arrow {
+    margin: auto;
+}
+
+.c7.header .header-avatar {
+    height: 35px;
+    width: 35px;
+    border-radius: 35px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,2420 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/jquery-treetable.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="c-left-menu">
+        <div class="c-logo">
+            <a href="#">
+                <img src="./images/logo.svg" alt="">
+            </a>
+        </div>
+        <div class="c-menu">
+            <ul>
+                <li>
+                    <a href="" class="active">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+                            <path id="Combined_shape_3734" data-name="Combined shape 3734"
+                                d="M15.062,14.5H26L26,27,15.062,27ZM1,27l0-9.371H11.938V27ZM1,14.5,1,2,11.938,2V14.5Zm14.062-3.125V2L26,2l0,9.371Z"
+                                transform="translate(-1 -2)" fill="#5b5b5b" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg id="outline-assignment-24px" xmlns="http://www.w3.org/2000/svg" width="33.94"
+                            height="33.94" viewBox="0 0 33.94 33.94">
+                            <g id="Bounding_Boxes">
+                                <path id="Path_2274" data-name="Path 2274" d="M0,0H33.94V33.94H0Z" fill="none" />
+                            </g>
+                            <g id="Outline" transform="translate(4.242 1.414)">
+                                <g id="Group_33" data-name="Group 33">
+                                    <rect id="Rectangle_14" data-name="Rectangle 14" width="10" height="3"
+                                        transform="translate(5.727 19.556)" fill="#5b5b5b" />
+                                    <rect id="Rectangle_15" data-name="Rectangle 15" width="14" height="2"
+                                        transform="translate(5.727 14.556)" fill="#5b5b5b" />
+                                    <rect id="Rectangle_16" data-name="Rectangle 16" width="14" height="3"
+                                        transform="translate(5.727 8.556)" fill="#5b5b5b" />
+                                    <path id="Path_2275" data-name="Path 2275"
+                                        d="M25.626,3.828H19.715a4.226,4.226,0,0,0-7.976,0H5.828a2.477,2.477,0,0,0-.566.057A2.857,2.857,0,0,0,3.226,5.568,2.724,2.724,0,0,0,3,6.657v19.8a2.9,2.9,0,0,0,.226,1.1,3,3,0,0,0,.608.905,2.839,2.839,0,0,0,1.428.778,3.67,3.67,0,0,0,.566.042h19.8a2.837,2.837,0,0,0,2.828-2.828V6.657A2.837,2.837,0,0,0,25.626,3.828Zm-9.9-.354a1.061,1.061,0,1,1-1.061,1.061A1.068,1.068,0,0,1,15.727,3.475Zm9.9,22.98H5.828V6.657h19.8Z"
+                                        transform="translate(-3 -1)" fill="#5b5b5b" />
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="27" viewBox="0 0 25 27">
+                            <g id="Group_35" data-name="Group 35" transform="translate(-54 -199)">
+                                <rect id="Rectangle_11" data-name="Rectangle 11" width="5" height="20"
+                                    transform="translate(54 206)" fill="#5b5b5b" />
+                                <rect id="Rectangle_12" data-name="Rectangle 12" width="5" height="27"
+                                    transform="translate(64 199)" fill="#5b5b5b" />
+                                <rect id="Rectangle_13" data-name="Rectangle 13" width="5" height="16"
+                                    transform="translate(74 210)" fill="#5b5b5b" />
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="c-right-content">
+        <div class="c-header d-flex justify-content-between">
+            <div class="w-100 m-auto">
+                <div class="c-search d-flex w-100 search-c1">
+                    <div class="m-auto c-ml-34.5px">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path id="icon_search"
+                                d="M12.7,11.23a6.777,6.777,0,0,0,1.4-4.174A7.02,7.02,0,0,0,7.1,0,7.105,7.105,0,0,0,0,7.056a7.105,7.105,0,0,0,7.1,7.056,6.667,6.667,0,0,0,4.2-1.391l3,2.981a.971.971,0,0,0,1.4,0,.957.957,0,0,0,0-1.391Zm-5.6.8A5.022,5.022,0,0,1,2,7.056a5.1,5.1,0,0,1,10.2,0A5.022,5.022,0,0,1,7.1,12.025Z"
+                                fill="#bcbccb" />
+                        </svg>
+                    </div>
+                    <input type="text" name="" id=""
+                        class="js-search form-control c-text-14px c-text-black-102 border-0 m-auto c-px-10px rounded-0"
+                        placeholder="Tìm kiếm công việc bạn đã làm">
+                </div>
+                <div class="d-none search-c2">
+                    <div style="width:203px;margin-right: 10px;margin-left: 29.5px;">
+                        <div class="input-c1 input-c1-date">
+                            <input type="text" name="" id="" class="form-control js-daterangepicker" placeholder="30/6/2020">
+                            <svg id="calendar_1_" data-name="calendar (1)" xmlns="http://www.w3.org/2000/svg" width="20"
+                                height="20" viewBox="0 0 20 20">
+                                <g id="Group_1276" data-name="Group 1276" transform="translate(4.286)">
+                                    <g id="Group_1275" data-name="Group 1275">
+                                        <path id="Path_6030" data-name="Path 6030"
+                                            d="M103.114,0a.714.714,0,0,0-.714.714V2.143h1.429V.714A.714.714,0,0,0,103.114,0Z"
+                                            transform="translate(-102.4)" fill="#bcbccb" />
+                                    </g>
+                                </g>
+                                <g id="Group_1278" data-name="Group 1278" transform="translate(14.286)">
+                                    <g id="Group_1277" data-name="Group 1277">
+                                        <path id="Path_6031" data-name="Path 6031"
+                                            d="M342.047,0a.714.714,0,0,0-.714.714V2.143h1.429V.714A.714.714,0,0,0,342.047,0Z"
+                                            transform="translate(-341.333)" fill="#bcbccb" />
+                                    </g>
+                                </g>
+                                <g id="Group_1280" data-name="Group 1280" transform="translate(0 2.143)">
+                                    <g id="Group_1279" data-name="Group 1279">
+                                        <path id="Path_6032" data-name="Path 6032"
+                                            d="M17.857,51.2H15.714v2.857a.714.714,0,0,1-1.429,0V51.2H5.714v2.857a.714.714,0,0,1-1.429,0V51.2H2.143A2.143,2.143,0,0,0,0,53.343V66.914a2.143,2.143,0,0,0,2.143,2.143H17.857A2.143,2.143,0,0,0,20,66.914V53.343A2.143,2.143,0,0,0,17.857,51.2Zm.714,15.714a.714.714,0,0,1-.714.714H2.143a.714.714,0,0,1-.714-.714V57.629H18.571Z"
+                                            transform="translate(0 -51.2)" fill="#bcbccb" />
+                                    </g>
+                                </g>
+                                <g id="Group_1282" data-name="Group 1282" transform="translate(3.571 10)">
+                                    <g id="Group_1281" data-name="Group 1281">
+                                        <path id="Path_6033" data-name="Path 6033"
+                                            d="M87.476,238.933H86.047a.714.714,0,1,0,0,1.429h1.429a.714.714,0,1,0,0-1.429Z"
+                                            transform="translate(-85.333 -238.933)" fill="#bcbccb" />
+                                    </g>
+                                </g>
+                                <g id="Group_1284" data-name="Group 1284" transform="translate(8.571 10)">
+                                    <g id="Group_1283" data-name="Group 1283">
+                                        <path id="Path_6034" data-name="Path 6034"
+                                            d="M206.943,238.933h-1.429a.714.714,0,0,0,0,1.429h1.429a.714.714,0,1,0,0-1.429Z"
+                                            transform="translate(-204.8 -238.933)" fill="#bcbccb" />
+                                    </g>
+                                </g>
+                                <g id="Group_1286" data-name="Group 1286" transform="translate(13.571 10)">
+                                    <g id="Group_1285" data-name="Group 1285">
+                                        <path id="Path_6035" data-name="Path 6035"
+                                            d="M326.41,238.933h-1.429a.714.714,0,1,0,0,1.429h1.429a.714.714,0,1,0,0-1.429Z"
+                                            transform="translate(-324.267 -238.933)" fill="#bcbccb" />
+                                    </g>
+                                </g>
+                                <g id="Group_1288" data-name="Group 1288" transform="translate(3.571 12.857)">
+                                    <g id="Group_1287" data-name="Group 1287">
+                                        <path id="Path_6036" data-name="Path 6036"
+                                            d="M87.476,307.2H86.047a.714.714,0,1,0,0,1.429h1.429a.714.714,0,0,0,0-1.429Z"
+                                            transform="translate(-85.333 -307.2)" fill="#bcbccb" />
+                                    </g>
+                                </g>
+                                <g id="Group_1290" data-name="Group 1290" transform="translate(8.571 12.857)">
+                                    <g id="Group_1289" data-name="Group 1289">
+                                        <path id="Path_6037" data-name="Path 6037"
+                                            d="M206.943,307.2h-1.429a.714.714,0,0,0,0,1.429h1.429a.714.714,0,1,0,0-1.429Z"
+                                            transform="translate(-204.8 -307.2)" fill="#bcbccb" />
+                                    </g>
+                                </g>
+                                <g id="Group_1292" data-name="Group 1292" transform="translate(13.571 12.857)">
+                                    <g id="Group_1291" data-name="Group 1291">
+                                        <path id="Path_6038" data-name="Path 6038"
+                                            d="M326.41,307.2h-1.429a.714.714,0,0,0,0,1.429h1.429a.714.714,0,0,0,0-1.429Z"
+                                            transform="translate(-324.267 -307.2)" fill="#bcbccb" />
+                                    </g>
+                                </g>
+                                <g id="Group_1294" data-name="Group 1294" transform="translate(3.571 15.714)">
+                                    <g id="Group_1293" data-name="Group 1293">
+                                        <path id="Path_6039" data-name="Path 6039"
+                                            d="M87.476,375.467H86.047a.714.714,0,1,0,0,1.429h1.429a.714.714,0,1,0,0-1.429Z"
+                                            transform="translate(-85.333 -375.467)" fill="#bcbccb" />
+                                    </g>
+                                </g>
+                                <g id="Group_1296" data-name="Group 1296" transform="translate(8.571 15.714)">
+                                    <g id="Group_1295" data-name="Group 1295">
+                                        <path id="Path_6040" data-name="Path 6040"
+                                            d="M206.943,375.467h-1.429a.714.714,0,0,0,0,1.429h1.429a.714.714,0,1,0,0-1.429Z"
+                                            transform="translate(-204.8 -375.467)" fill="#bcbccb" />
+                                    </g>
+                                </g>
+                                <g id="Group_1298" data-name="Group 1298" transform="translate(13.571 15.714)">
+                                    <g id="Group_1297" data-name="Group 1297">
+                                        <path id="Path_6041" data-name="Path 6041"
+                                            d="M326.41,375.467h-1.429a.714.714,0,0,0,0,1.429h1.429a.714.714,0,0,0,0-1.429Z"
+                                            transform="translate(-324.267 -375.467)" fill="#bcbccb" />
+                                    </g>
+                                </g>
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div style="width:218px;margin-right: 10px;">
+                        <div class="input-c1 input-c1-search">
+                            <input type="text" name="" id="" class="form-control" placeholder="Ai Tay To nhất xới ">
+                            <svg id="icon_search" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                viewBox="0 0 18 18">
+                                <path id="icon_search-2" data-name="icon_search"
+                                    d="M14.287,12.634a7.624,7.624,0,0,0,1.575-4.7A7.9,7.9,0,0,0,7.987,0,7.993,7.993,0,0,0,0,7.938a7.993,7.993,0,0,0,7.987,7.938,7.5,7.5,0,0,0,4.725-1.565l3.375,3.354a1.092,1.092,0,0,0,1.575,0,1.076,1.076,0,0,0,0-1.565Zm-6.3.894A5.649,5.649,0,0,1,2.25,7.938a5.738,5.738,0,0,1,11.475,0A5.649,5.649,0,0,1,7.987,13.528Z"
+                                    fill="#bcbccb" />
+                            </svg>
+                            <div class="input-c1-search-popup items-c1">
+                                <div class="item-c1">
+                                    <div class="icon-c2 icon-c2-40px item-c1-col-1" style="background-image: url('https://ngon.okrs.vn/Uploads/Avatar/2020/5/18/image_20200518133743216.jpg');"></div>
+                                    <div class="item-c1-col-2">
+                                        <div class="item-c1-name">Tạ Thị Tầng</div>
+                                        <div class="item-c1-work">Trưởng Code</div>
+                                    </div>
+                                </div>
+                                <div class="item-c1">
+                                    <div class="icon-c2 icon-c2-40px item-c1-col-1" style="background-image: url('https://ngon.okrs.vn/Uploads/Avatar/2020/5/18/image_20200518133743216.jpg');"></div>
+                                    <div class="item-c1-col-2">
+                                        <div class="item-c1-name">Tạ Thị Tầng</div>
+                                        <div class="item-c1-work">Trưởng Code</div>
+                                    </div>
+                                </div>
+                                <div class="item-c1">
+                                    <div class="icon-c2 icon-c2-40px item-c1-col-1" style="background-image: url('https://ngon.okrs.vn/Uploads/Avatar/2020/5/18/image_20200518133743216.jpg');"></div>
+                                    <div class="item-c1-col-2">
+                                        <div class="item-c1-name">Tạ Thị Tầng</div>
+                                        <div class="item-c1-work">Trưởng Code</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="times-circle"
+                        class="icon-c1 js-search-close svg-inline--fa fa-times-circle fa-w-16" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                            d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm101.8-262.2L295.6 256l62.2 62.2c4.7 4.7 4.7 12.3 0 17l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L256 295.6l-62.2 62.2c-4.7 4.7-12.3 4.7-17 0l-22.6-22.6c-4.7-4.7-4.7-12.3 0-17l62.2-62.2-62.2-62.2c-4.7-4.7-4.7-12.3 0-17l22.6-22.6c4.7-4.7 12.3-4.7 17 0l62.2 62.2 62.2-62.2c4.7-4.7 12.3-4.7 17 0l22.6 22.6c4.7 4.7 4.7 12.3 0 17z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div class="c-add d-flex after:100">
+                    <a href="" class="block m-auto">
+                        <svg class="m-auto c-shadow-100 c-rounded-50%" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+                            <defs>
+                                <linearGradient id="linear-gradient" x1="1" x2="-0.197" y2="1.142"
+                                    gradientUnits="objectBoundingBox">
+                                    <stop offset="0" stop-color="#419ee5" />
+                                    <stop offset="1" stop-color="#2467db" />
+                                </linearGradient>
+                            </defs>
+                            <g id="Group_1232" data-name="Group 1232" transform="translate(-1514 -24)">
+                                <g id="Group_1231" data-name="Group 1231">
+                                    <g id="Group_670" data-name="Group 670" transform="translate(-148)">
+                                        <rect id="Rectangle_2100" data-name="Rectangle 2100" width="35" height="35"
+                                            rx="17.5" transform="translate(1662 24)" fill="url(#linear-gradient)" />
+                                        <path id="Path_301" data-name="Path 301"
+                                            d="M10.875,0,6.6,4.274,2.327,0,0,2.327,4.274,6.6,0,10.875,2.327,13.2,6.6,8.928,10.875,13.2,13.2,10.875,8.928,6.6,13.2,2.327Z"
+                                            transform="translate(1679.267 32.697) rotate(45)" fill="#fff" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+
+                </div>
+                <div class="c-user-100 d-flex">
+                    <div class="m-auto" style="padding-right: 33.3px;">
+                        <svg class="m-auto" id="Component_7_96" data-name="Component 7 – 96"
+                            xmlns="http://www.w3.org/2000/svg" width="32.683" height="35" viewBox="0 0 32.683 35">
+                            <g id="Group_769" data-name="Group 769" transform="translate(-1678 -10)">
+                                <path id="Path_5976" data-name="Path 5976"
+                                    d="M203.229,0h-7.854A2.573,2.573,0,0,0,192.8,2.574V14.355a.612.612,0,0,0,.978.489L196.233,13h7a2.573,2.573,0,0,0,2.575-2.575V2.574A2.573,2.573,0,0,0,203.229,0ZM199.3,10.057a.611.611,0,1,1,.611-.611A.611.611,0,0,1,199.3,10.057Zm.611-2.7v.128a.611.611,0,1,1-1.222,0V6.828a.611.611,0,0,1,.611-.611,1.025,1.025,0,1,0-1.025-1.026.611.611,0,1,1-1.222,0h0a2.247,2.247,0,1,1,2.858,2.164Zm0,0"
+                                    transform="translate(1504.879 10)" fill="#f52154" />
+                                <g id="Group_721" data-name="Group 721" transform="translate(1678 15.126)">
+                                    <path id="Path_5977" data-name="Path 5977"
+                                        d="M40.058,248.8a7.816,7.816,0,1,1-7.816-7.817A7.816,7.816,0,0,1,40.058,248.8Zm0,0"
+                                        transform="translate(-21.733 -240.988)" fill="#bcbccb" />
+                                    <path id="Path_5978" data-name="Path 5978"
+                                        d="M10.509,382.805A10.509,10.509,0,0,0,0,393.314v2.079a1.653,1.653,0,0,0,1.653,1.653H19.364a1.654,1.654,0,0,0,1.653-1.653v-2.079a10.509,10.509,0,0,0-10.509-10.509Zm0,0"
+                                        transform="translate(0 -367.172)" fill="#bcbccb" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="position-relative d-none" style="z-index:1;">
+                        <ul
+                            class="c-shadow-101 c-list-none p-0 m-0 position-absolute border-gray-101 border-1px right-100% c-bg-white c-top-60px border-solid c-px-15px c-py-29px c-w-273px">
+                            <li class="d-flex c-pb-12.5px">
+                                <div class="c-min-w-25px c-min-h-25px c-mr-9px c-h-25px c-w-25px c-rounded-50% c-bg-no-repeat c-bg-cover"
+                                    style="background-image: url('./images/avatar.jpg');"></div>
+                                <div class="c-border-b-1px border-solid c-border-gray-103 c-pb-15.5px">
+                                    <div class="c-text-14px c-mb-8px">
+                                        <span class="c-text-black-103 c-font-bold">Trần Phiêu Du</span> <span
+                                            class="c-text-black-104">đã thêm bạn vào một todo trong ngày</span>
+                                    </div>
+                                    <div class="c-text-14px c-text-black-105 c-mb-13px">
+                                        Cùng đi gặp khách Vinhome vào lúc 10h
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <button
+                                            class="c-w-97px btn c-bg-blue-100 rounded-0 c-text-white c-text-13px">Chấp
+                                            nhận</button>
+                                        <button
+                                            class="c-w-97px btn c-border-gray-100 c-border-1px c-bg-white rounded-0 c-text-gray-100 c-text-13px">Bỏ
+                                            qua</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="d-flex c-pb-12.5px">
+                                <div class="c-min-w-25px c-min-h-25px c-mr-9px c-h-25px c-w-25px c-rounded-50% c-bg-no-repeat c-bg-cover"
+                                    style="background-image: url('./images/avatar.jpg');"></div>
+                                <div class="c-border-b-1px border-solid c-border-gray-103 c-pb-15.5px">
+                                    <div class="c-text-14px c-mb-8px">
+                                        <span class="c-text-black-103 c-font-bold">Trần Phiêu Du</span> <span
+                                            class="c-text-black-104">đã thêm bạn vào một todo trong ngày</span>
+                                    </div>
+                                    <div class="c-text-14px c-text-black-105 c-mb-13px">
+                                        Cùng đi gặp khách Vinhome vào lúc 10h
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <button
+                                            class="c-w-97px btn c-bg-blue-100 rounded-0 c-text-white c-text-13px">Chấp
+                                            nhận</button>
+                                        <button
+                                            class="c-w-97px btn c-border-gray-100 c-border-1px c-bg-white rounded-0 c-text-gray-100 c-text-13px">Bỏ
+                                            qua</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="d-flex c-pb-12.5px">
+                                <div class="c-min-w-25px c-min-h-25px c-mr-9px c-h-25px c-w-25px c-rounded-50% c-bg-no-repeat c-bg-cover"
+                                    style="background-image: url('./images/avatar.jpg');"></div>
+                                <div class="c-border-b-1px border-solid c-border-gray-103 c-pb-15.5px">
+                                    <div class="c-text-14px c-mb-8px">
+                                        <span class="c-text-black-103 c-font-bold">Trần Phiêu Du</span> <span
+                                            class="c-text-black-104">đã</span> <span
+                                            class="c-text-#F90000 c-font-bold">từ chối</span> <span
+                                            class="c-text-black-104">cùng bạn thực hiện một todo trong ngày</span>
+                                    </div>
+                                    <div class="c-text-14px c-text-black-105 c-mb-13px">
+                                        Cùng đi gặp khách Vinhome vào lúc 10h
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div class="c-min-w-25px c-min-h-25px c-mr-9px c-h-25px c-w-25px c-rounded-50% c-bg-no-repeat c-bg-cover"
+                                    style="background-image: url('./images/avatar.jpg');"></div>
+                                <div>
+                                    <div class="c-text-14px c-mb-8px">
+                                        <span class="c-text-black-103 c-font-bold">Trần Phiêu Du</span> <span
+                                            class="c-text-black-104">đã</span> <span
+                                            class="c-text-#419EE5 c-font-bold">từ chối</span> <span
+                                            class="c-text-black-104">cùng bạn thực hiện một todo trong ngày</span>
+                                    </div>
+                                    <div class="c-text-14px c-text-black-105">
+                                        Cùng đi gặp khách Vinhome vào lúc 10h
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="c-notification d-flex">
+                    <div class="m-auto" style="padding-right: 40.6px;">
+                        <svg class="m-auto" xmlns="http://www.w3.org/2000/svg" width="34.375" height="37"
+                            viewBox="0 0 34.375 37">
+                            <g id="Component_7_98" data-name="Component 7 – 98" transform="translate(0 2)">
+                                <g id="Group_785" data-name="Group 785" transform="translate(-1676 -11)">
+                                    <g id="Group_787" data-name="Group 787" transform="translate(2 -2)">
+                                        <path id="Notification_Icon" data-name="Notification Icon"
+                                            d="M11.25,26.25h7.5a3.75,3.75,0,1,1-7.5,0ZM1.875,24.376a1.875,1.875,0,0,1,0-3.75h.938A8.162,8.162,0,0,0,5.624,15V9.376A9.285,9.285,0,0,1,15,0a9.284,9.284,0,0,1,9.374,9.376V15a8.158,8.158,0,0,0,2.813,5.626h.938a1.875,1.875,0,0,1,0,3.75Z"
+                                            transform="translate(1674 18)" fill="#bcbccb" />
+                                        <g id="Notification_Badge" data-name="Notification Badge"
+                                            transform="translate(1691.375 13)" fill="#ffc06a" stroke="#fff"
+                                            stroke-width="2">
+                                            <circle cx="7.5" cy="7.5" r="7.5" stroke="none" />
+                                            <circle cx="7.5" cy="7.5" r="8.5" fill="none" />
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="position-relative d-none" style="z-index:1;">
+                        <ul
+                            class="c-shadow-101 c-list-none p-0 m-0 position-absolute border-gray-101 border-1px right-100% c-bg-white c-top-60px border-solid c-px-15px c-py-29px c-w-273px">
+                            <li class="d-flex c-pb-12.5px">
+                                <div class="c-min-w-25px c-min-h-25px c-mr-9px c-h-25px c-w-25px c-rounded-50% c-bg-no-repeat c-bg-cover"
+                                    style="background-image: url('./images/avatar.jpg');"></div>
+                                <div>
+                                    <div class="c-text-14px c-mb-8px">
+                                        <span class="c-text-#1D1D1D"><span class="c-font-bold">Kim Tuấn Anh</span> đã
+                                            bình luận một
+                                            todaylist của bạn</span>
+                                    </div>
+                                    <div class="c-text-14px c-text-#91B0DE">
+                                        Cùng đi gặp khách Vinhome vào lúc 10h
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="d-flex c-pb-12.5px">
+                                <div class="c-min-w-25px c-min-h-25px c-mr-9px c-h-25px c-w-25px c-rounded-50% c-bg-no-repeat c-bg-cover"
+                                    style="background-image: url('./images/avatar.jpg');"></div>
+                                <div>
+                                    <div class="c-text-14px c-mb-8px">
+                                        <span class="c-text-#1D1D1D"><span class="c-font-bold">Kim Tuấn Anh</span> đã
+                                            bình luận một
+                                            todaylist của bạn</span>
+                                    </div>
+                                    <div class="c-text-14px c-text-#91B0DE">
+                                        Cùng đi gặp khách Vinhome vào lúc 10h
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div class="c-min-w-25px c-min-h-25px c-mr-9px c-h-25px c-w-25px c-rounded-50% c-bg-no-repeat c-bg-cover"
+                                    style="background-image: url('./images/avatar.jpg');"></div>
+                                <div>
+                                    <div class="c-text-14px c-mb-8px">
+                                        <span class="c-text-#1D1D1D"><span class="c-font-bold">Kim Tuấn Anh</span> đã
+                                            bình luận một
+                                            todaylist của bạn</span>
+                                    </div>
+                                    <div class="c-text-14px c-text-#91B0DE">
+                                        Cùng đi gặp khách Vinhome vào lúc 10h
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="c-book d-flex" style="z-index:999;">
+                    <div class="btn-book" style="line-height: 59px;padding-right: 41.4px;">
+                        <svg class="m-auto" id="Component_7_99" data-name="Component 7 – 99"
+                            xmlns="http://www.w3.org/2000/svg" width="18.623" height="29.848"
+                            viewBox="0 0 18.623 29.848">
+                            <g id="Group_769" data-name="Group 769" transform="translate(-1682.005 -15.126)">
+                                <g id="two-books" transform="translate(1683.016 121.59)">
+                                    <path id="Path_6010" data-name="Path 6010"
+                                        d="M28.612,7.239V24.509a1.331,1.331,0,0,1-.623,1.125s-7.755,6.023-9.329,6.98a5.85,5.85,0,0,1-3.045.77c-2.766,0-5.627-1.5-5.627-4V12.878c0-.005,0-.011,0-.017a4.422,4.422,0,0,1,2.065-3.7c1.085-.8,7.55-5.209,7.825-5.4a1.33,1.33,0,0,1,2.079,1.1V6.791a1.33,1.33,0,0,1-2.554.521C17.344,8.724,14.315,10.8,13.637,11.3c-.857.633-.971,1.051-.986,1.587a1.176,1.176,0,0,0,.329.9c.678.621,2.5.36,4.306-.72,1.333-.8,7.077-5.236,9.176-6.877a1.338,1.338,0,0,1,1.4-.146A1.324,1.324,0,0,1,28.612,7.239Zm-2.66,5.928L19.3,18.327v2.66l6.651-5.16Z"
+                                        transform="translate(-11 -110)" fill="#bcbccb" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="popup-book position-relative" style="z-index:1;display: none;">
+                        <div style="height: calc(100vh - 62px - 34px - 34px - 34px - 24px - 21px);overflow-x: hidden!important;border:1px solid #E5E5E5;padding:16px;position:absolute;background:white;z-index:99999;"
+                            class="c-top-60px right-100% popup-book-1 c-w-388px">
+                            <div style="border-bottom:1px solid #E2E2E2;padding-bottom:8px;">
+                                <div style="color:#1D1D1D;font-size:15px;font-weight:bold;padding-bottom:8px;">
+                                    Nên tạo Todaylist như thế nào?
+                                </div>
+                                <div style="color:#7A7A7A;">
+                                    Lorem ipsum dolor sit amet, consered adipi elit. Maecenas ut urna at ex
+                                    Bibendumdsffs... <a data-id="tab1" class="popup-book-a" style="color:#6DA1CE;">Chi
+                                        tiết</a>
+                                </div>
+                            </div>
+                            <div style="border-bottom:1px solid #E2E2E2;padding:8px 0;">
+                                <div style="color:#1D1D1D;font-size:15px;font-weight:bold;padding-bottom:8px;">
+                                    Nên tạo Todaylist như thế nào?
+                                </div>
+                                <div style="color:#7A7A7A;">
+                                    Lorem ipsum dolor sit amet, consered adipi elit. Maecenas ut urna at ex
+                                    Bibendumdsffs... <a data-id="tab2" class="popup-book-a" style="color:#6DA1CE;">Chi
+                                        tiết</a>
+                                </div>
+                            </div>
+                            <div style="border-bottom:1px solid #E2E2E2;padding:8px 0;">
+                                <div style="color:#1D1D1D;font-size:15px;font-weight:bold;padding-bottom:8px;">
+                                    Nên tạo Todaylist như thế nào?
+                                </div>
+                                <div style="color:#7A7A7A;">
+                                    Lorem ipsum dolor sit amet, consered adipi elit. Maecenas ut urna at ex
+                                    Bibendumdsffs... <a data-id="tab2" class="popup-book-a" style="color:#6DA1CE;">Chi
+                                        tiết</a>
+                                </div>
+                            </div>
+                            <div style="border-bottom:1px solid #E2E2E2;padding:8px 0;">
+                                <div style="color:#1D1D1D;font-size:15px;font-weight:bold;padding-bottom:8px;">
+                                    Nên tạo Todaylist như thế nào?
+                                </div>
+                                <div style="color:#7A7A7A;">
+                                    Lorem ipsum dolor sit amet, consered adipi elit. Maecenas ut urna at ex
+                                    Bibendumdsffs... <a data-id="tab2" class="popup-book-a" style="color:#6DA1CE;">Chi
+                                        tiết</a>
+                                </div>
+                            </div>
+                            <div style="border-bottom:1px solid #E2E2E2;padding:8px 0;">
+                                <div style="color:#1D1D1D;font-size:15px;font-weight:bold;padding-bottom:8px;">
+                                    Nên tạo Todaylist như thế nào?
+                                </div>
+                                <div style="color:#7A7A7A;">
+                                    Lorem ipsum dolor sit amet, consered adipi elit. Maecenas ut urna at ex
+                                    Bibendumdsffs... <a data-id="tab2" class="popup-book-a" style="color:#6DA1CE;">Chi
+                                        tiết</a>
+                                </div>
+                            </div>
+                            <div style="border-bottom:1px solid #E2E2E2;padding:8px 0;">
+                                <div style="color:#1D1D1D;font-size:15px;font-weight:bold;padding-bottom:8px;">
+                                    Nên tạo Todaylist như thế nào?
+                                </div>
+                                <div style="color:#7A7A7A;">
+                                    Lorem ipsum dolor sit amet, consered adipi elit. Maecenas ut urna at ex
+                                    Bibendumdsffs... <a data-id="tab2" class="popup-book-a" style="color:#6DA1CE;">Chi
+                                        tiết</a>
+                                </div>
+                            </div>
+                            <div style="border-bottom:1px solid #E2E2E2;padding:8px 0;">
+                                <div style="color:#1D1D1D;font-size:15px;font-weight:bold;padding-bottom:8px;">
+                                    Nên tạo Todaylist như thế nào?
+                                </div>
+                                <div style="color:#7A7A7A;">
+                                    Lorem ipsum dolor sit amet, consered adipi elit. Maecenas ut urna at ex
+                                    Bibendumdsffs... <a data-id="tab2" class="popup-book-a" style="color:#6DA1CE;">Chi
+                                        tiết</a>
+                                </div>
+                            </div>
+                            <div style="border-bottom:1px solid #E2E2E2;padding:8px 0;">
+                                <div style="color:#1D1D1D;font-size:15px;font-weight:bold;padding-bottom:8px;">
+                                    Nên tạo Todaylist như thế nào?
+                                </div>
+                                <div style="color:#7A7A7A;">
+                                    Lorem ipsum dolor sit amet, consered adipi elit. Maecenas ut urna at ex
+                                    Bibendumdsffs... <a data-id="tab2" class="popup-book-a" style="color:#6DA1CE;">Chi
+                                        tiết</a>
+                                </div>
+                            </div>
+                            <div style="padding-top:8px;">
+                                <div style="color:#1D1D1D;font-size:15px;font-weight:bold;padding-bottom:8px;">
+                                    Nên tạo Todaylist như thế nào?
+                                </div>
+                                <div style="color:#7A7A7A;">
+                                    Lorem ipsum dolor sit amet, consered adipi elit. Maecenas ut urna at ex
+                                    Bibendumdsffs... <a data-id="tab3" class="popup-book-a" style="color:#6DA1CE;">Chi
+                                        tiết</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab1" style="display: none;"
+                            class="popup-book-2 c-w-388px c-pt-34px c-shadow-101 c-list-none p-0 m-0 position-absolute border-gray-101 border-1px right-100% c-bg-white c-top-60px border-solid">
+                            <div class="c-mb-21px">
+                                <svg class="btn-book-back c-ml-10x c-mr-16.2px" xmlns="http://www.w3.org/2000/svg"
+                                    width="7.843" height="13.349" viewBox="0 0 7.843 13.349">
+                                    <g id="left-arrow" transform="translate(-101.48)">
+                                        <g id="Group_802" data-name="Group 802" transform="translate(101.48 0)">
+                                            <path id="Path_6011" data-name="Path 6011"
+                                                d="M104.115,6.677l4.994-4.994a.732.732,0,0,0,0-1.033l-.438-.437a.731.731,0,0,0-1.033,0l-5.946,5.946a.737.737,0,0,0,0,1.036l5.941,5.94a.732.732,0,0,0,1.033,0l.437-.437a.731.731,0,0,0,0-1.033Z"
+                                                transform="translate(-101.48 0)" />
+                                        </g>
+                                    </g>
+                                </svg>
+                                <span class="c-text-15px c-font-bold c-text-#1D1D1D">Nên tạo Todaylist như thế
+                                    nào?</span>
+                            </div>
+                            <div class="c-overflow-scroll"
+                                style="height: calc(100vh - 62px - 34px - 34px - 34px - 24px - 21px);overflow-x: hidden!important;">
+                                <div class="c-px-30px c-mb-25px">
+                                    <div class="c-text-14px c-text-#1D1D1D c-font-bold">1. Tạo Nhiệm Vụ:</div>
+                                    <div class="c-text-14px c-text-#1D1D1D">
+                                        To do list là phương pháp để giúp bạn quản lý và tìm ra cách để làm những điều
+                                        mà
+                                        bạn muốn làm. Khi thực hiện To Do list bạn sẽ chia nhỏ dự án hoặc kế hoạch của
+                                        bạn
+                                        thành những nhiệm vụ nhỏ có thể thực hiện được bằng hành động. To do list không
+                                        chỉ
+                                        tạo nhiệm vụ cho bạn mà còn cho bạn định hướng để hoàn thành công việc của mình.
+                                    </div>
+                                </div>
+                                <div class="c-px-30px c-mb-25px">
+                                    <div class="c-text-14px c-text-#1D1D1D c-font-bold">2. Sự Ưu Tiên</div>
+                                    <div class="c-text-14px c-text-#1D1D1D">
+                                        Quản lý những nhiệm vụ của mình một cách hiệu quả, bạn có thể dễ dàng xem được
+                                        những
+                                        nhiệm vụ của mình và độ ưu tiên của nó dựa theo thứ tự thời gian hoặc những biểu
+                                        tượng, note chú thích bên cạnh chúng.
+                                    </div>
+                                </div>
+                                <div class="c-px-30px c-mb-25px">
+                                    <div class="c-text-14px c-text-#1D1D1D c-font-bold">3. Cam Kết Với Nhiệm Vụ</div>
+                                    <div class="c-text-14px c-text-#1D1D1D">
+                                        Hành động viết vào sổ tay bới chính bạn khiến bạn có thêm cam kết và trách nhiệm
+                                        hơn
+                                        với những gì bạn đã ghi chép. Khi bạn viết To- Do List vào sổ tay, bạn đã cho nó
+                                        “mạng sống”, cũng chính lúc này bạn đang tạo cho mình một kế hoạch để hoàn thành
+                                        mục
+                                        tiêu mà bạn muốn nó được hoàn thành. Bạn sẽ có thêm trách nhiệm với và
+                                        nhiệm vụ của mình.
+
+                                    </div>
+                                </div>
+                                <div class="c-px-30px c-mb-25px">
+                                    <div class="c-text-14px c-text-#1D1D1D c-font-bold">4. Tái lập kế hoạch và quản lý
+                                        thời gian của bạn</div>
+                                    <div class="c-text-14px c-text-#1D1D1D">
+                                        Bạn không thể lúc nào cũng tính được chính xác thời gian một nhiệm vụ được hoàn
+                                        thành. Nó có thể nhanh hơn hoặc chậm hơn so với thời gian bạn đã hoạch định
+                                        trước, thậm chí một vài nhiệm vụ có thể bị huỷ. Với To Do List bạn có thể dễ
+                                        dàng thay thế, di chuyển để có thể sử dụng tối đa thời gian mà mình có hoặc điều
+                                        chỉnh những nhiệm vụ về theo đúng kế hoạch mà mình đã lập.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab2" style="display: none;"
+                            class="popup-book-2 c-w-388px c-pt-34px c-shadow-101 c-list-none p-0 m-0 position-absolute border-gray-101 border-1px right-100% c-bg-white c-top-60px border-solid">
+                            <div class="c-mb-21px">
+                                <svg class="btn-book-back c-ml-10x c-mr-16.2px" xmlns="http://www.w3.org/2000/svg"
+                                    width="7.843" height="13.349" viewBox="0 0 7.843 13.349">
+                                    <g id="left-arrow" transform="translate(-101.48)">
+                                        <g id="Group_802" data-name="Group 802" transform="translate(101.48 0)">
+                                            <path id="Path_6011" data-name="Path 6011"
+                                                d="M104.115,6.677l4.994-4.994a.732.732,0,0,0,0-1.033l-.438-.437a.731.731,0,0,0-1.033,0l-5.946,5.946a.737.737,0,0,0,0,1.036l5.941,5.94a.732.732,0,0,0,1.033,0l.437-.437a.731.731,0,0,0,0-1.033Z"
+                                                transform="translate(-101.48 0)" />
+                                        </g>
+                                    </g>
+                                </svg>
+                                <span class="c-text-15px c-font-bold c-text-#1D1D1D">Nên tạo Todaylist như thế
+                                    nào?</span>
+                            </div>
+                            <div class="c-overflow-scroll"
+                                style="height: calc(100vh - 62px - 34px - 34px - 34px - 24px - 21px);overflow-x: hidden!important;">
+                                <div class="c-px-30px c-mb-25px">
+                                    <div class="c-text-14px c-text-#1D1D1D c-font-bold">1. Tạo Nhiệm Vụ:</div>
+                                    <div class="c-text-14px c-text-#1D1D1D">
+                                        To do list là phương pháp để giúp bạn quản lý và tìm ra cách để làm những điều
+                                        mà
+                                        bạn muốn làm. Khi thực hiện To Do list bạn sẽ chia nhỏ dự án hoặc kế hoạch của
+                                        bạn
+                                        thành những nhiệm vụ nhỏ có thể thực hiện được bằng hành động. To do list không
+                                        chỉ
+                                        tạo nhiệm vụ cho bạn mà còn cho bạn định hướng để hoàn thành công việc của mình.
+                                    </div>
+                                </div>
+                                <div class="c-px-30px c-mb-25px">
+                                    <div class="c-text-14px c-text-#1D1D1D c-font-bold">2. Sự Ưu Tiên</div>
+                                    <div class="c-text-14px c-text-#1D1D1D">
+                                        Quản lý những nhiệm vụ của mình một cách hiệu quả, bạn có thể dễ dàng xem được
+                                        những
+                                        nhiệm vụ của mình và độ ưu tiên của nó dựa theo thứ tự thời gian hoặc những biểu
+                                        tượng, note chú thích bên cạnh chúng.
+                                    </div>
+                                </div>
+                                <div class="c-px-30px c-mb-25px">
+                                    <div class="c-text-14px c-text-#1D1D1D c-font-bold">3. Cam Kết Với Nhiệm Vụ</div>
+                                    <div class="c-text-14px c-text-#1D1D1D">
+                                        Hành động viết vào sổ tay bới chính bạn khiến bạn có thêm cam kết và trách nhiệm
+                                        hơn
+                                        với những gì bạn đã ghi chép. Khi bạn viết To- Do List vào sổ tay, bạn đã cho nó
+                                        “mạng sống”, cũng chính lúc này bạn đang tạo cho mình một kế hoạch để hoàn thành
+                                        mục
+                                        tiêu mà bạn muốn nó được hoàn thành. Bạn sẽ có thêm trách nhiệm với mục tiêu và
+                                        nhiệm vụ của mình.
+
+                                    </div>
+                                </div>
+                                <div class="c-px-30px c-mb-25px">
+                                    <div class="c-text-14px c-text-#1D1D1D c-font-bold">4. Tái lập kế hoạch và quản lý
+                                        thời gian của bạn</div>
+                                    <div class="c-text-14px c-text-#1D1D1D">
+                                        Bạn không thể lúc nào cũng tính được chính xác thời gian một nhiệm vụ được hoàn
+                                        thành. Nó có thể nhanh hơn hoặc chậm hơn so với thời gian bạn đã hoạch định
+                                        trước, thậm chí một vài nhiệm vụ có thể bị huỷ. Với To Do List bạn có thể dễ
+                                        dàng thay thế, di chuyển để có thể sử dụng tối đa thời gian mà mình có hoặc điều
+                                        chỉnh những nhiệm vụ về theo đúng kế hoạch mà mình đã lập.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab3" style="display: none;"
+                            class="popup-book-2 c-w-388px c-pt-34px c-shadow-101 c-list-none p-0 m-0 position-absolute border-gray-101 border-1px right-100% c-bg-white c-top-60px border-solid">
+                            <div class="c-mb-21px">
+                                <svg class="btn-book-back c-ml-10x c-mr-16.2px" xmlns="http://www.w3.org/2000/svg"
+                                    width="7.843" height="13.349" viewBox="0 0 7.843 13.349">
+                                    <g id="left-arrow" transform="translate(-101.48)">
+                                        <g id="Group_802" data-name="Group 802" transform="translate(101.48 0)">
+                                            <path id="Path_6011" data-name="Path 6011"
+                                                d="M104.115,6.677l4.994-4.994a.732.732,0,0,0,0-1.033l-.438-.437a.731.731,0,0,0-1.033,0l-5.946,5.946a.737.737,0,0,0,0,1.036l5.941,5.94a.732.732,0,0,0,1.033,0l.437-.437a.731.731,0,0,0,0-1.033Z"
+                                                transform="translate(-101.48 0)" />
+                                        </g>
+                                    </g>
+                                </svg>
+                                <span class="c-text-15px c-font-bold c-text-#1D1D1D">Nên tạo Todaylist như thế
+                                    nào?</span>
+                            </div>
+                            <div class="c-overflow-scroll"
+                                style="height: calc(100vh - 62px - 34px - 34px - 34px - 24px - 21px);overflow-x: hidden!important;">
+                                <div class="c-px-30px c-mb-25px">
+                                    <div class="c-text-14px c-text-#1D1D1D c-font-bold">1. Tạo Nhiệm Vụ:</div>
+                                    <div class="c-text-14px c-text-#1D1D1D">
+                                        To do list là phương pháp để giúp bạn quản lý và tìm ra cách để làm những điều
+                                        mà
+                                        bạn muốn làm. Khi thực hiện To Do list bạn sẽ chia nhỏ dự án hoặc kế hoạch của
+                                        bạn
+                                        thành những nhiệm vụ nhỏ có thể thực hiện được bằng hành động. To do list không
+                                        chỉ
+                                        tạo nhiệm vụ cho bạn mà còn cho bạn định hướng để hoàn thành công việc của mình.
+                                    </div>
+                                </div>
+                                <div class="c-px-30px c-mb-25px">
+                                    <div class="c-text-14px c-text-#1D1D1D c-font-bold">2. Sự Ưu Tiên</div>
+                                    <div class="c-text-14px c-text-#1D1D1D">
+                                        Quản lý những nhiệm vụ của mình một cách hiệu quả, bạn có thể dễ dàng xem được
+                                        những
+                                        nhiệm vụ của mình và độ ưu tiên của nó dựa theo thứ tự thời gian hoặc những biểu
+                                        tượng, note chú thích bên cạnh chúng.
+                                    </div>
+                                </div>
+                                <div class="c-px-30px c-mb-25px">
+                                    <div class="c-text-14px c-text-#1D1D1D c-font-bold">3. Cam Kết Với Nhiệm Vụ</div>
+                                    <div class="c-text-14px c-text-#1D1D1D">
+                                        Hành động viết vào sổ tay bới chính bạn khiến bạn có thêm cam kết và trách nhiệm
+                                        hơn
+                                        với những gì bạn đã ghi chép. Khi bạn viết To- Do List vào sổ tay, bạn đã cho nó
+                                        “mạng sống”, cũng chính lúc này bạn đang tạo cho mình một kế hoạch để hoàn thành
+                                        mục
+                                        tiêu mà bạn muốn nó được hoàn thành. Bạn sẽ có thêm trách nhiệm với mục tiêu và
+                                        nhiệm vụ của mình.
+
+                                    </div>
+                                </div>
+                                <div class="c-px-30px c-mb-25px">
+                                    <div class="c-text-14px c-text-#1D1D1D c-font-bold">4. Tái lập kế hoạch và quản lý
+                                        thời gian của bạn</div>
+                                    <div class="c-text-14px c-text-#1D1D1D">
+                                        Bạn không thể lúc nào cũng tính được chính xác thời gian một nhiệm vụ được hoàn
+                                        thành. Nó có thể nhanh hơn hoặc chậm hơn so với thời gian bạn đã hoạch định
+                                        trước, thậm chí một vài nhiệm vụ có thể bị huỷ. Với To Do List bạn có thể dễ
+                                        dàng thay thế, di chuyển để có thể sử dụng tối đa thời gian mà mình có hoặc điều
+                                        chỉnh những nhiệm vụ về theo đúng kế hoạch mà mình đã lập.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-avatar c-mr-50px d-flex">
+                    <div class="my-auto c-mr-6px c-h-35px c-w-35px c-rounded-50% c-bg-no-repeat c-bg-cover"
+                        style="background-image: url('./images/avatar.jpg');"></div>
+                    <svg class="my-auto" xmlns="http://www.w3.org/2000/svg" width="9" height="7" viewBox="0 0 9 7">
+                        <g id="Polygon_24" data-name="Polygon 24" transform="translate(9 7) rotate(180)" fill="#707070">
+                            <path
+                                d="M 8.084165573120117 6.5 L 0.9158343076705933 6.5 L 4.5 0.9246311187744141 L 8.084165573120117 6.5 Z"
+                                stroke="none" />
+                            <path
+                                d="M 4.5 1.849262237548828 L 1.831668376922607 6 L 7.168331146240234 6 L 4.5 1.849262237548828 M 4.5 0 L 9 7 L 0 7 L 4.5 0 Z"
+                                stroke="none" fill="#707070" />
+                        </g>
+                    </svg>
+                    <div class="position-relative d-none" style="z-index:1;">
+                        <ul
+                            class="c-whitespace-no-wrap c-shadow-101 c-list-none p-0 m-0 position-absolute border-gray-101 border-1px right-100% c-bg-white c-top-60px border-solid c-px-9px c-py-13.9px">
+                            <li>
+                                <a class="d-flex hover:no-underline hover:c-text-black-100 c-mb-17.8px" href="">
+                                    <span class="c-w-20px">
+                                        <svg class="my-auto" xmlns="http://www.w3.org/2000/svg" width="18.375"
+                                            height="18.375" viewBox="0 0 18.375 18.375">
+                                            <g id="admin" transform="translate(0 0)">
+                                                <path id="Path_6021" data-name="Path 6021"
+                                                    d="M151,172.906a3.768,3.768,0,1,0,5.922-3.093v3.093a.538.538,0,0,1-.24.448l-1.615,1.077a.539.539,0,0,1-.6,0l-1.615-1.077a.538.538,0,0,1-.24-.448v-3.093A3.753,3.753,0,0,0,151,172.906Z"
+                                                    transform="translate(-145.581 -163.719)" />
+                                                <path id="Path_6022" data-name="Path 6022"
+                                                    d="M228.153,392.1v-4.463a4.859,4.859,0,0,1-2.153,0V392.1Z"
+                                                    transform="translate(-217.889 -373.723)" />
+                                                <path id="Path_6023" data-name="Path 6023"
+                                                    d="M17.965,7.05l-1.687-.414c-.08-.219-.172-.437-.275-.655l.879-1.465a.538.538,0,0,0-.081-.658L14.517,1.574a.538.538,0,0,0-.658-.081l-1.465.879c-.217-.1-.436-.2-.655-.275L11.325.41A.538.538,0,0,0,10.8,0H7.573A.538.538,0,0,0,7.05.41L6.636,2.1c-.219.08-.437.172-.655.275L4.516,1.493a.538.538,0,0,0-.658.081L1.574,3.858a.538.538,0,0,0-.081.658l.879,1.465c-.1.217-.2.436-.275.655L.41,7.05A.538.538,0,0,0,0,7.573V10.8a.538.538,0,0,0,.41.523L2.1,11.74c.08.219.172.437.275.655l-.879,1.465a.538.538,0,0,0,.081.658L3.858,16.8a.538.538,0,0,0,.658.081L5.981,16c.217.1.436.2.655.275l.4,1.624V13.527A4.846,4.846,0,0,1,7.37,4.7a.538.538,0,0,1,.741.5V8.9l1.077.718L10.264,8.9V5.2a.538.538,0,0,1,.741-.5,4.844,4.844,0,0,1,.336,8.831V17.9l.4-1.624c.219-.08.437-.172.655-.275l1.465.879a.538.538,0,0,0,.658-.081L16.8,14.517a.538.538,0,0,0,.081-.658L16,12.394c.1-.217.2-.436.275-.655l1.687-.414a.538.538,0,0,0,.41-.523V7.573a.538.538,0,0,0-.41-.523Z"
+                                                    transform="translate(0 0)" />
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <span class="c-ml-15.6px c-text-black-103 c-text-16px">Cài đặt Admin</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-flex hover:no-underline hover:c-text-black-100 c-mb-17.8px" href="">
+                                    <span class="c-w-20px">
+                                        <svg class="my-auto" xmlns="http://www.w3.org/2000/svg" width="16.809"
+                                            height="20.148" viewBox="0 0 16.809 20.148">
+                                            <g id="user" transform="translate(0 0)">
+                                                <path id="Path_6019" data-name="Path 6019"
+                                                    d="M91.884,9.705a4.7,4.7,0,0,0,3.431-1.422,4.7,4.7,0,0,0,1.422-3.431,4.7,4.7,0,0,0-1.422-3.431,4.852,4.852,0,0,0-6.862,0,4.7,4.7,0,0,0-1.422,3.431,4.7,4.7,0,0,0,1.422,3.431A4.7,4.7,0,0,0,91.884,9.705Zm0,0"
+                                                    transform="translate(-83.607 0)" />
+                                                <path id="Path_6020" data-name="Path 6020"
+                                                    d="M16.768,253.077a11.988,11.988,0,0,0-.163-1.273,10.029,10.029,0,0,0-.313-1.28,6.321,6.321,0,0,0-.526-1.194,4.5,4.5,0,0,0-.793-1.034,3.5,3.5,0,0,0-1.14-.716,3.94,3.94,0,0,0-1.455-.263,1.477,1.477,0,0,0-.789.334c-.236.154-.513.333-.822.53a4.708,4.708,0,0,1-1.063.468,4.128,4.128,0,0,1-2.6,0,4.7,4.7,0,0,1-1.062-.468c-.306-.2-.582-.374-.822-.53a1.475,1.475,0,0,0-.788-.334,3.934,3.934,0,0,0-1.455.264,3.5,3.5,0,0,0-1.14.716,4.506,4.506,0,0,0-.793,1.034,6.335,6.335,0,0,0-.526,1.194A10.055,10.055,0,0,0,.2,251.8a11.945,11.945,0,0,0-.163,1.274c-.027.386-.04.786-.04,1.19A3.346,3.346,0,0,0,.993,256.8a3.577,3.577,0,0,0,2.56.934h9.7a3.576,3.576,0,0,0,2.56-.934,3.344,3.344,0,0,0,.994-2.531c0-.406-.014-.806-.041-1.19Zm0,0"
+                                                    transform="translate(0 -237.584)" />
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <span class="c-ml-15.6px c-text-black-103 c-text-16px">Thông tin tài khoản</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-flex hover:no-underline hover:c-text-black-100 c-mb-17.8px" href="">
+                                    <span class="c-w-20px">
+                                        <svg class="my-auto" xmlns="http://www.w3.org/2000/svg" width="16"
+                                            height="20.398" viewBox="0 0 16 20.398">
+                                            <path id="Path_6017" data-name="Path 6017"
+                                                d="M18,7.8H17V5.857A4.932,4.932,0,0,0,12,1,4.932,4.932,0,0,0,7,5.857V7.8H6A1.978,1.978,0,0,0,4,9.742v9.713A1.978,1.978,0,0,0,6,21.4H18a1.978,1.978,0,0,0,2-1.943V9.742A1.978,1.978,0,0,0,18,7.8Zm-6,8.742A1.943,1.943,0,1,1,14,14.6,1.978,1.978,0,0,1,12,16.541ZM15.1,7.8H8.9V5.857a3.1,3.1,0,0,1,6.2,0Z"
+                                                transform="translate(-4 -1)" />
+                                        </svg>
+                                    </span>
+                                    <span class="c-ml-15.6px c-text-black-103 c-text-16px">Đổi mật khẩu</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-flex hover:no-underline hover:c-text-black-100" href="">
+                                    <span class="c-w-20px">
+                                        <svg class="my-auto" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 20 20">
+                                            <g id="logout" transform="translate(0 -0.004)">
+                                                <path id="Path_6017" data-name="Path 6017"
+                                                    d="M12.292,10.837a.826.826,0,0,0-.819.833V15a.827.827,0,0,1-.82.833H8.194V3.337A1.678,1.678,0,0,0,7.078,1.753L6.836,1.67h3.817a.827.827,0,0,1,.82.833V5a.82.82,0,1,0,1.639,0V2.5A2.482,2.482,0,0,0,10.653,0H1.844a.634.634,0,0,0-.088.018C1.717.019,1.679,0,1.639,0A1.655,1.655,0,0,0,0,1.67v15a1.678,1.678,0,0,0,1.116,1.584l4.932,1.672a1.647,1.647,0,0,0,2.147-1.589V17.5h2.458A2.482,2.482,0,0,0,13.111,15V11.67a.826.826,0,0,0-.819-.833Zm0,0"
+                                                    transform="translate(0 0)" />
+                                                <path id="Path_6018" data-name="Path 6018"
+                                                    d="M286.106,110.184l-3.278-3.278a.819.819,0,0,0-1.4.579v2.458h-3.278a.819.819,0,1,0,0,1.639h3.278v2.458a.819.819,0,0,0,1.4.579l3.278-3.278a.819.819,0,0,0,0-1.159Zm0,0"
+                                                    transform="translate(-266.346 -102.446)" />
+                                            </g>
+                                        </svg>
+                                    </span>
+
+                                    <span class="c-ml-15.6px c-text-black-103 c-text-16px">Đăng xuất</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c-body">
+            <div class="container-fluid c-container-fluid-ext-1">
+                <div class="c-card-ext-7">
+                    <div class="c-card-ext-7-header">
+                        <div class="c-card-ext-7-header-left">
+                            <ul class="nav nav-tabs c-card-ext-7-tab c-tab-ext-1" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a class="js-tab-1 nav-link active" id="home-tab" data-toggle="tab" href="#home"
+                                        role="tab" aria-controls="home" aria-selected="true">Todaylist cấp dưới</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="js-tab-2 nav-link" id="profile-tab" data-toggle="tab" href="#profile"
+                                        role="tab" aria-controls="profile" aria-selected="false">Todaylist Nhân viên</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="js-tab-3 nav-link" id="contact-tab" data-toggle="tab" href="#contact"
+                                        role="tab" aria-controls="contact" aria-selected="false">Todaylist Công ty</a>
+                                </li>
+                            </ul>
+                            <div class="c-card-ext-7-select c-select2-ext-3">
+
+                                <div class="time" style="position: relative;-webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+                                -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+                                box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);">
+                                    <div style="position: relative;">
+                                        <input type="text" placeholder="Thời gian" class="form-control btn-time"
+                                            style="height:42px;cursor: pointer;">
+                                        <svg style="color:#D7DAE2;width:11px;position: absolute;top: calc(50% - 8px);right:10px;cursor: pointer;pointer-events: none;"
+                                            aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 320 512" class="svg-inline--fa fa-angle-down fa-w-10 fa-2x">
+                                            <path fill="currentColor"
+                                                d="M151.5 347.8L3.5 201c-4.7-4.7-4.7-12.3 0-17l19.8-19.8c4.7-4.7 12.3-4.7 17 0L160 282.7l119.7-118.5c4.7-4.7 12.3-4.7 17 0l19.8 19.8c4.7 4.7 4.7 12.3 0 17l-148 146.8c-4.7 4.7-12.3 4.7-17 0z"
+                                                class=""></path>
+                                        </svg>
+                                    </div>
+                                    <div class="popup-time"
+                                        style="-webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+                                        -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+                                        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);display:none;position:absolute;background:white;width:183px;border:1px solid #E4E4E4;top: 26px; right: -167px;cursor: pointer;">
+                                        <div class="popup-time-item" data-title="Hôm nay"
+                                            style="padding:0 10px;height: 50px;line-height: 50px;border-bottom: 1px solid #E4E4E4;">
+                                            Hôm nay</div>
+                                        <div class="popup-time-item" data-title="Hôm qua"
+                                            style="padding:0 10px;height: 50px;line-height: 50px;border-bottom: 1px solid #E4E4E4;">
+                                            Hôm qua</div>
+                                        <div class="popup-time-item" data-title="Tuần trước"
+                                            style="padding:0 10px;height: 50px;line-height: 50px;border-bottom: 1px solid #E4E4E4;">
+                                            Tuần trước</div>
+                                        <div class="popup-time-item" data-title="Tuần này"
+                                            style="padding:0 10px;height: 50px;line-height: 50px;border-bottom: 1px solid #E4E4E4;">
+                                            Tuần này</div>
+                                        <div class="popup-time-item" data-title="Tháng trước"
+                                            style="padding:0 10px;height: 50px;line-height: 50px;border-bottom: 1px solid #E4E4E4;">
+                                            Tháng trước</div>
+                                        <div class="popup-time-item" data-title="Tháng này"
+                                            style="padding:0 10px;height: 50px;line-height: 50px;border-bottom: 1px solid #E4E4E4;">
+                                            Tháng này</div>
+                                        <div class="popup-time-item" data-title="Tuần trước"
+                                            style="padding:0 10px;height: 50px;line-height: 50px;border-bottom: 1px solid #E4E4E4;">
+                                            Tuần trước</div>
+                                        <div class="popup-time-item" data-title="Tuần này"
+                                            style="padding:0 10px;height: 50px;line-height: 50px;border-bottom: 1px solid #E4E4E4;">
+                                            Tuần này</div>
+                                        <div class="popup-time-item" data-title="Quý này"
+                                            style="padding:0 10px;height: 50px;line-height: 50px;border-bottom: 1px solid #E4E4E4;">
+                                            Quý này</div>
+                                        <div style="background:#E1E1E1;padding:0 10px;height: 50px;line-height: 50px;">
+                                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"
+                                                style="margin-right: 10px;">So sánh</div>
+                                    </div>
+                                </div>
+                                <!-- <input style="height:42px;" class="form-control" type="text" name="daterange" value="01/01/2018 - 01/15/2018" /> -->
+
+                            </div>
+                        </div>
+                        <div class="c-card-ext-7-report">
+                            <ul>
+                                <li>Xuất ra</li>
+                                <li>
+                                    <a href="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="26.729" height="28.638"
+                                            viewBox="0 0 26.729 28.638">
+                                            <g id="pdf" transform="translate(-15.61)">
+                                                <path id="Path_5998" data-name="Path 5998"
+                                                    d="M20.248,0,15.61,4.638v24h21V0Z" transform="translate(0)"
+                                                    fill="#e1e6e9" />
+                                                <path id="Path_5999" data-name="Path 5999"
+                                                    d="M66.242,151.495a3.339,3.339,0,0,0-1.93-1.047,17.845,17.845,0,0,0-3.484-.28,14.209,14.209,0,0,1-2.615-3.5,39.95,39.95,0,0,0,1.05-4.458,1.662,1.662,0,0,0-.352-1.351,1.507,1.507,0,0,0-1.158-.552h0a1.305,1.305,0,0,0-1.061.51c-.878,1.118-.278,3.823-.148,4.355a8.98,8.98,0,0,0,.553,1.573,23.851,23.851,0,0,1-1.9,4.472,15.676,15.676,0,0,0-4.566,2.521,1.851,1.851,0,0,0-.677,1.338,1.3,1.3,0,0,0,.485.956,1.613,1.613,0,0,0,1.065.389,1.757,1.757,0,0,0,1.114-.4,14.825,14.825,0,0,0,3.276-3.925,16.506,16.506,0,0,1,4.536-.869,25.544,25.544,0,0,0,3.241,2.641,2.08,2.08,0,0,0,2.608-.173A1.481,1.481,0,0,0,66.242,151.495ZM51.95,155.22a.658.658,0,0,1-.828.03.306.306,0,0,1-.127-.2c0-.048.021-.231.337-.539a13.847,13.847,0,0,1,2.872-1.735A12.829,12.829,0,0,1,51.95,155.22Zm5.562-13.753a.266.266,0,0,1,.24-.111.464.464,0,0,1,.355.175.606.606,0,0,1,.129.492h0c-.125.674-.323,1.744-.651,3.016l-.028-.11C57.285,143.813,57.092,142,57.512,141.467Zm-.9,9.3a25.022,25.022,0,0,0,1.161-2.759,15.61,15.61,0,0,0,1.7,2.234A17.327,17.327,0,0,0,56.611,150.771Zm8.939,2.176a1.032,1.032,0,0,1-1.294.065,25.2,25.2,0,0,1-2.294-1.78,16.665,16.665,0,0,1,2.165.244,2.3,2.3,0,0,1,1.329.707C65.863,152.647,65.682,152.821,65.55,152.947Z"
+                                                    transform="translate(-32.24 -131.731)" fill="#e56353" />
+                                                <path id="Path_6000" data-name="Path 6000"
+                                                    d="M20.248,4.638V0L15.61,4.638Z" transform="translate(0)"
+                                                    fill="#ebf0f3" />
+                                                <path id="Path_6001" data-name="Path 6001"
+                                                    d="M276.057,39.785H266.13a.764.764,0,0,1-.764-.764V34.771a.764.764,0,0,1,.764-.764h9.928a.764.764,0,0,1,.764.764v4.251A.764.764,0,0,1,276.057,39.785Z"
+                                                    transform="translate(-234.483 -31.927)" fill="#27a2db" />
+                                                <g id="Group_774" data-name="Group 774"
+                                                    transform="translate(32.185 3.367)">
+                                                    <path id="Path_6002" data-name="Path 6002"
+                                                        d="M288.81,55.344a1.059,1.059,0,0,1,.335.861,1.021,1.021,0,0,1-.342.852,1.673,1.673,0,0,1-1.047.27h-.568v.939h-.541v-3.2h1.1A1.645,1.645,0,0,1,288.81,55.344Zm-.383,1.322a.707.707,0,0,0,.163-.5.522.522,0,0,0-.206-.47,1.189,1.189,0,0,0-.646-.137h-.55v1.283h.628A.837.837,0,0,0,288.427,56.666Z"
+                                                        transform="translate(-286.647 -55.064)" fill="#ebf0f3" />
+                                                    <path id="Path_6003" data-name="Path 6003"
+                                                        d="M340.321,55.483a1.493,1.493,0,0,1,.463,1.166,1.57,1.57,0,0,1-.449,1.182,1.908,1.908,0,0,1-1.374.435H337.9v-3.2H339A1.905,1.905,0,0,1,340.321,55.483Zm-.082,1.18q0-1.1-1.26-1.1h-.541v2.195h.6a1.292,1.292,0,0,0,.891-.277A1.041,1.041,0,0,0,340.238,56.663Z"
+                                                        transform="translate(-334.763 -55.064)" fill="#ebf0f3" />
+                                                    <path id="Path_6004" data-name="Path 6004"
+                                                        d="M397.029,55.568v.88h1.42v.5h-1.42v1.32h-.541v-3.2h2.135l0,.5Z"
+                                                        transform="translate(-389.771 -55.064)" fill="#ebf0f3" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30.229" height="28.341"
+                                            viewBox="0 0 30.229 28.341">
+                                            <g id="excel" transform="translate(0 -15.989)">
+                                                <path id="Path_5987" data-name="Path 5987"
+                                                    d="M270.17,100.793H256.945a.945.945,0,0,1-.945-.945V80.956a.945.945,0,0,1,.945-.945H270.17a.945.945,0,0,1,.945.945V99.849A.945.945,0,0,1,270.17,100.793Z"
+                                                    transform="translate(-240.885 -60.242)" fill="#eceff1" />
+                                                <g id="Group_773" data-name="Group 773"
+                                                    transform="translate(15.115 23.548)">
+                                                    <path id="Path_5988" data-name="Path 5988"
+                                                        d="M260.723,145.9h-3.779a.945.945,0,0,1,0-1.889h3.779a.945.945,0,1,1,0,1.889Z"
+                                                        transform="translate(-256 -144.011)" fill="#388e3c" />
+                                                    <path id="Path_5989" data-name="Path 5989"
+                                                        d="M260.723,209.9h-3.779a.945.945,0,0,1,0-1.889h3.779a.945.945,0,1,1,0,1.889Z"
+                                                        transform="translate(-256 -204.232)" fill="#388e3c" />
+                                                    <path id="Path_5990" data-name="Path 5990"
+                                                        d="M260.723,273.9h-3.779a.945.945,0,0,1,0-1.889h3.779a.945.945,0,1,1,0,1.889Z"
+                                                        transform="translate(-256 -264.454)" fill="#388e3c" />
+                                                    <path id="Path_5991" data-name="Path 5991"
+                                                        d="M260.723,337.9h-3.779a.945.945,0,1,1,0-1.889h3.779a.945.945,0,1,1,0,1.889Z"
+                                                        transform="translate(-256 -324.675)" fill="#388e3c" />
+                                                    <path id="Path_5992" data-name="Path 5992"
+                                                        d="M386.834,145.9h-1.889a.945.945,0,0,1,0-1.889h1.889a.945.945,0,0,1,0,1.889Z"
+                                                        transform="translate(-376.443 -144.011)" fill="#388e3c" />
+                                                    <path id="Path_5993" data-name="Path 5993"
+                                                        d="M386.834,209.9h-1.889a.945.945,0,0,1,0-1.889h1.889a.945.945,0,0,1,0,1.889Z"
+                                                        transform="translate(-376.443 -204.232)" fill="#388e3c" />
+                                                    <path id="Path_5994" data-name="Path 5994"
+                                                        d="M386.834,273.9h-1.889a.945.945,0,0,1,0-1.889h1.889a.945.945,0,0,1,0,1.889Z"
+                                                        transform="translate(-376.443 -264.454)" fill="#388e3c" />
+                                                    <path id="Path_5995" data-name="Path 5995"
+                                                        d="M386.834,337.9h-1.889a.945.945,0,1,1,0-1.889h1.889a.945.945,0,1,1,0,1.889Z"
+                                                        transform="translate(-376.443 -324.675)" fill="#388e3c" />
+                                                </g>
+                                                <path id="Path_5996" data-name="Path 5996"
+                                                    d="M16.662,16.208a.928.928,0,0,0-.777-.2L.771,18.842A.942.942,0,0,0,0,19.769V40.552a.943.943,0,0,0,.771.928l15.115,2.834a.889.889,0,0,0,.174.017A.945.945,0,0,0,17,43.386V16.935A.942.942,0,0,0,16.662,16.208Z"
+                                                    fill="#2e7d32" />
+                                                <path id="Path_5997" data-name="Path 5997"
+                                                    d="M88.252,168.851l-2.987-3.414,3.021-3.884A.945.945,0,0,0,86.8,160.39l-2.8,3.6-2.358-2.694a.944.944,0,1,0-1.421,1.243l2.6,2.97-2.634,3.386a.945.945,0,0,0,1.493,1.16l2.409-3.1,2.747,3.138a.943.943,0,1,0,1.421-1.241Z"
+                                                    transform="translate(-75.261 -135.533)" fill="#fafafa" />
+                                            </g>
+                                        </svg>
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                            viewBox="0 0 28 28">
+                                            <g id="printer_3_" data-name="printer (3)" transform="translate(0 0.384)">
+                                                <path id="Path_6005" data-name="Path 6005" d="M31,60v7.281H55.272V60Z"
+                                                    transform="translate(-29.328 -56.764)" fill="#444" />
+                                                <rect id="Rectangle_2210" data-name="Rectangle 2210" width="12"
+                                                    height="7" transform="translate(14 3.616)" fill="#292929" />
+                                                <path id="Path_6006" data-name="Path 6006" d="M91,0V11.327h17.8V0Z"
+                                                    transform="translate(-86.092)" fill="#e7e7e7" />
+                                                <rect id="Rectangle_2211" data-name="Rectangle 2211" width="9"
+                                                    height="12" transform="translate(14 -0.384)" fill="#d3d3d8" />
+                                                <rect id="Rectangle_2212" data-name="Rectangle 2212" width="28"
+                                                    height="11" transform="translate(0 9.616)" fill="#00abe9" />
+                                                <rect id="Rectangle_2213" data-name="Rectangle 2213" width="14"
+                                                    height="11" transform="translate(14 9.616)" fill="#0095ff" />
+                                                <path id="Path_6007" data-name="Path 6007" d="M91,300v11.435h17.8V300Z"
+                                                    transform="translate(-86.092 -283.819)" fill="#e7e7e7" />
+                                                <rect id="Rectangle_2214" data-name="Rectangle 2214" width="9"
+                                                    height="11" transform="translate(14 16.616)" fill="#d3d3d8" />
+                                                <g id="Group_775" data-name="Group 775"
+                                                    transform="translate(19.515 12.887)">
+                                                    <rect id="Rectangle_2215" data-name="Rectangle 2215" width="1"
+                                                        height="2" transform="translate(3.485 -0.271)" fill="#dfd7d5" />
+                                                    <rect id="Rectangle_2216" data-name="Rectangle 2216" width="1"
+                                                        height="2" transform="translate(0.485 -0.271)" fill="#dfd7d5" />
+                                                </g>
+                                                <rect id="Rectangle_2217" data-name="Rectangle 2217" width="12"
+                                                    height="2" transform="translate(8 20.616)" fill="#d3d3d8" />
+                                                <rect id="Rectangle_2218" data-name="Rectangle 2218" width="6"
+                                                    height="2" transform="translate(14 20.616)" fill="#babac0" />
+                                            </g>
+                                        </svg>
+                                    </a>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade active show" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div
+                                style="height: calc(100vh - 60px - 38px - 38px - 38px - 38px - 44px - 60px);overflow-y:auto;">
+                                <table class="table table-bordered c-table-ext-100 js-table-100">
+                                    <thead>
+                                        <tr>
+                                            <th
+                                                class="c-table-ext-7-col-1 z-1000 c-gray-100 font-normal c-text-14px text-uppercase">
+                                                Nhân viên
+                                            </th>
+                                            <th
+                                                class="c-table-ext-7-col-2 z-1000 c-gray-100 font-normal c-text-14px text-uppercase">
+                                                Vị trí làm việc
+                                            </th>
+                                            <th
+                                                class="c-table-ext-7-col-3 text-center z-1000 c-gray-100 font-normal c-text-14px text-uppercase">
+                                                Todo thực hiện
+                                            </th>
+                                            <th
+                                                class="c-table-ext-7-col-4 text-center z-1000 c-gray-100 font-normal c-text-14px text-uppercase">
+                                                Tiến độ
+                                            </th>
+                                            <th
+                                                class="c-table-ext-7-col-5 text-center z-1000 c-gray-100 font-normal c-text-14px text-uppercase">
+                                                Thời gian
+                                            </th>
+                                            <th
+                                                class="c-table-ext-7-col-5 text-center z-1000 c-gray-100 font-normal c-text-14px text-uppercase">
+                                                Xem
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="tt" data-tt-id="root">
+                                                    <div class="c-table-ext-7-arrow">
+                                                        <svg class="arrow-1" xmlns="http://www.w3.org/2000/svg"
+                                                            width="11.818" height="13" viewBox="0 0 11.818 13">
+                                                            <path id="Polygon_3" data-name="Polygon 3"
+                                                                d="M6.5,0,13,11.818H0Z"
+                                                                transform="translate(11.818) rotate(90)"
+                                                                fill="#5537e4" />
+                                                        </svg>
+                                                        <svg class="arrow-2" style="display:none;"
+                                                            xmlns="http://www.w3.org/2000/svg" width="13"
+                                                            height="11.818" viewBox="0 0 13 11.818">
+                                                            <path id="Polygon_2" data-name="Polygon 2"
+                                                                d="M6.5,0,13,11.818H0Z"
+                                                                transform="translate(13 11.818) rotate(180)"
+                                                                fill="#5537e4" />
+                                                        </svg>
+                                                    </div>
+                                                    <div class="c-table-ext-7-avatar">
+                                                        <!-- <div class="c-avatar-ext-5"
+                                                            style="background-image: url('./images/avatar.jpg');"></div> -->
+                                                        <div
+                                                            style="width:26px;height:26px;color:white;background:#2695DF;border-radius:50%;text-align:center;line-height:26px;">
+                                                            SX</div>
+                                                    </div>
+                                                    <div class="c-table-ext-7-name">
+                                                        Khối Kinh Doanh
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>Trưởng G1</td>
+                                            <td style="text-align:center;">
+                                                <div
+                                                    class="c-table-ext-5-badge c-badge-ext-2 c-badge-ext-2-success c-w-85px text-center m-auto">
+                                                    5/5
+                                                </div>
+                                            </td>
+                                            <td style="text-align:center;">
+                                                100%
+                                            </td>
+                                            <td style="text-align:center;">
+                                                20/06/2020
+                                            </td>
+                                            <td style="text-align:center;">
+                                                <a href="">
+                                                    <svg id="view" xmlns="http://www.w3.org/2000/svg" width="17.527"
+                                                        height="11.283" viewBox="0 0 17.527 11.283">
+                                                        <g id="Group_731" data-name="Group 731"
+                                                            transform="translate(5.943 2.821)">
+                                                            <g id="Group_730" data-name="Group 730"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5979" data-name="Path 5979"
+                                                                    d="M159.237,156.416a2.821,2.821,0,1,0,2.821,2.821A2.823,2.823,0,0,0,159.237,156.416Zm-.214,1.984a.648.648,0,0,0-.642.642h-.934a1.594,1.594,0,0,1,1.576-1.576Z"
+                                                                    transform="translate(-156.416 -156.416)"
+                                                                    fill="#646262">
+                                                                </path>
+                                                            </g>
+                                                        </g>
+                                                        <g id="Group_733" data-name="Group 733"
+                                                            transform="translate(0 0)">
+                                                            <g id="Group_732" data-name="Group 732"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5980" data-name="Path 5980"
+                                                                    d="M17.323,87.234c-.953-1.187-4.358-5.058-8.559-5.058S1.157,86.047.2,87.234A.936.936,0,0,0,.2,88.4c.953,1.187,4.358,5.058,8.559,5.058s7.606-3.871,8.559-5.058A.936.936,0,0,0,17.323,87.234ZM8.764,91.9a4.085,4.085,0,1,1,4.085-4.085A4.085,4.085,0,0,1,8.764,91.9Z"
+                                                                    transform="translate(0 -82.176)" fill="#646262">
+                                                                </path>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="tt" data-tt-id="jacob" data-tt-parent="root">
+                                                    <div class="c-table-ext-7-arrow">
+                                                        <svg class="arrow-1" xmlns="http://www.w3.org/2000/svg"
+                                                            width="11.818" height="13" viewBox="0 0 11.818 13">
+                                                            <path id="Polygon_3" data-name="Polygon 3"
+                                                                d="M6.5,0,13,11.818H0Z"
+                                                                transform="translate(11.818) rotate(90)"
+                                                                fill="#5537e4" />
+                                                        </svg>
+                                                        <svg class="arrow-2" style="display:none;"
+                                                            xmlns="http://www.w3.org/2000/svg" width="13"
+                                                            height="11.818" viewBox="0 0 13 11.818">
+                                                            <path id="Polygon_2" data-name="Polygon 2"
+                                                                d="M6.5,0,13,11.818H0Z"
+                                                                transform="translate(13 11.818) rotate(180)"
+                                                                fill="#5537e4" />
+                                                        </svg>
+                                                    </div>
+                                                    <div class="c-table-ext-7-avatar">
+                                                        <!-- <div class="c-avatar-ext-5"
+                                                            style="background-image: url('./images/avatar.jpg');"></div> -->
+                                                        <div
+                                                            style="width:26px;height:26px;color:white;background:#2695DF;border-radius:50%;text-align:center;line-height:26px;">
+                                                            SX</div>
+                                                    </div>
+                                                    <div class="c-table-ext-7-name">
+                                                        Khối Kinh Doanh
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>Trưởng G1</td>
+                                            <td style="text-align:center;">
+                                                <div
+                                                    class="c-table-ext-5-badge c-badge-ext-2 c-badge-ext-2-success c-w-85px text-center m-auto">
+                                                    5/5
+                                                </div>
+                                            </td>
+                                            <td style="text-align:center;">
+                                                100%
+                                            </td>
+                                            <td style="text-align:center;">
+                                                20/06/2020
+                                            </td>
+                                            <td style="text-align:center;">
+                                                <a href="">
+                                                    <svg id="view" xmlns="http://www.w3.org/2000/svg" width="17.527"
+                                                        height="11.283" viewBox="0 0 17.527 11.283">
+                                                        <g id="Group_731" data-name="Group 731"
+                                                            transform="translate(5.943 2.821)">
+                                                            <g id="Group_730" data-name="Group 730"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5979" data-name="Path 5979"
+                                                                    d="M159.237,156.416a2.821,2.821,0,1,0,2.821,2.821A2.823,2.823,0,0,0,159.237,156.416Zm-.214,1.984a.648.648,0,0,0-.642.642h-.934a1.594,1.594,0,0,1,1.576-1.576Z"
+                                                                    transform="translate(-156.416 -156.416)"
+                                                                    fill="#646262">
+                                                                </path>
+                                                            </g>
+                                                        </g>
+                                                        <g id="Group_733" data-name="Group 733"
+                                                            transform="translate(0 0)">
+                                                            <g id="Group_732" data-name="Group 732"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5980" data-name="Path 5980"
+                                                                    d="M17.323,87.234c-.953-1.187-4.358-5.058-8.559-5.058S1.157,86.047.2,87.234A.936.936,0,0,0,.2,88.4c.953,1.187,4.358,5.058,8.559,5.058s7.606-3.871,8.559-5.058A.936.936,0,0,0,17.323,87.234ZM8.764,91.9a4.085,4.085,0,1,1,4.085-4.085A4.085,4.085,0,0,1,8.764,91.9Z"
+                                                                    transform="translate(0 -82.176)" fill="#646262">
+                                                                </path>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="tt" data-tt-id="larry" data-tt-parent="root">
+                                                    <div class="c-table-ext-7-arrow">
+                                                        <svg class="arrow-1" xmlns="http://www.w3.org/2000/svg"
+                                                            width="11.818" height="13" viewBox="0 0 11.818 13">
+                                                            <path id="Polygon_3" data-name="Polygon 3"
+                                                                d="M6.5,0,13,11.818H0Z"
+                                                                transform="translate(11.818) rotate(90)"
+                                                                fill="#5537e4" />
+                                                        </svg>
+                                                        <svg class="arrow-2" style="display:none;"
+                                                            xmlns="http://www.w3.org/2000/svg" width="13"
+                                                            height="11.818" viewBox="0 0 13 11.818">
+                                                            <path id="Polygon_2" data-name="Polygon 2"
+                                                                d="M6.5,0,13,11.818H0Z"
+                                                                transform="translate(13 11.818) rotate(180)"
+                                                                fill="#5537e4" />
+                                                        </svg>
+                                                    </div>
+                                                    <div class="c-table-ext-7-avatar">
+                                                        <!-- <div class="c-avatar-ext-5"
+                                                            style="background-image: url('./images/avatar.jpg');"></div> -->
+                                                        <div
+                                                            style="width:26px;height:26px;color:white;background:#2695DF;border-radius:50%;text-align:center;line-height:26px;">
+                                                            SX</div>
+                                                    </div>
+                                                    <div class="c-table-ext-7-name">
+                                                        Khối Kinh Doanh
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>Trưởng G1</td>
+                                            <td style="text-align:center;">
+                                                <div
+                                                    class="c-table-ext-5-badge c-badge-ext-2 c-badge-ext-2-success c-w-85px text-center m-auto">
+                                                    5/5
+                                                </div>
+                                            </td>
+                                            <td style="text-align:center;">
+                                                100%
+                                            </td>
+                                            <td style="text-align:center;">
+                                                20/06/2020
+                                            </td>
+                                            <td style="text-align:center;">
+                                                <a href="">
+                                                    <svg id="view" xmlns="http://www.w3.org/2000/svg" width="17.527"
+                                                        height="11.283" viewBox="0 0 17.527 11.283">
+                                                        <g id="Group_731" data-name="Group 731"
+                                                            transform="translate(5.943 2.821)">
+                                                            <g id="Group_730" data-name="Group 730"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5979" data-name="Path 5979"
+                                                                    d="M159.237,156.416a2.821,2.821,0,1,0,2.821,2.821A2.823,2.823,0,0,0,159.237,156.416Zm-.214,1.984a.648.648,0,0,0-.642.642h-.934a1.594,1.594,0,0,1,1.576-1.576Z"
+                                                                    transform="translate(-156.416 -156.416)"
+                                                                    fill="#646262">
+                                                                </path>
+                                                            </g>
+                                                        </g>
+                                                        <g id="Group_733" data-name="Group 733"
+                                                            transform="translate(0 0)">
+                                                            <g id="Group_732" data-name="Group 732"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5980" data-name="Path 5980"
+                                                                    d="M17.323,87.234c-.953-1.187-4.358-5.058-8.559-5.058S1.157,86.047.2,87.234A.936.936,0,0,0,.2,88.4c.953,1.187,4.358,5.058,8.559,5.058s7.606-3.871,8.559-5.058A.936.936,0,0,0,17.323,87.234ZM8.764,91.9a4.085,4.085,0,1,1,4.085-4.085A4.085,4.085,0,0,1,8.764,91.9Z"
+                                                                    transform="translate(0 -82.176)" fill="#646262">
+                                                                </path>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td>
+                                                <div class="tt" data-tt-id="tony" data-tt-parent="larry">
+                                                    <div class="c-table-ext-7-arrow">
+                                                        <svg class="arrow-1" xmlns="http://www.w3.org/2000/svg"
+                                                            width="11.818" height="13" viewBox="0 0 11.818 13">
+                                                            <path id="Polygon_3" data-name="Polygon 3"
+                                                                d="M6.5,0,13,11.818H0Z"
+                                                                transform="translate(11.818) rotate(90)"
+                                                                fill="#5537e4" />
+                                                        </svg>
+                                                        <svg class="arrow-2" style="display:none;"
+                                                            xmlns="http://www.w3.org/2000/svg" width="13"
+                                                            height="11.818" viewBox="0 0 13 11.818">
+                                                            <path id="Polygon_2" data-name="Polygon 2"
+                                                                d="M6.5,0,13,11.818H0Z"
+                                                                transform="translate(13 11.818) rotate(180)"
+                                                                fill="#5537e4" />
+                                                        </svg>
+                                                    </div>
+                                                    <div class="c-table-ext-7-avatar">
+                                                        <!-- <div class="c-avatar-ext-5"
+                                                            style="background-image: url('./images/avatar.jpg');"></div> -->
+                                                        <div
+                                                            style="width:26px;height:26px;color:white;background:#2695DF;border-radius:50%;text-align:center;line-height:26px;">
+                                                            SX</div>
+                                                    </div>
+                                                    <div class="c-table-ext-7-name">
+                                                        Khối Kinh Doanh
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>Trưởng G1</td>
+                                            <td style="text-align:center;">
+                                                <div
+                                                    class="c-table-ext-5-badge c-badge-ext-2 c-badge-ext-2-success c-w-85px text-center m-auto">
+                                                    5/5
+                                                </div>
+                                            </td>
+                                            <td style="text-align:center;">
+                                                100%
+                                            </td>
+                                            <td style="text-align:center;">
+                                                20/06/2020
+                                            </td>
+                                            <td style="text-align:center;">
+                                                <a href="">
+                                                    <svg id="view" xmlns="http://www.w3.org/2000/svg" width="17.527"
+                                                        height="11.283" viewBox="0 0 17.527 11.283">
+                                                        <g id="Group_731" data-name="Group 731"
+                                                            transform="translate(5.943 2.821)">
+                                                            <g id="Group_730" data-name="Group 730"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5979" data-name="Path 5979"
+                                                                    d="M159.237,156.416a2.821,2.821,0,1,0,2.821,2.821A2.823,2.823,0,0,0,159.237,156.416Zm-.214,1.984a.648.648,0,0,0-.642.642h-.934a1.594,1.594,0,0,1,1.576-1.576Z"
+                                                                    transform="translate(-156.416 -156.416)"
+                                                                    fill="#646262">
+                                                                </path>
+                                                            </g>
+                                                        </g>
+                                                        <g id="Group_733" data-name="Group 733"
+                                                            transform="translate(0 0)">
+                                                            <g id="Group_732" data-name="Group 732"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5980" data-name="Path 5980"
+                                                                    d="M17.323,87.234c-.953-1.187-4.358-5.058-8.559-5.058S1.157,86.047.2,87.234A.936.936,0,0,0,.2,88.4c.953,1.187,4.358,5.058,8.559,5.058s7.606-3.871,8.559-5.058A.936.936,0,0,0,17.323,87.234ZM8.764,91.9a4.085,4.085,0,1,1,4.085-4.085A4.085,4.085,0,0,1,8.764,91.9Z"
+                                                                    transform="translate(0 -82.176)" fill="#646262">
+                                                                </path>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div
+                                style="height: calc(100vh - 60px - 38px - 38px - 38px - 38px - 44px - 60px);overflow-y:auto;">
+                                <table class="table table-borderless c-table-ext-5 js-table">
+                                    <thead class="c-bg-white">
+                                        <tr>
+                                            <th
+                                                class="c-table-ext-7-col-1 pl-0 c-pr-30px z-1000 c-gray-100 font-normal c-text-14px text-uppercase">
+                                                Nhân viên
+                                            </th>
+                                            <th
+                                                class="c-table-ext-7-col-2 pl-0 c-pr-30px z-1000 c-gray-100 font-normal c-text-14px text-uppercase">
+                                                Vị trí làm việc
+                                            </th>
+                                            <th
+                                                class="c-table-ext-7-col-3 pl-0 c-pr-30px text-center z-1000 c-gray-100 font-normal c-text-14px text-uppercase">
+                                                Todo thực hiện
+                                            </th>
+                                            <th
+                                                class="c-table-ext-7-col-4 pl-0 c-pr-30px text-center z-1000 c-gray-100 font-normal c-text-14px text-uppercase">
+                                                % HOÀN THÀNH
+                                            </th>
+                                            <th
+                                                class="c-table-ext-7-col-5 pl-0 c-pr-30px text-center z-1000 c-gray-100 font-normal c-text-14px text-uppercase">
+                                                Thời gian
+                                            </th>
+                                            <th
+                                                class="c-table-ext-7-col-5 pl-0 c-pr-30px text-center z-1000 c-gray-100 font-normal c-text-14px text-uppercase">
+                                                Xem
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+                                            <td class="c-table-ext-5-col-1 c-pr-30px">
+                                                <div class="c-table-ext-5-avatar">
+                                                    <div class="c-avatar-ext-5"
+                                                        style="background-image: url('./images/avatar.jpg');"></div>
+                                                </div>
+                                                <div class="c-table-ext-5-name">
+                                                    Trần Phiêu Bạt
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-2 c-pr-30px">
+                                                Nhân viên Kinh doanh G1
+                                            </td>
+                                            <td class="c-table-ext-5-col-3 c-pr-30px">
+                                                <div
+                                                    class="c-table-ext-5-badge c-badge-ext-2 c-badge-ext-2-success c-w-85px text-center m-auto">
+                                                    5/5
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-4 c-pr-30px">
+                                                100%
+                                            </td>
+                                            <td class="c-table-ext-5-col-5 c-pr-30px">
+                                                20/06/2020
+                                            </td>
+                                            <td class="c-table-ext-5-col-6 c-pr-30px">
+                                                <a href="">
+                                                    <svg id="view" xmlns="http://www.w3.org/2000/svg" width="17.527"
+                                                        height="11.283" viewBox="0 0 17.527 11.283">
+                                                        <g id="Group_731" data-name="Group 731"
+                                                            transform="translate(5.943 2.821)">
+                                                            <g id="Group_730" data-name="Group 730"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5979" data-name="Path 5979"
+                                                                    d="M159.237,156.416a2.821,2.821,0,1,0,2.821,2.821A2.823,2.823,0,0,0,159.237,156.416Zm-.214,1.984a.648.648,0,0,0-.642.642h-.934a1.594,1.594,0,0,1,1.576-1.576Z"
+                                                                    transform="translate(-156.416 -156.416)"
+                                                                    fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                        <g id="Group_733" data-name="Group 733"
+                                                            transform="translate(0 0)">
+                                                            <g id="Group_732" data-name="Group 732"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5980" data-name="Path 5980"
+                                                                    d="M17.323,87.234c-.953-1.187-4.358-5.058-8.559-5.058S1.157,86.047.2,87.234A.936.936,0,0,0,.2,88.4c.953,1.187,4.358,5.058,8.559,5.058s7.606-3.871,8.559-5.058A.936.936,0,0,0,17.323,87.234ZM8.764,91.9a4.085,4.085,0,1,1,4.085-4.085A4.085,4.085,0,0,1,8.764,91.9Z"
+                                                                    transform="translate(0 -82.176)" fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="c-table-ext-5-col-1 c-pr-30px">
+                                                <div class="c-table-ext-5-avatar">
+                                                    <div class="c-avatar-ext-5"
+                                                        style="background-image: url('./images/avatar.jpg');"></div>
+                                                </div>
+                                                <div class="c-table-ext-5-name">
+                                                    Trần Phiêu Bạt
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-2 c-pr-30px">
+                                                Nhân viên Kinh doanh G1
+                                            </td>
+                                            <td class="c-table-ext-5-col-3 c-pr-30px">
+                                                <div
+                                                    class="c-table-ext-5-badge c-badge-ext-2 c-badge-ext-2-warning c-w-85px text-center m-auto">
+                                                    5/5
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-4 c-pr-30px">
+                                                100%
+                                            </td>
+                                            <td class="c-table-ext-5-col-5 c-pr-30px">
+                                                20/06/2020
+                                            </td>
+                                            <td class="c-table-ext-5-col-6 c-pr-30px">
+                                                <a href="">
+                                                    <svg id="view" xmlns="http://www.w3.org/2000/svg" width="17.527"
+                                                        height="11.283" viewBox="0 0 17.527 11.283">
+                                                        <g id="Group_731" data-name="Group 731"
+                                                            transform="translate(5.943 2.821)">
+                                                            <g id="Group_730" data-name="Group 730"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5979" data-name="Path 5979"
+                                                                    d="M159.237,156.416a2.821,2.821,0,1,0,2.821,2.821A2.823,2.823,0,0,0,159.237,156.416Zm-.214,1.984a.648.648,0,0,0-.642.642h-.934a1.594,1.594,0,0,1,1.576-1.576Z"
+                                                                    transform="translate(-156.416 -156.416)"
+                                                                    fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                        <g id="Group_733" data-name="Group 733"
+                                                            transform="translate(0 0)">
+                                                            <g id="Group_732" data-name="Group 732"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5980" data-name="Path 5980"
+                                                                    d="M17.323,87.234c-.953-1.187-4.358-5.058-8.559-5.058S1.157,86.047.2,87.234A.936.936,0,0,0,.2,88.4c.953,1.187,4.358,5.058,8.559,5.058s7.606-3.871,8.559-5.058A.936.936,0,0,0,17.323,87.234ZM8.764,91.9a4.085,4.085,0,1,1,4.085-4.085A4.085,4.085,0,0,1,8.764,91.9Z"
+                                                                    transform="translate(0 -82.176)" fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="c-table-ext-5-col-1 c-pr-30px">
+                                                <div class="c-table-ext-5-avatar">
+                                                    <div class="c-avatar-ext-5"
+                                                        style="background-image: url('./images/avatar.jpg');"></div>
+                                                </div>
+                                                <div class="c-table-ext-5-name">
+                                                    Trần Phiêu Bạt
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-2 c-pr-30px">
+                                                Nhân viên Kinh doanh G1
+                                            </td>
+                                            <td class="c-table-ext-5-col-3 c-pr-30px">
+                                                <div
+                                                    class="c-table-ext-5-badge c-badge-ext-2 c-badge-ext-2-danger c-w-85px text-center m-auto">
+                                                    5/5
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-4 c-pr-30px">
+                                                100%
+                                            </td>
+                                            <td class="c-table-ext-5-col-5 c-pr-30px">
+                                                20/06/2020
+                                            </td>
+                                            <td class="c-table-ext-5-col-6 c-pr-30px">
+                                                <a href="">
+                                                    <svg id="view" xmlns="http://www.w3.org/2000/svg" width="17.527"
+                                                        height="11.283" viewBox="0 0 17.527 11.283">
+                                                        <g id="Group_731" data-name="Group 731"
+                                                            transform="translate(5.943 2.821)">
+                                                            <g id="Group_730" data-name="Group 730"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5979" data-name="Path 5979"
+                                                                    d="M159.237,156.416a2.821,2.821,0,1,0,2.821,2.821A2.823,2.823,0,0,0,159.237,156.416Zm-.214,1.984a.648.648,0,0,0-.642.642h-.934a1.594,1.594,0,0,1,1.576-1.576Z"
+                                                                    transform="translate(-156.416 -156.416)"
+                                                                    fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                        <g id="Group_733" data-name="Group 733"
+                                                            transform="translate(0 0)">
+                                                            <g id="Group_732" data-name="Group 732"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5980" data-name="Path 5980"
+                                                                    d="M17.323,87.234c-.953-1.187-4.358-5.058-8.559-5.058S1.157,86.047.2,87.234A.936.936,0,0,0,.2,88.4c.953,1.187,4.358,5.058,8.559,5.058s7.606-3.871,8.559-5.058A.936.936,0,0,0,17.323,87.234ZM8.764,91.9a4.085,4.085,0,1,1,4.085-4.085A4.085,4.085,0,0,1,8.764,91.9Z"
+                                                                    transform="translate(0 -82.176)" fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="c-table-ext-5-col-1 c-pr-30px">
+                                                <div class="c-table-ext-5-avatar">
+                                                    <div class="c-avatar-ext-5"
+                                                        style="background-image: url('./images/avatar.jpg');"></div>
+                                                </div>
+                                                <div class="c-table-ext-5-name">
+                                                    Trần Phiêu Bạt
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-2 c-pr-30px">
+                                                Nhân viên Kinh doanh G1
+                                            </td>
+                                            <td class="c-table-ext-5-col-3 c-pr-30px">
+                                                <div
+                                                    class="c-table-ext-5-badge c-badge-ext-2 c-badge-ext-2-success c-w-85px text-center m-auto">
+                                                    5/5
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-4 c-pr-30px">
+                                                100%
+                                            </td>
+                                            <td class="c-table-ext-5-col-5 c-pr-30px">
+                                                20/06/2020
+                                            </td>
+                                            <td class="c-table-ext-5-col-6 c-pr-30px">
+                                                <a href="">
+                                                    <svg id="view" xmlns="http://www.w3.org/2000/svg" width="17.527"
+                                                        height="11.283" viewBox="0 0 17.527 11.283">
+                                                        <g id="Group_731" data-name="Group 731"
+                                                            transform="translate(5.943 2.821)">
+                                                            <g id="Group_730" data-name="Group 730"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5979" data-name="Path 5979"
+                                                                    d="M159.237,156.416a2.821,2.821,0,1,0,2.821,2.821A2.823,2.823,0,0,0,159.237,156.416Zm-.214,1.984a.648.648,0,0,0-.642.642h-.934a1.594,1.594,0,0,1,1.576-1.576Z"
+                                                                    transform="translate(-156.416 -156.416)"
+                                                                    fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                        <g id="Group_733" data-name="Group 733"
+                                                            transform="translate(0 0)">
+                                                            <g id="Group_732" data-name="Group 732"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5980" data-name="Path 5980"
+                                                                    d="M17.323,87.234c-.953-1.187-4.358-5.058-8.559-5.058S1.157,86.047.2,87.234A.936.936,0,0,0,.2,88.4c.953,1.187,4.358,5.058,8.559,5.058s7.606-3.871,8.559-5.058A.936.936,0,0,0,17.323,87.234ZM8.764,91.9a4.085,4.085,0,1,1,4.085-4.085A4.085,4.085,0,0,1,8.764,91.9Z"
+                                                                    transform="translate(0 -82.176)" fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="c-table-ext-5-col-1 c-pr-30px">
+                                                <div class="c-table-ext-5-avatar">
+                                                    <div class="c-avatar-ext-5"
+                                                        style="background-image: url('./images/avatar.jpg');"></div>
+                                                </div>
+                                                <div class="c-table-ext-5-name">
+                                                    Trần Phiêu Bạt
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-2 c-pr-30px">
+                                                Nhân viên Kinh doanh G1
+                                            </td>
+                                            <td class="c-table-ext-5-col-3 c-pr-30px">
+                                                <div
+                                                    class="c-table-ext-5-badge c-badge-ext-2 c-badge-ext-2-warning c-w-85px text-center m-auto">
+                                                    5/5
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-4 c-pr-30px">
+                                                100%
+                                            </td>
+                                            <td class="c-table-ext-5-col-5 c-pr-30px">
+                                                20/06/2020
+                                            </td>
+                                            <td class="c-table-ext-5-col-6 c-pr-30px">
+                                                <a href="">
+                                                    <svg id="view" xmlns="http://www.w3.org/2000/svg" width="17.527"
+                                                        height="11.283" viewBox="0 0 17.527 11.283">
+                                                        <g id="Group_731" data-name="Group 731"
+                                                            transform="translate(5.943 2.821)">
+                                                            <g id="Group_730" data-name="Group 730"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5979" data-name="Path 5979"
+                                                                    d="M159.237,156.416a2.821,2.821,0,1,0,2.821,2.821A2.823,2.823,0,0,0,159.237,156.416Zm-.214,1.984a.648.648,0,0,0-.642.642h-.934a1.594,1.594,0,0,1,1.576-1.576Z"
+                                                                    transform="translate(-156.416 -156.416)"
+                                                                    fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                        <g id="Group_733" data-name="Group 733"
+                                                            transform="translate(0 0)">
+                                                            <g id="Group_732" data-name="Group 732"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5980" data-name="Path 5980"
+                                                                    d="M17.323,87.234c-.953-1.187-4.358-5.058-8.559-5.058S1.157,86.047.2,87.234A.936.936,0,0,0,.2,88.4c.953,1.187,4.358,5.058,8.559,5.058s7.606-3.871,8.559-5.058A.936.936,0,0,0,17.323,87.234ZM8.764,91.9a4.085,4.085,0,1,1,4.085-4.085A4.085,4.085,0,0,1,8.764,91.9Z"
+                                                                    transform="translate(0 -82.176)" fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="c-table-ext-5-col-1 c-pr-30px">
+                                                <div class="c-table-ext-5-avatar">
+                                                    <div class="c-avatar-ext-5"
+                                                        style="background-image: url('./images/avatar.jpg');"></div>
+                                                </div>
+                                                <div class="c-table-ext-5-name">
+                                                    Trần Phiêu Bạt
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-2 c-pr-30px">
+                                                Nhân viên Kinh doanh G1
+                                            </td>
+                                            <td class="c-table-ext-5-col-3 c-pr-30px">
+                                                <div
+                                                    class="c-table-ext-5-badge c-badge-ext-2 c-badge-ext-2-danger c-w-85px text-center m-auto">
+                                                    5/5
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-4 c-pr-30px">
+                                                100%
+                                            </td>
+                                            <td class="c-table-ext-5-col-5 c-pr-30px">
+                                                20/06/2020
+                                            </td>
+                                            <td class="c-table-ext-5-col-6 c-pr-30px">
+                                                <a href="">
+                                                    <svg id="view" xmlns="http://www.w3.org/2000/svg" width="17.527"
+                                                        height="11.283" viewBox="0 0 17.527 11.283">
+                                                        <g id="Group_731" data-name="Group 731"
+                                                            transform="translate(5.943 2.821)">
+                                                            <g id="Group_730" data-name="Group 730"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5979" data-name="Path 5979"
+                                                                    d="M159.237,156.416a2.821,2.821,0,1,0,2.821,2.821A2.823,2.823,0,0,0,159.237,156.416Zm-.214,1.984a.648.648,0,0,0-.642.642h-.934a1.594,1.594,0,0,1,1.576-1.576Z"
+                                                                    transform="translate(-156.416 -156.416)"
+                                                                    fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                        <g id="Group_733" data-name="Group 733"
+                                                            transform="translate(0 0)">
+                                                            <g id="Group_732" data-name="Group 732"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5980" data-name="Path 5980"
+                                                                    d="M17.323,87.234c-.953-1.187-4.358-5.058-8.559-5.058S1.157,86.047.2,87.234A.936.936,0,0,0,.2,88.4c.953,1.187,4.358,5.058,8.559,5.058s7.606-3.871,8.559-5.058A.936.936,0,0,0,17.323,87.234ZM8.764,91.9a4.085,4.085,0,1,1,4.085-4.085A4.085,4.085,0,0,1,8.764,91.9Z"
+                                                                    transform="translate(0 -82.176)" fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="c-table-ext-5-col-1 c-pr-30px">
+                                                <div class="c-table-ext-5-avatar">
+                                                    <div class="c-avatar-ext-5"
+                                                        style="background-image: url('./images/avatar.jpg');"></div>
+                                                </div>
+                                                <div class="c-table-ext-5-name">
+                                                    Trần Phiêu Bạt
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-2 c-pr-30px">
+                                                Nhân viên Kinh doanh G1
+                                            </td>
+                                            <td class="c-table-ext-5-col-3 c-pr-30px">
+                                                <div
+                                                    class="c-table-ext-5-badge c-badge-ext-2 c-badge-ext-2-success c-w-85px text-center m-auto">
+                                                    5/5
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-4 c-pr-30px">
+                                                100%
+                                            </td>
+                                            <td class="c-table-ext-5-col-5 c-pr-30px">
+                                                20/06/2020
+                                            </td>
+                                            <td class="c-table-ext-5-col-6 c-pr-30px">
+                                                <a href="">
+                                                    <svg id="view" xmlns="http://www.w3.org/2000/svg" width="17.527"
+                                                        height="11.283" viewBox="0 0 17.527 11.283">
+                                                        <g id="Group_731" data-name="Group 731"
+                                                            transform="translate(5.943 2.821)">
+                                                            <g id="Group_730" data-name="Group 730"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5979" data-name="Path 5979"
+                                                                    d="M159.237,156.416a2.821,2.821,0,1,0,2.821,2.821A2.823,2.823,0,0,0,159.237,156.416Zm-.214,1.984a.648.648,0,0,0-.642.642h-.934a1.594,1.594,0,0,1,1.576-1.576Z"
+                                                                    transform="translate(-156.416 -156.416)"
+                                                                    fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                        <g id="Group_733" data-name="Group 733"
+                                                            transform="translate(0 0)">
+                                                            <g id="Group_732" data-name="Group 732"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5980" data-name="Path 5980"
+                                                                    d="M17.323,87.234c-.953-1.187-4.358-5.058-8.559-5.058S1.157,86.047.2,87.234A.936.936,0,0,0,.2,88.4c.953,1.187,4.358,5.058,8.559,5.058s7.606-3.871,8.559-5.058A.936.936,0,0,0,17.323,87.234ZM8.764,91.9a4.085,4.085,0,1,1,4.085-4.085A4.085,4.085,0,0,1,8.764,91.9Z"
+                                                                    transform="translate(0 -82.176)" fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="c-table-ext-5-col-1 c-pr-30px">
+                                                <div class="c-table-ext-5-avatar">
+                                                    <div class="c-avatar-ext-5"
+                                                        style="background-image: url('./images/avatar.jpg');"></div>
+                                                </div>
+                                                <div class="c-table-ext-5-name">
+                                                    Trần Phiêu Bạt
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-2 c-pr-30px">
+                                                Nhân viên Kinh doanh G1
+                                            </td>
+                                            <td class="c-table-ext-5-col-3 c-pr-30px">
+                                                <div
+                                                    class="c-table-ext-5-badge c-badge-ext-2 c-badge-ext-2-warning c-w-85px text-center m-auto">
+                                                    5/5
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-4 c-pr-30px">
+                                                100%
+                                            </td>
+                                            <td class="c-table-ext-5-col-5 c-pr-30px">
+                                                20/06/2020
+                                            </td>
+                                            <td class="c-table-ext-5-col-6 c-pr-30px">
+                                                <a href="">
+                                                    <svg id="view" xmlns="http://www.w3.org/2000/svg" width="17.527"
+                                                        height="11.283" viewBox="0 0 17.527 11.283">
+                                                        <g id="Group_731" data-name="Group 731"
+                                                            transform="translate(5.943 2.821)">
+                                                            <g id="Group_730" data-name="Group 730"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5979" data-name="Path 5979"
+                                                                    d="M159.237,156.416a2.821,2.821,0,1,0,2.821,2.821A2.823,2.823,0,0,0,159.237,156.416Zm-.214,1.984a.648.648,0,0,0-.642.642h-.934a1.594,1.594,0,0,1,1.576-1.576Z"
+                                                                    transform="translate(-156.416 -156.416)"
+                                                                    fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                        <g id="Group_733" data-name="Group 733"
+                                                            transform="translate(0 0)">
+                                                            <g id="Group_732" data-name="Group 732"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5980" data-name="Path 5980"
+                                                                    d="M17.323,87.234c-.953-1.187-4.358-5.058-8.559-5.058S1.157,86.047.2,87.234A.936.936,0,0,0,.2,88.4c.953,1.187,4.358,5.058,8.559,5.058s7.606-3.871,8.559-5.058A.936.936,0,0,0,17.323,87.234ZM8.764,91.9a4.085,4.085,0,1,1,4.085-4.085A4.085,4.085,0,0,1,8.764,91.9Z"
+                                                                    transform="translate(0 -82.176)" fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="c-table-ext-5-col-1 c-pr-30px">
+                                                <div class="c-table-ext-5-avatar">
+                                                    <div class="c-avatar-ext-5"
+                                                        style="background-image: url('./images/avatar.jpg');"></div>
+                                                </div>
+                                                <div class="c-table-ext-5-name">
+                                                    Trần Phiêu Bạt
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-2 c-pr-30px">
+                                                Nhân viên Kinh doanh G1
+                                            </td>
+                                            <td class="c-table-ext-5-col-3 c-pr-30px">
+                                                <div
+                                                    class="c-table-ext-5-badge c-badge-ext-2 c-badge-ext-2-danger c-w-85px text-center m-auto">
+                                                    5/5
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-4 c-pr-30px">
+                                                100%
+                                            </td>
+                                            <td class="c-table-ext-5-col-5 c-pr-30px">
+                                                20/06/2020
+                                            </td>
+                                            <td class="c-table-ext-5-col-6 c-pr-30px">
+                                                <a href="">
+                                                    <svg id="view" xmlns="http://www.w3.org/2000/svg" width="17.527"
+                                                        height="11.283" viewBox="0 0 17.527 11.283">
+                                                        <g id="Group_731" data-name="Group 731"
+                                                            transform="translate(5.943 2.821)">
+                                                            <g id="Group_730" data-name="Group 730"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5979" data-name="Path 5979"
+                                                                    d="M159.237,156.416a2.821,2.821,0,1,0,2.821,2.821A2.823,2.823,0,0,0,159.237,156.416Zm-.214,1.984a.648.648,0,0,0-.642.642h-.934a1.594,1.594,0,0,1,1.576-1.576Z"
+                                                                    transform="translate(-156.416 -156.416)"
+                                                                    fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                        <g id="Group_733" data-name="Group 733"
+                                                            transform="translate(0 0)">
+                                                            <g id="Group_732" data-name="Group 732"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5980" data-name="Path 5980"
+                                                                    d="M17.323,87.234c-.953-1.187-4.358-5.058-8.559-5.058S1.157,86.047.2,87.234A.936.936,0,0,0,.2,88.4c.953,1.187,4.358,5.058,8.559,5.058s7.606-3.871,8.559-5.058A.936.936,0,0,0,17.323,87.234ZM8.764,91.9a4.085,4.085,0,1,1,4.085-4.085A4.085,4.085,0,0,1,8.764,91.9Z"
+                                                                    transform="translate(0 -82.176)" fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="c-table-ext-5-col-1 c-pr-30px">
+                                                <div class="c-table-ext-5-avatar">
+                                                    <div class="c-avatar-ext-5"
+                                                        style="background-image: url('./images/avatar.jpg');"></div>
+                                                </div>
+                                                <div class="c-table-ext-5-name">
+                                                    Trần Phiêu Bạt
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-2 c-pr-30px">
+                                                Nhân viên Kinh doanh G1
+                                            </td>
+                                            <td class="c-table-ext-5-col-3 c-pr-30px">
+                                                <div
+                                                    class="c-table-ext-5-badge c-badge-ext-2 c-badge-ext-2-success c-w-85px text-center m-auto">
+                                                    5/5
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-4 c-pr-30px">
+                                                100%
+                                            </td>
+                                            <td class="c-table-ext-5-col-5 c-pr-30px">
+                                                20/06/2020
+                                            </td>
+                                            <td class="c-table-ext-5-col-6 c-pr-30px">
+                                                <a href="">
+                                                    <svg id="view" xmlns="http://www.w3.org/2000/svg" width="17.527"
+                                                        height="11.283" viewBox="0 0 17.527 11.283">
+                                                        <g id="Group_731" data-name="Group 731"
+                                                            transform="translate(5.943 2.821)">
+                                                            <g id="Group_730" data-name="Group 730"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5979" data-name="Path 5979"
+                                                                    d="M159.237,156.416a2.821,2.821,0,1,0,2.821,2.821A2.823,2.823,0,0,0,159.237,156.416Zm-.214,1.984a.648.648,0,0,0-.642.642h-.934a1.594,1.594,0,0,1,1.576-1.576Z"
+                                                                    transform="translate(-156.416 -156.416)"
+                                                                    fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                        <g id="Group_733" data-name="Group 733"
+                                                            transform="translate(0 0)">
+                                                            <g id="Group_732" data-name="Group 732"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5980" data-name="Path 5980"
+                                                                    d="M17.323,87.234c-.953-1.187-4.358-5.058-8.559-5.058S1.157,86.047.2,87.234A.936.936,0,0,0,.2,88.4c.953,1.187,4.358,5.058,8.559,5.058s7.606-3.871,8.559-5.058A.936.936,0,0,0,17.323,87.234ZM8.764,91.9a4.085,4.085,0,1,1,4.085-4.085A4.085,4.085,0,0,1,8.764,91.9Z"
+                                                                    transform="translate(0 -82.176)" fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="c-table-ext-5-col-1 c-pr-30px">
+                                                <div class="c-table-ext-5-avatar">
+                                                    <div class="c-avatar-ext-5"
+                                                        style="background-image: url('./images/avatar.jpg');"></div>
+                                                </div>
+                                                <div class="c-table-ext-5-name">
+                                                    Trần Phiêu Bạt
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-2 c-pr-30px">
+                                                Nhân viên Kinh doanh G1
+                                            </td>
+                                            <td class="c-table-ext-5-col-3 c-pr-30px">
+                                                <div
+                                                    class="c-table-ext-5-badge c-badge-ext-2 c-badge-ext-2-warning c-w-85px text-center m-auto">
+                                                    5/5
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-4 c-pr-30px">
+                                                100%
+                                            </td>
+                                            <td class="c-table-ext-5-col-5 c-pr-30px">
+                                                20/06/2020
+                                            </td>
+                                            <td class="c-table-ext-5-col-6 c-pr-30px">
+                                                <a href="">
+                                                    <svg id="view" xmlns="http://www.w3.org/2000/svg" width="17.527"
+                                                        height="11.283" viewBox="0 0 17.527 11.283">
+                                                        <g id="Group_731" data-name="Group 731"
+                                                            transform="translate(5.943 2.821)">
+                                                            <g id="Group_730" data-name="Group 730"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5979" data-name="Path 5979"
+                                                                    d="M159.237,156.416a2.821,2.821,0,1,0,2.821,2.821A2.823,2.823,0,0,0,159.237,156.416Zm-.214,1.984a.648.648,0,0,0-.642.642h-.934a1.594,1.594,0,0,1,1.576-1.576Z"
+                                                                    transform="translate(-156.416 -156.416)"
+                                                                    fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                        <g id="Group_733" data-name="Group 733"
+                                                            transform="translate(0 0)">
+                                                            <g id="Group_732" data-name="Group 732"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5980" data-name="Path 5980"
+                                                                    d="M17.323,87.234c-.953-1.187-4.358-5.058-8.559-5.058S1.157,86.047.2,87.234A.936.936,0,0,0,.2,88.4c.953,1.187,4.358,5.058,8.559,5.058s7.606-3.871,8.559-5.058A.936.936,0,0,0,17.323,87.234ZM8.764,91.9a4.085,4.085,0,1,1,4.085-4.085A4.085,4.085,0,0,1,8.764,91.9Z"
+                                                                    transform="translate(0 -82.176)" fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="c-table-ext-5-col-1 c-pr-30px">
+                                                <div class="c-table-ext-5-avatar">
+                                                    <div class="c-avatar-ext-5"
+                                                        style="background-image: url('./images/avatar.jpg');"></div>
+                                                </div>
+                                                <div class="c-table-ext-5-name">
+                                                    Trần Phiêu Bạt
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-2 c-pr-30px">
+                                                Nhân viên Kinh doanh G1
+                                            </td>
+                                            <td class="c-table-ext-5-col-3 c-pr-30px">
+                                                <div
+                                                    class="c-table-ext-5-badge c-badge-ext-2 c-badge-ext-2-danger c-w-85px text-center m-auto">
+                                                    5/5
+                                                </div>
+                                            </td>
+                                            <td class="c-table-ext-5-col-4 c-pr-30px">
+                                                100%
+                                            </td>
+                                            <td class="c-table-ext-5-col-5 c-pr-30px">
+                                                20/06/2020
+                                            </td>
+                                            <td class="c-table-ext-5-col-6 c-pr-30px">
+                                                <a href="">
+                                                    <svg id="view" xmlns="http://www.w3.org/2000/svg" width="17.527"
+                                                        height="11.283" viewBox="0 0 17.527 11.283">
+                                                        <g id="Group_731" data-name="Group 731"
+                                                            transform="translate(5.943 2.821)">
+                                                            <g id="Group_730" data-name="Group 730"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5979" data-name="Path 5979"
+                                                                    d="M159.237,156.416a2.821,2.821,0,1,0,2.821,2.821A2.823,2.823,0,0,0,159.237,156.416Zm-.214,1.984a.648.648,0,0,0-.642.642h-.934a1.594,1.594,0,0,1,1.576-1.576Z"
+                                                                    transform="translate(-156.416 -156.416)"
+                                                                    fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                        <g id="Group_733" data-name="Group 733"
+                                                            transform="translate(0 0)">
+                                                            <g id="Group_732" data-name="Group 732"
+                                                                transform="translate(0 0)">
+                                                                <path id="Path_5980" data-name="Path 5980"
+                                                                    d="M17.323,87.234c-.953-1.187-4.358-5.058-8.559-5.058S1.157,86.047.2,87.234A.936.936,0,0,0,.2,88.4c.953,1.187,4.358,5.058,8.559,5.058s7.606-3.871,8.559-5.058A.936.936,0,0,0,17.323,87.234ZM8.764,91.9a4.085,4.085,0,1,1,4.085-4.085A4.085,4.085,0,0,1,8.764,91.9Z"
+                                                                    transform="translate(0 -82.176)" fill="#646262" />
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+
+
+                                            </td>
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                            <div
+                                style="overflow-y:auto;height: calc(100vh - 60px - 38px - 38px - 38px - 38px - 44px - 60px);">
+                                <table class="table table-bordered c-table-ext-100 js-table-101">
+                                    <thead>
+                                        <tr>
+                                            <th
+                                                class="c-table-ext-7-col-1 z-1000 c-gray-100 font-normal c-text-14px text-uppercase">
+                                                Phòng / nhóm
+                                            </th>
+                                            <th
+                                                class="c-table-ext-7-col-2 z-1000 c-gray-100 font-normal c-text-14px text-uppercase">
+                                                NV đã tạo todaylist
+                                            </th>
+                                            <th
+                                                class="c-table-ext-7-col-3 z-1000 c-gray-100 font-normal c-text-14px text-uppercase">
+                                                NV hoàn thành todaylist
+                                            </th>
+                                            <th
+                                                class="c-table-ext-7-col-4 z-1000 c-gray-100 font-normal c-text-14px text-uppercase">
+                                                Tổng Todo hoàn thành
+                                            </th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="tt" data-tt-id="root">
+                                                    <div class="c-table-ext-7-arrow">
+                                                        <svg class="arrow-1" xmlns="http://www.w3.org/2000/svg"
+                                                            width="11.818" height="13" viewBox="0 0 11.818 13">
+                                                            <path id="Polygon_3" data-name="Polygon 3"
+                                                                d="M6.5,0,13,11.818H0Z"
+                                                                transform="translate(11.818) rotate(90)"
+                                                                fill="#5537e4" />
+                                                        </svg>
+                                                        <svg class="arrow-2" style="display:none;"
+                                                            xmlns="http://www.w3.org/2000/svg" width="13"
+                                                            height="11.818" viewBox="0 0 13 11.818">
+                                                            <path id="Polygon_2" data-name="Polygon 2"
+                                                                d="M6.5,0,13,11.818H0Z"
+                                                                transform="translate(13 11.818) rotate(180)"
+                                                                fill="#5537e4" />
+                                                        </svg>
+                                                    </div>
+                                                    <div class="c-table-ext-7-avatar">
+                                                        <!-- <div class="c-avatar-ext-5"
+                                                            style="background-image: url('./images/avatar.jpg');"></div> -->
+                                                        <div
+                                                            style="width:26px;height:26px;color:white;background:#2695DF;border-radius:50%;text-align:center;line-height:26px;">
+                                                            SX</div>
+                                                    </div>
+                                                    <div class="c-table-ext-7-name">
+                                                        Khối Kinh Doanh
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <div class="progress c-progress-ext-1 m-auto c-bg-red-100">
+                                                        <div class="progress-bar c-bg-warning" role="progressbar"
+                                                            style="width: 80%" aria-valuenow="100" aria-valuemin="0"
+                                                            aria-valuemax="100"></div>
+                                                    </div>
+                                                    <div
+                                                        class="c-table-ext-6-scores c-ml-15px c-text-black-100 c-text-16px">
+                                                        30/30
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td style="text-align:center;">
+                                                <div class="d-flex">
+                                                    <div class="progress c-progress-ext-1 m-auto c-bg-red-100">
+                                                        <div class="progress-bar c-bg-warning" role="progressbar"
+                                                            style="width: 80%" aria-valuenow="100" aria-valuemin="0"
+                                                            aria-valuemax="100"></div>
+                                                    </div>
+                                                    <div
+                                                        class="c-table-ext-6-scores c-ml-15px c-text-black-100 c-text-16px">
+                                                        30/30
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td style="text-align:center;">
+                                                <div class="d-flex">
+                                                    <div class="progress c-progress-ext-1 m-auto c-bg-red-100">
+                                                        <div class="progress-bar c-bg-warning" role="progressbar"
+                                                            style="width: 80%" aria-valuenow="100" aria-valuemin="0"
+                                                            aria-valuemax="100"></div>
+                                                    </div>
+                                                    <div
+                                                        class="c-table-ext-6-scores c-ml-15px c-text-black-100 c-text-16px">
+                                                        30/30
+                                                    </div>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="tt" data-tt-id="jacob" data-tt-parent="root">
+                                                    <div class="c-table-ext-7-arrow">
+                                                        <svg class="arrow-1" xmlns="http://www.w3.org/2000/svg"
+                                                            width="11.818" height="13" viewBox="0 0 11.818 13">
+                                                            <path id="Polygon_3" data-name="Polygon 3"
+                                                                d="M6.5,0,13,11.818H0Z"
+                                                                transform="translate(11.818) rotate(90)"
+                                                                fill="#5537e4" />
+                                                        </svg>
+                                                        <svg class="arrow-2" style="display:none;"
+                                                            xmlns="http://www.w3.org/2000/svg" width="13"
+                                                            height="11.818" viewBox="0 0 13 11.818">
+                                                            <path id="Polygon_2" data-name="Polygon 2"
+                                                                d="M6.5,0,13,11.818H0Z"
+                                                                transform="translate(13 11.818) rotate(180)"
+                                                                fill="#5537e4" />
+                                                        </svg>
+                                                    </div>
+                                                    <div class="c-table-ext-7-avatar">
+                                                        <!-- <div class="c-avatar-ext-5"
+                                                            style="background-image: url('./images/avatar.jpg');"></div> -->
+                                                        <div
+                                                            style="width:26px;height:26px;color:white;background:#2695DF;border-radius:50%;text-align:center;line-height:26px;">
+                                                            SX</div>
+                                                    </div>
+                                                    <div class="c-table-ext-7-name">
+                                                        Khối Kinh Doanh
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td style="text-align:center;">
+                                                5/5
+                                            </td>
+                                            <td style="text-align:center;">
+                                                5/5
+                                            </td>
+                                            <td style="text-align:center;">
+                                                5/5
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="tt" data-tt-id="larry" data-tt-parent="root">
+                                                    <div class="c-table-ext-7-arrow">
+                                                        <svg class="arrow-1" xmlns="http://www.w3.org/2000/svg"
+                                                            width="11.818" height="13" viewBox="0 0 11.818 13">
+                                                            <path id="Polygon_3" data-name="Polygon 3"
+                                                                d="M6.5,0,13,11.818H0Z"
+                                                                transform="translate(11.818) rotate(90)"
+                                                                fill="#5537e4" />
+                                                        </svg>
+                                                        <svg class="arrow-2" style="display:none;"
+                                                            xmlns="http://www.w3.org/2000/svg" width="13"
+                                                            height="11.818" viewBox="0 0 13 11.818">
+                                                            <path id="Polygon_2" data-name="Polygon 2"
+                                                                d="M6.5,0,13,11.818H0Z"
+                                                                transform="translate(13 11.818) rotate(180)"
+                                                                fill="#5537e4" />
+                                                        </svg>
+                                                    </div>
+                                                    <div class="c-table-ext-7-avatar">
+                                                        <!-- <div class="c-avatar-ext-5"
+                                                            style="background-image: url('./images/avatar.jpg');"></div> -->
+                                                        <div
+                                                            style="width:26px;height:26px;color:white;background:#2695DF;border-radius:50%;text-align:center;line-height:26px;">
+                                                            SX</div>
+                                                    </div>
+                                                    <div class="c-table-ext-7-name">
+                                                        Khối Kinh Doanh
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td style="text-align:center;">
+                                                5/5
+                                            </td>
+                                            <td style="text-align:center;">
+                                                5/5
+                                            </td>
+                                            <td style="text-align:center;">
+                                                5/5
+                                            </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td>
+                                                <div class="tt" data-tt-id="tony" data-tt-parent="larry">
+                                                    <div class="c-table-ext-7-arrow">
+                                                        <svg class="arrow-1" xmlns="http://www.w3.org/2000/svg"
+                                                            width="11.818" height="13" viewBox="0 0 11.818 13">
+                                                            <path id="Polygon_3" data-name="Polygon 3"
+                                                                d="M6.5,0,13,11.818H0Z"
+                                                                transform="translate(11.818) rotate(90)"
+                                                                fill="#5537e4" />
+                                                        </svg>
+                                                        <svg class="arrow-2" style="display:none;"
+                                                            xmlns="http://www.w3.org/2000/svg" width="13"
+                                                            height="11.818" viewBox="0 0 13 11.818">
+                                                            <path id="Polygon_2" data-name="Polygon 2"
+                                                                d="M6.5,0,13,11.818H0Z"
+                                                                transform="translate(13 11.818) rotate(180)"
+                                                                fill="#5537e4" />
+                                                        </svg>
+                                                    </div>
+                                                    <div class="c-table-ext-7-avatar">
+                                                        <!-- <div class="c-avatar-ext-5"
+                                                            style="background-image: url('./images/avatar.jpg');"></div> -->
+                                                        <div
+                                                            style="width:26px;height:26px;color:white;background:#2695DF;border-radius:50%;text-align:center;line-height:26px;">
+                                                            SX</div>
+                                                    </div>
+                                                    <div class="c-table-ext-7-name">
+                                                        Khối Kinh Doanh
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td style="text-align:center;">
+                                                5/5
+                                            </td>
+                                            <td style="text-align:center;">
+                                                5/5
+                                            </td>
+                                            <td style="text-align:center;">
+                                                5/5
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <script src="./js/jquery-treetable.js"></script>
+    <script src="./js/tableHeadFixer.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script>
+        var jstab3 = false;
+        $(document).ready(function () {
+            $(".btn-time").on('click', function () {
+                $(".popup-time").show();
+            });
+            $(".popup-time-item").on('click', function () {
+                $(".time input").val($(this).attr("data-title"));
+                $(".popup-time").hide();
+            });
+            $(window).click(function (e) {
+                if (!e.target.matches('.btn-time') && !e.target.matches('.popup-time-item')) {
+                    $(".popup-time").hide();
+                }
+            });
+
+            $(".btn-book").on({
+                mouseenter: function () {
+                    $(".popup-book").css('display', 'block');
+                },
+                mouseleave: function () {
+                    $(".popup-book").css('display', 'none');
+                }
+            });
+
+            $(".popup-book").on({
+                mouseenter: function () {
+                    $(".popup-book").css('display', 'block');
+                },
+                mouseleave: function () {
+                    $(".popup-book").css('display', 'none');
+                }
+            });
+
+            $(".popup-book-a").on('click', function () {
+                var id = $(this).attr("data-id");
+                $("#" + id).css("display", "block");
+                $(".popup-book-1").css("display", "none");
+
+            });
+
+            $(".btn-book-back").on('click', function () {
+                $(".popup-book-2").css("display", "none");
+                $(".popup-book").css("display", "block");
+                $(".popup-book-1").css("display", "block");
+            });
+
+            $('.js-select2').select2();
+            // $(".js-table").tableHeadFixer();
+
+            setTimeout(
+                () => {
+                    $(".js-table-100").treetable();
+                },
+                0.2 * 1000
+            );
+            $('input[name="daterange"]').daterangepicker();
+
+        });
+        $('.js-tab-3').on('click', function () {
+            if (jstab3 === false) {
+                setTimeout(
+                    () => {
+                        $(".js-table-101").treetable();
+                        jstab3 = true;
+                    },
+                    0.2 * 1000
+                );
+            }
+
+        });
+        $('.js-search').on('click', function () {
+            $(".search-c1").removeClass("d-flex");
+            $(".search-c1").addClass("d-none");
+            $(".search-c2").removeClass("d-none");
+            $(".search-c2").addClass("d-flex");
+        });
+        $('.js-search-close').on('click', function () {
+            $(".search-c1").removeClass("d-none");
+            $(".search-c1").addClass("d-flex");
+            $(".search-c2").removeClass("d-flex");
+            $(".search-c2").addClass("d-none");
+        });
+        $('.js-daterangepicker').daterangepicker({
+            singleDatePicker: true,
+        });
+        $(".input-c1-search").on({
+            mouseenter: function () {
+                $(".input-c1-search-popup").css('visibility', 'visible');
+            },
+            mouseleave: function () {
+                $(".input-c1-search-popup").css('visibility', 'hidden');
+            }
+        });
+        $(".input-c1-search-popup").on({
+            mouseenter: function () {
+                $(".input-c1-search-popup").css('visibility', 'visible');
+            },
+            mouseleave: function () {
+                $(".input-c1-search-popup").css('visibility', 'hidden');
+            }
+        });
+        // $(".arrow-1").on('click', function () {
+        //     console.log("A");
+        //     // $(this).closest(".c-table-ext-7-arrow").find(".arrow-1").hide();
+        //     // $(this).closest(".c-table-ext-7-arrow").find(".arrow-2").show();
+        // });
+        // $(".table-z-c2").treetable();
+    </script>
+</body>
+
+</html>

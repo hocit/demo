@@ -1,0 +1,11 @@
+.c17.c-card-list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.c17.c-card-list .c-card-list-title {
+    color: #A7A7A7;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}

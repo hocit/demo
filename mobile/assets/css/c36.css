@@ -1,0 +1,15 @@
+.c36.upload {
+    font-size: 14px;
+    height: 76px;
+    border: 2px dashed #ccc;
+    display: flex;
+}
+
+.c36.upload .upload-title {
+    color: #4B70FF;
+    margin: 0;
+}
+
+.c36.upload .upload-subtitle {
+    color: #ABAFB3;
+}

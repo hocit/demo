@@ -1,0 +1,31 @@
+.c27.avatar {
+    min-height: 82px;
+    min-width: 82px;
+    height: 82px;
+    width: 82px;
+    border-radius: 82px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.c27.avatar-\#E5E9E8.avatar:after {
+    background: #E5E9E8;
+}
+
+.c27.avatar:after {
+    content: "";
+    display: block;
+    background: #1AD6B0;
+    width: 19px;
+    height: 19px;
+    border: 1px solid white;
+    border-radius: 19px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.c27.avatar:not(:last-child) {
+    margin-right: 15px;
+}

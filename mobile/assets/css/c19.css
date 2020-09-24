@@ -1,0 +1,80 @@
+.c19.checkbox {
+    cursor: pointer;
+    min-width: 20px;
+    height: 20px;
+    /* visibility: hidden; */
+    display: flex;
+}
+
+.c19.checkbox.checkbox-30px {
+    min-width: 30px;
+    height: 30px;
+}
+
+.c19.checkbox-30px.checkbox:after {
+    width: 30px;
+    height: 30px;
+}
+
+.c19.checkbox-30px.checkbox:checked:after {
+    content: url('../images/check-2.svg');
+    line-height: 22px;
+}
+
+.c19.checkbox:after {
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    visibility: visible;
+}
+
+.c19.checkbox:checked:after {
+    content: url('../images/check-1.svg');
+    display: block;
+    text-align: center;
+    line-height: 11px;
+    margin: auto;
+}
+
+.c19.checkbox-\#20DDC6:after {
+    background: white;
+    border: 3px solid #20DDC6;
+}
+
+.c19.checkbox-\#20DDC6:checked:after {
+    background: #20DDC6;
+    border: 3px solid #20DDC6;
+}
+
+.c19.checkbox-\#FF1111:after {
+    background: white;
+    border: 3px solid #FF1111;
+}
+
+.c19.checkbox-\#FF1111:checked:after {
+    background: #FF1111;
+    border: 3px solid #FF1111;
+}
+
+.c19.checkbox-\#FFA43D:after {
+    background: white;
+    border: 3px solid #FFA43D;
+}
+
+.c19.checkbox-\#FFA43D:checked:after {
+    background: #FFA43D;
+    border: 3px solid #FFA43D;
+}
+
+.c19.checkbox-\#FFE95B:after {
+    background: white;
+    border: 3px solid #FFE95B;
+}
+
+.c19.checkbox-\#FFE95B:checked:after {
+    background: #FFE95B;
+    border: 3px solid #FFE95B;
+}

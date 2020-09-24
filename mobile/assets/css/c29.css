@@ -1,0 +1,41 @@
+.c29.c-card-list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
+    padding: 30px 10px;
+    padding-bottom: 0;
+    border-radius: 5px;
+}
+
+.c29.c-card-list .c-card-list-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c29.c-card-list .c-card-list-title {
+    margin-bottom: 17px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.text-\#FF9B04 {
+    color: #FF9B04 !important;
+}
+
+.text-\#F25767 {
+    color: #F25767 !important;
+}
+
+.text-\#20DDC6 {
+    color: #20DDC6 !important;
+}
+
+.text-\#9C26DF {
+    color: #9C26DF !important;
+}
+
+.c29.c-card-list .c4.c-card:last-child {
+    border-bottom: 0;
+}

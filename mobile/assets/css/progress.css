@@ -1,0 +1,10 @@
+.progress-c1 .progress-bar {
+    height: 24px;
+    /* border-radius: 20px; */
+    font-size: 16px;
+}
+
+.progress-c1 {
+    height: 24px;
+    border-radius: 20px;
+}

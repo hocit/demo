@@ -1,0 +1,2089 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="c-left-menu">
+        <div class="c-logo">
+            <a href="#">
+                <img src="./images/logo.svg" alt="" />
+            </a>
+        </div>
+        <div class="c-menu">
+            <ul>
+                <li>
+                    <a href="" class="active">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+                            <path id="Combined_shape_3734" data-name="Combined shape 3734"
+                                d="M15.062,14.5H26L26,27,15.062,27ZM1,27l0-9.371H11.938V27ZM1,14.5,1,2,11.938,2V14.5Zm14.062-3.125V2L26,2l0,9.371Z"
+                                transform="translate(-1 -2)" fill="#5b5b5b" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg id="outline-assignment-24px" xmlns="http://www.w3.org/2000/svg" width="33.94"
+                            height="33.94" viewBox="0 0 33.94 33.94">
+                            <g id="Bounding_Boxes">
+                                <path id="Path_2274" data-name="Path 2274" d="M0,0H33.94V33.94H0Z" fill="none" />
+                            </g>
+                            <g id="Outline" transform="translate(4.242 1.414)">
+                                <g id="Group_33" data-name="Group 33">
+                                    <rect id="Rectangle_14" data-name="Rectangle 14" width="10" height="3"
+                                        transform="translate(5.727 19.556)" fill="#5b5b5b" />
+                                    <rect id="Rectangle_15" data-name="Rectangle 15" width="14" height="2"
+                                        transform="translate(5.727 14.556)" fill="#5b5b5b" />
+                                    <rect id="Rectangle_16" data-name="Rectangle 16" width="14" height="3"
+                                        transform="translate(5.727 8.556)" fill="#5b5b5b" />
+                                    <path id="Path_2275" data-name="Path 2275"
+                                        d="M25.626,3.828H19.715a4.226,4.226,0,0,0-7.976,0H5.828a2.477,2.477,0,0,0-.566.057A2.857,2.857,0,0,0,3.226,5.568,2.724,2.724,0,0,0,3,6.657v19.8a2.9,2.9,0,0,0,.226,1.1,3,3,0,0,0,.608.905,2.839,2.839,0,0,0,1.428.778,3.67,3.67,0,0,0,.566.042h19.8a2.837,2.837,0,0,0,2.828-2.828V6.657A2.837,2.837,0,0,0,25.626,3.828Zm-9.9-.354a1.061,1.061,0,1,1-1.061,1.061A1.068,1.068,0,0,1,15.727,3.475Zm9.9,22.98H5.828V6.657h19.8Z"
+                                        transform="translate(-3 -1)" fill="#5b5b5b" />
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="27" viewBox="0 0 25 27">
+                            <g id="Group_35" data-name="Group 35" transform="translate(-54 -199)">
+                                <rect id="Rectangle_11" data-name="Rectangle 11" width="5" height="20"
+                                    transform="translate(54 206)" fill="#5b5b5b" />
+                                <rect id="Rectangle_12" data-name="Rectangle 12" width="5" height="27"
+                                    transform="translate(64 199)" fill="#5b5b5b" />
+                                <rect id="Rectangle_13" data-name="Rectangle 13" width="5" height="16"
+                                    transform="translate(74 210)" fill="#5b5b5b" />
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="c-right-content">
+        <div class="c-header d-flex justify-content-between">
+            <div class="c-search d-flex w-100">
+                <div class="m-auto c-ml-34.5px">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                        <path id="icon_search"
+                            d="M12.7,11.23a6.777,6.777,0,0,0,1.4-4.174A7.02,7.02,0,0,0,7.1,0,7.105,7.105,0,0,0,0,7.056a7.105,7.105,0,0,0,7.1,7.056,6.667,6.667,0,0,0,4.2-1.391l3,2.981a.971.971,0,0,0,1.4,0,.957.957,0,0,0,0-1.391Zm-5.6.8A5.022,5.022,0,0,1,2,7.056a5.1,5.1,0,0,1,10.2,0A5.022,5.022,0,0,1,7.1,12.025Z"
+                            fill="#bcbccb" />
+                    </svg>
+                </div>
+                <input type="text" name="" id=""
+                    class="form-control c-text-14px c-text-black-102 border-0 m-auto c-px-10px rounded-0"
+                    placeholder="Tìm kiếm công việc bạn đã làm" />
+            </div>
+            <div class="d-flex">
+                <div class="c-add d-flex after:100">
+                    <svg class="m-auto c-shadow-100 c-rounded-50%" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+                        <defs>
+                            <linearGradient id="linear-gradient" x1="1" x2="-0.197" y2="1.142"
+                                gradientUnits="objectBoundingBox">
+                                <stop offset="0" stop-color="#419ee5" />
+                                <stop offset="1" stop-color="#2467db" />
+                            </linearGradient>
+                        </defs>
+                        <g id="Group_1232" data-name="Group 1232" transform="translate(-1514 -24)">
+                            <g id="Group_1231" data-name="Group 1231">
+                                <g id="Group_670" data-name="Group 670" transform="translate(-148)">
+                                    <rect id="Rectangle_2100" data-name="Rectangle 2100" width="35" height="35"
+                                        rx="17.5" transform="translate(1662 24)" fill="url(#linear-gradient)" />
+                                    <path id="Path_301" data-name="Path 301"
+                                        d="M10.875,0,6.6,4.274,2.327,0,0,2.327,4.274,6.6,0,10.875,2.327,13.2,6.6,8.928,10.875,13.2,13.2,10.875,8.928,6.6,13.2,2.327Z"
+                                        transform="translate(1679.267 32.697) rotate(45)" fill="#fff" />
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <div class="c-user-100 d-flex c-mr-33.3">
+                    <svg class="m-auto" id="Component_7_96" data-name="Component 7 – 96"
+                        xmlns="http://www.w3.org/2000/svg" width="32.683" height="35" viewBox="0 0 32.683 35">
+                        <g id="Group_769" data-name="Group 769" transform="translate(-1678 -10)">
+                            <path id="Path_5976" data-name="Path 5976"
+                                d="M203.229,0h-7.854A2.573,2.573,0,0,0,192.8,2.574V14.355a.612.612,0,0,0,.978.489L196.233,13h7a2.573,2.573,0,0,0,2.575-2.575V2.574A2.573,2.573,0,0,0,203.229,0ZM199.3,10.057a.611.611,0,1,1,.611-.611A.611.611,0,0,1,199.3,10.057Zm.611-2.7v.128a.611.611,0,1,1-1.222,0V6.828a.611.611,0,0,1,.611-.611,1.025,1.025,0,1,0-1.025-1.026.611.611,0,1,1-1.222,0h0a2.247,2.247,0,1,1,2.858,2.164Zm0,0"
+                                transform="translate(1504.879 10)" fill="#f52154" />
+                            <g id="Group_721" data-name="Group 721" transform="translate(1678 15.126)">
+                                <path id="Path_5977" data-name="Path 5977"
+                                    d="M40.058,248.8a7.816,7.816,0,1,1-7.816-7.817A7.816,7.816,0,0,1,40.058,248.8Zm0,0"
+                                    transform="translate(-21.733 -240.988)" fill="#bcbccb" />
+                                <path id="Path_5978" data-name="Path 5978"
+                                    d="M10.509,382.805A10.509,10.509,0,0,0,0,393.314v2.079a1.653,1.653,0,0,0,1.653,1.653H19.364a1.654,1.654,0,0,0,1.653-1.653v-2.079a10.509,10.509,0,0,0-10.509-10.509Zm0,0"
+                                    transform="translate(0 -367.172)" fill="#bcbccb" />
+                            </g>
+                        </g>
+                    </svg>
+                    <div class="position-relative d-none" style="z-index: 1;">
+                        <ul
+                            class="c-shadow-101 c-list-none p-0 m-0 position-absolute border-gray-101 border-1px right-100% c-bg-white c-top-60px border-solid c-px-15px c-py-29px c-w-273px">
+                            <li class="d-flex c-pb-12.5px">
+                                <div class="c-min-w-25px c-min-h-25px c-mr-9px c-h-25px c-w-25px c-rounded-50% c-bg-no-repeat c-bg-cover"
+                                    style="background-image: url('./images/avatar.jpg');"></div>
+                                <div class="c-border-b-1px border-solid c-border-gray-103 c-pb-15.5px">
+                                    <div class="c-text-14px c-mb-8px">
+                                        <span class="c-text-black-103 c-font-bold">Trần Phiêu Du</span>
+                                        <span class="c-text-black-104">đã thêm bạn vào một todo trong ngày</span>
+                                    </div>
+                                    <div class="c-text-14px c-text-black-105 c-mb-13px">
+                                        Cùng đi gặp khách Vinhome vào lúc 10h
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <button class="c-w-97px btn c-bg-blue-100 rounded-0 c-text-white c-text-13px">
+                                            Chấp nhận
+                                        </button>
+                                        <button
+                                            class="c-w-97px btn c-border-gray-100 c-border-1px c-bg-white rounded-0 c-text-gray-100 c-text-13px">
+                                            Bỏ qua
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="d-flex c-pb-12.5px">
+                                <div class="c-min-w-25px c-min-h-25px c-mr-9px c-h-25px c-w-25px c-rounded-50% c-bg-no-repeat c-bg-cover"
+                                    style="background-image: url('./images/avatar.jpg');"></div>
+                                <div class="c-border-b-1px border-solid c-border-gray-103 c-pb-15.5px">
+                                    <div class="c-text-14px c-mb-8px">
+                                        <span class="c-text-black-103 c-font-bold">Trần Phiêu Du</span>
+                                        <span class="c-text-black-104">đã thêm bạn vào một todo trong ngày</span>
+                                    </div>
+                                    <div class="c-text-14px c-text-black-105 c-mb-13px">
+                                        Cùng đi gặp khách Vinhome vào lúc 10h
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <button class="c-w-97px btn c-bg-blue-100 rounded-0 c-text-white c-text-13px">
+                                            Chấp nhận
+                                        </button>
+                                        <button
+                                            class="c-w-97px btn c-border-gray-100 c-border-1px c-bg-white rounded-0 c-text-gray-100 c-text-13px">
+                                            Bỏ qua
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="d-flex c-pb-12.5px">
+                                <div class="c-min-w-25px c-min-h-25px c-mr-9px c-h-25px c-w-25px c-rounded-50% c-bg-no-repeat c-bg-cover"
+                                    style="background-image: url('./images/avatar.jpg');"></div>
+                                <div class="c-border-b-1px border-solid c-border-gray-103 c-pb-15.5px">
+                                    <div class="c-text-14px c-mb-8px">
+                                        <span class="c-text-black-103 c-font-bold">Trần Phiêu Du</span>
+                                        <span class="c-text-black-104">đã</span>
+                                        <span class="c-text-#F90000 c-font-bold">từ chối</span>
+                                        <span class="c-text-black-104">cùng bạn thực hiện một todo trong ngày</span>
+                                    </div>
+                                    <div class="c-text-14px c-text-black-105 c-mb-13px">
+                                        Cùng đi gặp khách Vinhome vào lúc 10h
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div class="c-min-w-25px c-min-h-25px c-mr-9px c-h-25px c-w-25px c-rounded-50% c-bg-no-repeat c-bg-cover"
+                                    style="background-image: url('./images/avatar.jpg');"></div>
+                                <div>
+                                    <div class="c-text-14px c-mb-8px">
+                                        <span class="c-text-black-103 c-font-bold">Trần Phiêu Du</span>
+                                        <span class="c-text-black-104">đã</span>
+                                        <span class="c-text-#419EE5 c-font-bold">từ chối</span>
+                                        <span class="c-text-black-104">cùng bạn thực hiện một todo trong ngày</span>
+                                    </div>
+                                    <div class="c-text-14px c-text-black-105">
+                                        Cùng đi gặp khách Vinhome vào lúc 10h
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="c-notification d-flex c-mr-40.6">
+                    <svg class="m-auto" xmlns="http://www.w3.org/2000/svg" width="34.375" height="37"
+                        viewBox="0 0 34.375 37">
+                        <g id="Component_7_98" data-name="Component 7 – 98" transform="translate(0 2)">
+                            <g id="Group_785" data-name="Group 785" transform="translate(-1676 -11)">
+                                <g id="Group_787" data-name="Group 787" transform="translate(2 -2)">
+                                    <path id="Notification_Icon" data-name="Notification Icon"
+                                        d="M11.25,26.25h7.5a3.75,3.75,0,1,1-7.5,0ZM1.875,24.376a1.875,1.875,0,0,1,0-3.75h.938A8.162,8.162,0,0,0,5.624,15V9.376A9.285,9.285,0,0,1,15,0a9.284,9.284,0,0,1,9.374,9.376V15a8.158,8.158,0,0,0,2.813,5.626h.938a1.875,1.875,0,0,1,0,3.75Z"
+                                        transform="translate(1674 18)" fill="#bcbccb" />
+                                    <g id="Notification_Badge" data-name="Notification Badge"
+                                        transform="translate(1691.375 13)" fill="#ffc06a" stroke="#fff"
+                                        stroke-width="2">
+                                        <circle cx="7.5" cy="7.5" r="7.5" stroke="none" />
+                                        <circle cx="7.5" cy="7.5" r="8.5" fill="none" />
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <div class="position-relative d-none" style="z-index: 1;">
+                        <ul
+                            class="c-shadow-101 c-list-none p-0 m-0 position-absolute border-gray-101 border-1px right-100% c-bg-white c-top-60px border-solid c-px-15px c-py-29px c-w-273px">
+                            <li class="d-flex c-pb-12.5px">
+                                <div class="c-min-w-25px c-min-h-25px c-mr-9px c-h-25px c-w-25px c-rounded-50% c-bg-no-repeat c-bg-cover"
+                                    style="background-image: url('./images/avatar.jpg');"></div>
+                                <div>
+                                    <div class="c-text-14px c-mb-8px">
+                                        <span class="c-text-#1D1D1D"><span class="c-font-bold">Kim Tuấn Anh</span> đã
+                                            bình
+                                            luận một todaylist của bạn</span>
+                                    </div>
+                                    <div class="c-text-14px c-text-#91B0DE">
+                                        Cùng đi gặp khách Vinhome vào lúc 10h
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="d-flex c-pb-12.5px">
+                                <div class="c-min-w-25px c-min-h-25px c-mr-9px c-h-25px c-w-25px c-rounded-50% c-bg-no-repeat c-bg-cover"
+                                    style="background-image: url('./images/avatar.jpg');"></div>
+                                <div>
+                                    <div class="c-text-14px c-mb-8px">
+                                        <span class="c-text-#1D1D1D"><span class="c-font-bold">Kim Tuấn Anh</span> đã
+                                            bình
+                                            luận một todaylist của bạn</span>
+                                    </div>
+                                    <div class="c-text-14px c-text-#91B0DE">
+                                        Cùng đi gặp khách Vinhome vào lúc 10h
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div class="c-min-w-25px c-min-h-25px c-mr-9px c-h-25px c-w-25px c-rounded-50% c-bg-no-repeat c-bg-cover"
+                                    style="background-image: url('./images/avatar.jpg');"></div>
+                                <div>
+                                    <div class="c-text-14px c-mb-8px">
+                                        <span class="c-text-#1D1D1D"><span class="c-font-bold">Kim Tuấn Anh</span> đã
+                                            bình
+                                            luận một todaylist của bạn</span>
+                                    </div>
+                                    <div class="c-text-14px c-text-#91B0DE">
+                                        Cùng đi gặp khách Vinhome vào lúc 10h
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="c-book d-flex c-mr-41.4">
+                    <svg class="m-auto" id="Component_7_99" data-name="Component 7 – 99"
+                        xmlns="http://www.w3.org/2000/svg" width="18.623" height="29.848" viewBox="0 0 18.623 29.848">
+                        <g id="Group_769" data-name="Group 769" transform="translate(-1682.005 -15.126)">
+                            <g id="two-books" transform="translate(1683.016 121.59)">
+                                <path id="Path_6010" data-name="Path 6010"
+                                    d="M28.612,7.239V24.509a1.331,1.331,0,0,1-.623,1.125s-7.755,6.023-9.329,6.98a5.85,5.85,0,0,1-3.045.77c-2.766,0-5.627-1.5-5.627-4V12.878c0-.005,0-.011,0-.017a4.422,4.422,0,0,1,2.065-3.7c1.085-.8,7.55-5.209,7.825-5.4a1.33,1.33,0,0,1,2.079,1.1V6.791a1.33,1.33,0,0,1-2.554.521C17.344,8.724,14.315,10.8,13.637,11.3c-.857.633-.971,1.051-.986,1.587a1.176,1.176,0,0,0,.329.9c.678.621,2.5.36,4.306-.72,1.333-.8,7.077-5.236,9.176-6.877a1.338,1.338,0,0,1,1.4-.146A1.324,1.324,0,0,1,28.612,7.239Zm-2.66,5.928L19.3,18.327v2.66l6.651-5.16Z"
+                                    transform="translate(-11 -110)" fill="#bcbccb" />
+                            </g>
+                        </g>
+                    </svg>
+                    <div class="position-relative d-none" style="z-index: 1;">
+                        <div
+                            class="c-w-388px c-pt-34px c-shadow-101 c-list-none p-0 m-0 position-absolute border-gray-101 border-1px right-100% c-bg-white c-top-60px border-solid">
+                            <div class="c-mb-21px">
+                                <svg class="c-ml-10x c-mr-16.2px" xmlns="http://www.w3.org/2000/svg" width="7.843"
+                                    height="13.349" viewBox="0 0 7.843 13.349">
+                                    <g id="left-arrow" transform="translate(-101.48)">
+                                        <g id="Group_802" data-name="Group 802" transform="translate(101.48 0)">
+                                            <path id="Path_6011" data-name="Path 6011"
+                                                d="M104.115,6.677l4.994-4.994a.732.732,0,0,0,0-1.033l-.438-.437a.731.731,0,0,0-1.033,0l-5.946,5.946a.737.737,0,0,0,0,1.036l5.941,5.94a.732.732,0,0,0,1.033,0l.437-.437a.731.731,0,0,0,0-1.033Z"
+                                                transform="translate(-101.48 0)" />
+                                        </g>
+                                    </g>
+                                </svg>
+                                <span class="c-text-15px c-font-bold c-text-#1D1D1D">Nên tạo Todaylist như thế
+                                    nào?</span>
+                            </div>
+                            <div class="c-overflow-scroll" style="
+                    height: calc(
+                      100vh - 62px - 34px - 34px - 34px - 24px - 21px
+                    );
+                  ">
+                                <div class="c-px-30px c-mb-25px">
+                                    <div class="c-text-14px c-text-#1D1D1D c-font-bold">
+                                        1. Tạo Nhiệm Vụ:
+                                    </div>
+                                    <div class="c-text-14px c-text-#1D1D1D">
+                                        To do list là phương pháp để giúp bạn quản lý và tìm ra
+                                        cách để làm những điều mà bạn muốn làm. Khi thực hiện To
+                                        Do list bạn sẽ chia nhỏ dự án hoặc kế hoạch của bạn thành
+                                        những nhiệm vụ nhỏ có thể thực hiện được bằng hành động.
+                                        To do list không chỉ tạo nhiệm vụ cho bạn mà còn cho bạn
+                                        định hướng để hoàn thành công việc của mình.
+                                    </div>
+                                </div>
+                                <div class="c-px-30px c-mb-25px">
+                                    <div class="c-text-14px c-text-#1D1D1D c-font-bold">
+                                        2. Sự Ưu Tiên
+                                    </div>
+                                    <div class="c-text-14px c-text-#1D1D1D">
+                                        Quản lý những nhiệm vụ của mình một cách hiệu quả, bạn có
+                                        thể dễ dàng xem được những nhiệm vụ của mình và độ ưu tiên
+                                        của nó dựa theo thứ tự thời gian hoặc những biểu tượng,
+                                        note chú thích bên cạnh chúng.
+                                    </div>
+                                </div>
+                                <div class="c-px-30px c-mb-25px">
+                                    <div class="c-text-14px c-text-#1D1D1D c-font-bold">
+                                        3. Cam Kết Với Nhiệm Vụ
+                                    </div>
+                                    <div class="c-text-14px c-text-#1D1D1D">
+                                        Hành động viết vào sổ tay bới chính bạn khiến bạn có thêm
+                                        cam kết và trách nhiệm hơn với những gì bạn đã ghi chép.
+                                        Khi bạn viết To- Do List vào sổ tay, bạn đã cho nó “mạng
+                                        sống”, cũng chính lúc này bạn đang tạo cho mình một kế
+                                        hoạch để hoàn thành mục tiêu mà bạn muốn nó được hoàn
+                                        thành. Bạn sẽ có thêm trách nhiệm với mục tiêu và nhiệm vụ
+                                        của mình.
+                                    </div>
+                                </div>
+                                <div class="c-px-30px c-mb-25px">
+                                    <div class="c-text-14px c-text-#1D1D1D c-font-bold">
+                                        4. Tái lập kế hoạch và quản lý thời gian của bạn
+                                    </div>
+                                    <div class="c-text-14px c-text-#1D1D1D">
+                                        Bạn không thể lúc nào cũng tính được chính xác thời gian
+                                        một nhiệm vụ được hoàn thành. Nó có thể nhanh hơn hoặc
+                                        chậm hơn so với thời gian bạn đã hoạch định trước, thậm
+                                        chí một vài nhiệm vụ có thể bị huỷ. Với To Do List bạn có
+                                        thể dễ dàng thay thế, di chuyển để có thể sử dụng tối đa
+                                        thời gian mà mình có hoặc điều chỉnh những nhiệm vụ về
+                                        theo đúng kế hoạch mà mình đã lập.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-avatar c-mr-50px d-flex">
+                    <div class="my-auto c-mr-6px c-h-35px c-w-35px c-rounded-50% c-bg-no-repeat c-bg-cover"
+                        style="background-image: url('./images/avatar.jpg');"></div>
+                    <svg class="my-auto" xmlns="http://www.w3.org/2000/svg" width="9" height="7" viewBox="0 0 9 7">
+                        <g id="Polygon_24" data-name="Polygon 24" transform="translate(9 7) rotate(180)" fill="#707070">
+                            <path
+                                d="M 8.084165573120117 6.5 L 0.9158343076705933 6.5 L 4.5 0.9246311187744141 L 8.084165573120117 6.5 Z"
+                                stroke="none" />
+                            <path
+                                d="M 4.5 1.849262237548828 L 1.831668376922607 6 L 7.168331146240234 6 L 4.5 1.849262237548828 M 4.5 0 L 9 7 L 0 7 L 4.5 0 Z"
+                                stroke="none" fill="#707070" />
+                        </g>
+                    </svg>
+                    <div class="position-relative d-none" style="z-index: 1;">
+                        <ul
+                            class="c-whitespace-no-wrap c-shadow-101 c-list-none p-0 m-0 position-absolute border-gray-101 border-1px right-100% c-bg-white c-top-60px border-solid c-px-9px c-py-13.9px">
+                            <li>
+                                <a class="d-flex hover:no-underline hover:c-text-black-100 c-mb-17.8px" href="">
+                                    <span class="c-w-20px">
+                                        <svg class="my-auto" xmlns="http://www.w3.org/2000/svg" width="18.375"
+                                            height="18.375" viewBox="0 0 18.375 18.375">
+                                            <g id="admin" transform="translate(0 0)">
+                                                <path id="Path_6021" data-name="Path 6021"
+                                                    d="M151,172.906a3.768,3.768,0,1,0,5.922-3.093v3.093a.538.538,0,0,1-.24.448l-1.615,1.077a.539.539,0,0,1-.6,0l-1.615-1.077a.538.538,0,0,1-.24-.448v-3.093A3.753,3.753,0,0,0,151,172.906Z"
+                                                    transform="translate(-145.581 -163.719)" />
+                                                <path id="Path_6022" data-name="Path 6022"
+                                                    d="M228.153,392.1v-4.463a4.859,4.859,0,0,1-2.153,0V392.1Z"
+                                                    transform="translate(-217.889 -373.723)" />
+                                                <path id="Path_6023" data-name="Path 6023"
+                                                    d="M17.965,7.05l-1.687-.414c-.08-.219-.172-.437-.275-.655l.879-1.465a.538.538,0,0,0-.081-.658L14.517,1.574a.538.538,0,0,0-.658-.081l-1.465.879c-.217-.1-.436-.2-.655-.275L11.325.41A.538.538,0,0,0,10.8,0H7.573A.538.538,0,0,0,7.05.41L6.636,2.1c-.219.08-.437.172-.655.275L4.516,1.493a.538.538,0,0,0-.658.081L1.574,3.858a.538.538,0,0,0-.081.658l.879,1.465c-.1.217-.2.436-.275.655L.41,7.05A.538.538,0,0,0,0,7.573V10.8a.538.538,0,0,0,.41.523L2.1,11.74c.08.219.172.437.275.655l-.879,1.465a.538.538,0,0,0,.081.658L3.858,16.8a.538.538,0,0,0,.658.081L5.981,16c.217.1.436.2.655.275l.4,1.624V13.527A4.846,4.846,0,0,1,7.37,4.7a.538.538,0,0,1,.741.5V8.9l1.077.718L10.264,8.9V5.2a.538.538,0,0,1,.741-.5,4.844,4.844,0,0,1,.336,8.831V17.9l.4-1.624c.219-.08.437-.172.655-.275l1.465.879a.538.538,0,0,0,.658-.081L16.8,14.517a.538.538,0,0,0,.081-.658L16,12.394c.1-.217.2-.436.275-.655l1.687-.414a.538.538,0,0,0,.41-.523V7.573a.538.538,0,0,0-.41-.523Z"
+                                                    transform="translate(0 0)" />
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <span class="c-ml-15.6px c-text-black-103 c-text-16px">Cài đặt Admin</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-flex hover:no-underline hover:c-text-black-100 c-mb-17.8px" href="">
+                                    <span class="c-w-20px">
+                                        <svg class="my-auto" xmlns="http://www.w3.org/2000/svg" width="16.809"
+                                            height="20.148" viewBox="0 0 16.809 20.148">
+                                            <g id="user" transform="translate(0 0)">
+                                                <path id="Path_6019" data-name="Path 6019"
+                                                    d="M91.884,9.705a4.7,4.7,0,0,0,3.431-1.422,4.7,4.7,0,0,0,1.422-3.431,4.7,4.7,0,0,0-1.422-3.431,4.852,4.852,0,0,0-6.862,0,4.7,4.7,0,0,0-1.422,3.431,4.7,4.7,0,0,0,1.422,3.431A4.7,4.7,0,0,0,91.884,9.705Zm0,0"
+                                                    transform="translate(-83.607 0)" />
+                                                <path id="Path_6020" data-name="Path 6020"
+                                                    d="M16.768,253.077a11.988,11.988,0,0,0-.163-1.273,10.029,10.029,0,0,0-.313-1.28,6.321,6.321,0,0,0-.526-1.194,4.5,4.5,0,0,0-.793-1.034,3.5,3.5,0,0,0-1.14-.716,3.94,3.94,0,0,0-1.455-.263,1.477,1.477,0,0,0-.789.334c-.236.154-.513.333-.822.53a4.708,4.708,0,0,1-1.063.468,4.128,4.128,0,0,1-2.6,0,4.7,4.7,0,0,1-1.062-.468c-.306-.2-.582-.374-.822-.53a1.475,1.475,0,0,0-.788-.334,3.934,3.934,0,0,0-1.455.264,3.5,3.5,0,0,0-1.14.716,4.506,4.506,0,0,0-.793,1.034,6.335,6.335,0,0,0-.526,1.194A10.055,10.055,0,0,0,.2,251.8a11.945,11.945,0,0,0-.163,1.274c-.027.386-.04.786-.04,1.19A3.346,3.346,0,0,0,.993,256.8a3.577,3.577,0,0,0,2.56.934h9.7a3.576,3.576,0,0,0,2.56-.934,3.344,3.344,0,0,0,.994-2.531c0-.406-.014-.806-.041-1.19Zm0,0"
+                                                    transform="translate(0 -237.584)" />
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <span class="c-ml-15.6px c-text-black-103 c-text-16px">Thông tin tài khoản</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-flex hover:no-underline hover:c-text-black-100 c-mb-17.8px" href="">
+                                    <span class="c-w-20px">
+                                        <svg class="my-auto" xmlns="http://www.w3.org/2000/svg" width="16"
+                                            height="20.398" viewBox="0 0 16 20.398">
+                                            <path id="Path_6017" data-name="Path 6017"
+                                                d="M18,7.8H17V5.857A4.932,4.932,0,0,0,12,1,4.932,4.932,0,0,0,7,5.857V7.8H6A1.978,1.978,0,0,0,4,9.742v9.713A1.978,1.978,0,0,0,6,21.4H18a1.978,1.978,0,0,0,2-1.943V9.742A1.978,1.978,0,0,0,18,7.8Zm-6,8.742A1.943,1.943,0,1,1,14,14.6,1.978,1.978,0,0,1,12,16.541ZM15.1,7.8H8.9V5.857a3.1,3.1,0,0,1,6.2,0Z"
+                                                transform="translate(-4 -1)" />
+                                        </svg>
+                                    </span>
+                                    <span class="c-ml-15.6px c-text-black-103 c-text-16px">Đổi mật khẩu</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-flex hover:no-underline hover:c-text-black-100" href="">
+                                    <span class="c-w-20px">
+                                        <svg class="my-auto" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 20 20">
+                                            <g id="logout" transform="translate(0 -0.004)">
+                                                <path id="Path_6017" data-name="Path 6017"
+                                                    d="M12.292,10.837a.826.826,0,0,0-.819.833V15a.827.827,0,0,1-.82.833H8.194V3.337A1.678,1.678,0,0,0,7.078,1.753L6.836,1.67h3.817a.827.827,0,0,1,.82.833V5a.82.82,0,1,0,1.639,0V2.5A2.482,2.482,0,0,0,10.653,0H1.844a.634.634,0,0,0-.088.018C1.717.019,1.679,0,1.639,0A1.655,1.655,0,0,0,0,1.67v15a1.678,1.678,0,0,0,1.116,1.584l4.932,1.672a1.647,1.647,0,0,0,2.147-1.589V17.5h2.458A2.482,2.482,0,0,0,13.111,15V11.67a.826.826,0,0,0-.819-.833Zm0,0"
+                                                    transform="translate(0 0)" />
+                                                <path id="Path_6018" data-name="Path 6018"
+                                                    d="M286.106,110.184l-3.278-3.278a.819.819,0,0,0-1.4.579v2.458h-3.278a.819.819,0,1,0,0,1.639h3.278v2.458a.819.819,0,0,0,1.4.579l3.278-3.278a.819.819,0,0,0,0-1.159Zm0,0"
+                                                    transform="translate(-266.346 -102.446)" />
+                                            </g>
+                                        </svg>
+                                    </span>
+
+                                    <span class="c-ml-15.6px c-text-black-103 c-text-16px">Đăng xuất</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c-body">
+            <div class="container-fluid c-container-fluid-ext-1">
+                <div class="c-card-ext-2-date">
+                    <input name="birthday" type="email" class="form-control c-form-control-ext-2"
+                        id="exampleInputEmail1" aria-describedby="emailHelp" value="30/6/2020" />
+                </div>
+                <div class="c-card-ext-2">
+                    <div class="c-card-ext-2-title">
+                        Todaylist của bạn
+                    </div>
+                    <div style="
+                height: calc(
+                  100vh - 60px - 38px - 38px - 22px - 22px - 24px - 33px - 53px -
+                    50px - 19px
+                );overflow-y: auto;
+              ">
+                        <table class="table table-borderless c-table-ext-2 js-table">
+                            <thead>
+                                <tr>
+                                    <th
+                                        class="c-table-ext-2-col-1 z-1000 pl-0 c-gray-100 font-normal c-text-14px text-uppercase c-whitespace-no-wrap">
+                                        Bắt đầu
+                                    </th>
+                                    <th
+                                        class="c-table-ext-2-col-2 z-1000 pl-0 c-gray-100 font-normal c-text-14px text-uppercase c-whitespace-no-wrap">
+                                        Kết thúc
+                                    </th>
+                                    <th
+                                        class="c-table-ext-2-col-3 z-1000 pl-0 c-gray-100 font-normal c-text-14px text-uppercase c-whitespace-no-wrap">
+                                        Todo
+                                    </th>
+                                    <th
+                                        class="c-table-ext-2-col-4 z-1000 pl-0 c-gray-100 font-normal c-text-14px text-uppercase c-whitespace-no-wrap">
+                                        Mô tả
+                                    </th>
+                                    <th
+                                        class="c-table-ext-2-col-5 z-1000 pl-0 c-gray-100 font-normal c-text-14px text-uppercase c-whitespace-no-wrap">
+                                        Người liên quan
+                                    </th>
+                                    <th
+                                        class="c-table-ext-2-col-6 z-1000 pl-0 c-gray-100 font-normal c-text-14px text-uppercase c-whitespace-no-wrap">
+                                        Mức độ ưu tiên
+                                    </th>
+                                    <th
+                                        class="c-table-ext-2-col-7 z-1000 pl-0 text-light font-normal c-text-14px text-uppercase">
+                                        a
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="c-table-ext-2-col-1">
+                                        <div class="form-group c-form-group-ext-2 c-select2-ext-4">
+                                            <select class="form-control js-select2">
+                                                <option selected="selected">orange</option>
+                                                <option>white</option>
+                                                <option selected="selected">purple</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-2">
+                                        <div class="form-group c-form-group-ext-2 c-select2-ext-4">
+                                            <select class="form-control js-select2">
+                                                <option selected="selected">orange</option>
+                                                <option>white</option>
+                                                <option selected="selected">purple</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-3">
+                                        <div class="form-group c-form-group-ext-2">
+                                            <input type="email" class="form-control c-form-control-ext-4"
+                                                id="exampleInputEmail1" aria-describedby="emailHelp" />
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-4">
+                                        <div class="form-group c-form-group-ext-2">
+                                            <input type="email" class="form-control c-form-control-ext-4"
+                                                id="exampleInputEmail1" aria-describedby="emailHelp" />
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-5">
+                                        <div class="c-avatar-ext-3-container">
+                                            <div class="c-avatar-ext-3 active"
+                                                style="background-image: url('./images/avatar.jpg');">
+                                                <div
+                                                    class="d-none c-border-#DFDFDF c-border-1px border-solid c-px-16px c-py-13px c-bg-white c-w-206px c-shadow-102 z-1000 position-absolute c-top-32px c-right-100%-negative-60px">
+                                                    <div
+                                                        class="c-leading-20px c-text-20px c-right-negative-12.5px text-center c-text-white c-rounded-50% c-h-25px c-w-25px position-absolute c-top-negative-12.5px c-bg-#FF0000">
+                                                        x
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Từ chối
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container c-mb-28px">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Đồng ý
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container c-mb-28px">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Đang chờ
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="c-avatar-ext-3 active"
+                                                style="background-image: url('./images/avatar.jpg');">
+                                                <div
+                                                    class="d-none c-border-#DFDFDF c-border-1px border-solid c-px-16px c-py-13px c-bg-white c-w-206px c-shadow-102 z-1000 position-absolute c-top-32px c-right-100%-negative-60px">
+                                                    <div
+                                                        class="c-leading-20px c-text-20px c-right-negative-12.5px text-center c-text-white c-rounded-50% c-h-25px c-w-25px position-absolute c-top-negative-12.5px c-bg-#FF0000">
+                                                        x
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Từ chối
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container c-mb-28px">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Đồng ý
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container c-mb-28px">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Đang chờ
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="c-avatar-ext-3 active"
+                                                style="background-image: url('./images/avatar.jpg');">
+                                                <div
+                                                    class="d-none c-border-#DFDFDF c-border-1px border-solid c-px-16px c-py-13px c-bg-white c-w-206px c-shadow-102 z-1000 position-absolute c-top-32px c-right-100%-negative-60px">
+                                                    <div
+                                                        class="c-leading-20px c-text-20px c-right-negative-12.5px text-center c-text-white c-rounded-50% c-h-25px c-w-25px position-absolute c-top-negative-12.5px c-bg-#FF0000">
+                                                        x
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Từ chối
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container c-mb-28px">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Đồng ý
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container c-mb-28px">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Đang chờ
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="add-user" style="position: relative;">
+                                                <div class="btn-add-user" style="
+                              margin-left: 5px;
+                              width: 30px;
+                              height: 30px;
+                              display: flex;
+                              border: 1px solid gray;
+                              border-radius: 50%;
+                              cursor: pointer;
+                            ">
+                                                    <svg style="width: 15px; margin: auto; color: gray;"
+                                                        aria-hidden="true" focusable="false" data-prefix="fas"
+                                                        data-icon="plus" class="svg-inline--fa fa-plus fa-w-14"
+                                                        role="img" xmlns="http://www.w3.org/2000/svg"
+                                                        viewBox="0 0 448 512">
+                                                        <path fill="currentColor"
+                                                            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div class="popup-add-user" style="
+                              border-radius: 0.5rem;
+                              font-size: 14px;
+                              border: none;
+                              box-shadow: 0px 5px 10px -1px rgba(0, 0, 0, 0.15);
+                              overflow: hidden;
+                              position: absolute;
+                              width: 247px;
+                              background: white;
+                              z-index: 99999;
+                              padding: 10px;
+                              display: none;
+                            ">
+                                                    <div style="margin-bottom: 10px;">
+                                                        ADD USER
+                                                    </div>
+                                                    <div style="display: flex;">
+                                                        <input type="text" class="form-control" style="
+                                  height: 36px;
+                                  border-top-right-radius: 0;
+                                  border-bottom-right-radius: 0;
+                                  border-right: 0;
+                                " placeholder="search user" />
+                                                        <button class="form-control" style="
+                                  width: 32px;
+                                  display: flex;
+                                  padding: 0;
+                                  height: 36px;
+                                  border-top-left-radius: 0;
+                                  border-bottom-left-radius: 0;
+                                ">
+                                                            <svg style="min-width: 15px; margin: auto;"
+                                                                aria-hidden="true" focusable="false" data-prefix="fas"
+                                                                data-icon="search"
+                                                                class="svg-inline--fa fa-search fa-w-16" role="img"
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                viewBox="0 0 512 512">
+                                                                <path fill="currentColor"
+                                                                    d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z">
+                                                                </path>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div style="
+                                display: flex;
+                                border-bottom: 1px solid #e6e6e6;
+                                padding-bottom: 10px;
+                                padding-top: 10px;
+                              ">
+                                                        <div style="margin-right: 5px;">
+                                                            <div class="c-avatar-ext-3 active" style="
+                                    background-image: url('./images/avatar.jpg');
+                                  "></div>
+                                                        </div>
+                                                        <div style="line-height: 30px; width: 100%;">
+                                                            Valentine Maton
+                                                        </div>
+                                                        <div style="margin-left: 10px;">
+                                                            <button class="form-control"
+                                                                style="height: 30px; width: 30px; padding: 0;">
+                                                                +
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div style="
+                                display: flex;
+                                border-bottom: 1px solid #e6e6e6;
+                                padding-bottom: 10px;
+                                padding-top: 10px;
+                              ">
+                                                        <div style="margin-right: 5px;">
+                                                            <div class="c-avatar-ext-3 active" style="
+                                    background-image: url('./images/avatar.jpg');
+                                  "></div>
+                                                        </div>
+                                                        <div style="line-height: 30px; width: 100%;">
+                                                            Valentine Maton
+                                                        </div>
+                                                        <div style="margin-left: 10px;">
+                                                            <button class="form-control"
+                                                                style="height: 30px; width: 30px; padding: 0;">
+                                                                +
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div style="
+                                display: flex;
+                                border-bottom: 1px solid #e6e6e6;
+                                padding-bottom: 10px;
+                                padding-top: 10px;
+                              ">
+                                                        <div style="margin-right: 5px;">
+                                                            <div class="c-avatar-ext-3 active" style="
+                                    background-image: url('./images/avatar.jpg');
+                                  "></div>
+                                                        </div>
+                                                        <div style="line-height: 30px; width: 100%;">
+                                                            Valentine Maton
+                                                        </div>
+                                                        <div style="margin-left: 10px;">
+                                                            <button class="form-control"
+                                                                style="height: 30px; width: 30px; padding: 0;">
+                                                                +
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-6">
+                                        <div class="c-select2-ext-2-container">
+                                            <div class="c-select2-ext-2">
+                                                <select class="js-select2 form-control c-form-control-ext-1"
+                                                    name="state">
+                                                    <option value="AL">Lựa chọn</option>
+                                                    ...
+                                                    <option value="WY">Wyoming</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-7">
+                                        <a href="">
+                                            <svg id="delete" xmlns="http://www.w3.org/2000/svg" width="21.287"
+                                                height="22.838" viewBox="0 0 21.287 22.838">
+                                                <g id="Group_139" data-name="Group 139" transform="translate(0 3.429)">
+                                                    <g id="Group_138" data-name="Group 138">
+                                                        <g id="Group_137" data-name="Group 137">
+                                                            <path id="Path_309" data-name="Path 309"
+                                                                d="M306.237,175.122l-1.175-.066-.255,10.584,1.175.065Z"
+                                                                transform="translate(-291.986 -170.676)"
+                                                                fill="#ff5104" />
+                                                            <rect id="Rectangle_760" data-name="Rectangle 760"
+                                                                width="1.1" height="10.584"
+                                                                transform="translate(9.749 4.413)" fill="#ff5104" />
+                                                            <path id="Path_310" data-name="Path 310"
+                                                                d="M159.849,185.633l-.255-10.584-1.175.066.255,10.584Z"
+                                                                transform="translate(-152.128 -170.67)"
+                                                                fill="#ff5104" />
+                                                            <path id="Path_311" data-name="Path 311"
+                                                                d="M17.379,76.867v1.789h1.864l1.479,16.8a.894.894,0,0,0,.891.816H34.4a.894.894,0,0,0,.891-.816l1.479-16.8h1.894V76.867Zm16.2,17.62H22.432L21.039,78.656H34.977Z"
+                                                                transform="translate(-17.379 -76.867)" fill="#ff5104" />
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                                <g id="Group_141" data-name="Group 141" transform="translate(6.231)">
+                                                    <g id="Group_140" data-name="Group 140">
+                                                        <path id="Path_312" data-name="Path 312"
+                                                            d="M164.41,0h-5.844a1.492,1.492,0,0,0-1.491,1.491V4.323h1.789V1.789h5.247V4.323H165.9V1.491A1.492,1.492,0,0,0,164.41,0Z"
+                                                            transform="translate(-157.076)" fill="#ff5104" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="c-table-ext-2-col-1">
+                                        <div class="form-group c-form-group-ext-2 c-select2-ext-4">
+                                            <select class="form-control js-select2">
+                                                <option selected="selected">orange</option>
+                                                <option>white</option>
+                                                <option selected="selected">purple</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-2">
+                                        <div class="form-group c-form-group-ext-2 c-select2-ext-4">
+                                            <select class="form-control js-select2">
+                                                <option selected="selected">orange</option>
+                                                <option>white</option>
+                                                <option selected="selected">purple</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-3">
+                                        <div class="form-group c-form-group-ext-2">
+                                            <input type="email" class="form-control c-form-control-ext-4"
+                                                id="exampleInputEmail1" aria-describedby="emailHelp" />
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-4">
+                                        <div class="form-group c-form-group-ext-2">
+                                            <input type="email" class="form-control c-form-control-ext-4"
+                                                id="exampleInputEmail1" aria-describedby="emailHelp" />
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-5">
+                                        <div class="c-avatar-ext-3-container">
+                                            <div class="c-avatar-ext-3 active"
+                                                style="background-image: url('./images/avatar.jpg');">
+                                                <div
+                                                    class="d-none c-border-#DFDFDF c-border-1px border-solid c-px-16px c-py-13px c-bg-white c-w-206px c-shadow-102 z-1000 position-absolute c-top-32px c-right-100%-negative-60px">
+                                                    <div
+                                                        class="c-leading-20px c-text-20px c-right-negative-12.5px text-center c-text-white c-rounded-50% c-h-25px c-w-25px position-absolute c-top-negative-12.5px c-bg-#FF0000">
+                                                        x
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Từ chối
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container c-mb-28px">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Đồng ý
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container c-mb-28px">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Đang chờ
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="c-avatar-ext-3 active"
+                                                style="background-image: url('./images/avatar.jpg');">
+                                                <div
+                                                    class="d-none c-border-#DFDFDF c-border-1px border-solid c-px-16px c-py-13px c-bg-white c-w-206px c-shadow-102 z-1000 position-absolute c-top-32px c-right-100%-negative-60px">
+                                                    <div
+                                                        class="c-leading-20px c-text-20px c-right-negative-12.5px text-center c-text-white c-rounded-50% c-h-25px c-w-25px position-absolute c-top-negative-12.5px c-bg-#FF0000">
+                                                        x
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Từ chối
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container c-mb-28px">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Đồng ý
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container c-mb-28px">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Đang chờ
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="c-avatar-ext-3 active"
+                                                style="background-image: url('./images/avatar.jpg');">
+                                                <div
+                                                    class="d-none c-border-#DFDFDF c-border-1px border-solid c-px-16px c-py-13px c-bg-white c-w-206px c-shadow-102 z-1000 position-absolute c-top-32px c-right-100%-negative-60px">
+                                                    <div
+                                                        class="c-leading-20px c-text-20px c-right-negative-12.5px text-center c-text-white c-rounded-50% c-h-25px c-w-25px position-absolute c-top-negative-12.5px c-bg-#FF0000">
+                                                        x
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Từ chối
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container c-mb-28px">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Đồng ý
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container c-mb-28px">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Đang chờ
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="add-user" style="position: relative;">
+                                                <div class="btn-add-user" style="
+                                  margin-left: 5px;
+                                  width: 30px;
+                                  height: 30px;
+                                  display: flex;
+                                  border: 1px solid gray;
+                                  border-radius: 50%;
+                                  cursor: pointer;
+                                ">
+                                                    <svg style="width: 15px; margin: auto; color: gray;"
+                                                        aria-hidden="true" focusable="false" data-prefix="fas"
+                                                        data-icon="plus" class="svg-inline--fa fa-plus fa-w-14"
+                                                        role="img" xmlns="http://www.w3.org/2000/svg"
+                                                        viewBox="0 0 448 512">
+                                                        <path fill="currentColor"
+                                                            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div class="popup-add-user"
+                                                    style="border-radius: 0.5rem; font-size: 14px; border: none; box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px -1px; overflow: hidden; position: absolute; width: 247px; background: white; z-index: 99999; padding: 10px; display: none;">
+                                                    <div style="margin-bottom: 10px;">
+                                                        ADD USER
+                                                    </div>
+                                                    <div style="display: flex;">
+                                                        <input type="text" class="form-control" style="
+                                      height: 36px;
+                                      border-top-right-radius: 0;
+                                      border-bottom-right-radius: 0;
+                                      border-right: 0;
+                                    " placeholder="search user">
+                                                        <button class="form-control" style="
+                                      width: 32px;
+                                      display: flex;
+                                      padding: 0;
+                                      height: 36px;
+                                      border-top-left-radius: 0;
+                                      border-bottom-left-radius: 0;
+                                    ">
+                                                            <svg style="min-width: 15px; margin: auto;"
+                                                                aria-hidden="true" focusable="false" data-prefix="fas"
+                                                                data-icon="search"
+                                                                class="svg-inline--fa fa-search fa-w-16" role="img"
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                viewBox="0 0 512 512">
+                                                                <path fill="currentColor"
+                                                                    d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z">
+                                                                </path>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div style="
+                                    display: flex;
+                                    border-bottom: 1px solid #e6e6e6;
+                                    padding-bottom: 10px;
+                                    padding-top: 10px;
+                                  ">
+                                                        <div style="margin-right: 5px;">
+                                                            <div class="c-avatar-ext-3 active" style="
+                                        background-image: url('./images/avatar.jpg');
+                                      "></div>
+                                                        </div>
+                                                        <div style="line-height: 30px; width: 100%;">
+                                                            Valentine Maton
+                                                        </div>
+                                                        <div style="margin-left: 10px;">
+                                                            <button class="form-control"
+                                                                style="height: 30px; width: 30px; padding: 0;">
+                                                                +
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div style="
+                                    display: flex;
+                                    border-bottom: 1px solid #e6e6e6;
+                                    padding-bottom: 10px;
+                                    padding-top: 10px;
+                                  ">
+                                                        <div style="margin-right: 5px;">
+                                                            <div class="c-avatar-ext-3 active" style="
+                                        background-image: url('./images/avatar.jpg');
+                                      "></div>
+                                                        </div>
+                                                        <div style="line-height: 30px; width: 100%;">
+                                                            Valentine Maton
+                                                        </div>
+                                                        <div style="margin-left: 10px;">
+                                                            <button class="form-control"
+                                                                style="height: 30px; width: 30px; padding: 0;">
+                                                                +
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div style="
+                                    display: flex;
+                                    border-bottom: 1px solid #e6e6e6;
+                                    padding-bottom: 10px;
+                                    padding-top: 10px;
+                                  ">
+                                                        <div style="margin-right: 5px;">
+                                                            <div class="c-avatar-ext-3 active" style="
+                                        background-image: url('./images/avatar.jpg');
+                                      "></div>
+                                                        </div>
+                                                        <div style="line-height: 30px; width: 100%;">
+                                                            Valentine Maton
+                                                        </div>
+                                                        <div style="margin-left: 10px;">
+                                                            <button class="form-control"
+                                                                style="height: 30px; width: 30px; padding: 0;">
+                                                                +
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-6">
+                                        <div class="c-select2-ext-2-container">
+                                            <div class="c-select2-ext-2">
+                                                <select class="js-select2 form-control c-form-control-ext-1"
+                                                    name="state">
+                                                    <option value="AL">Lựa chọn</option>
+                                                    ...
+                                                    <option value="WY">Wyoming</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-7">
+                                        <a href="">
+                                            <svg id="delete" xmlns="http://www.w3.org/2000/svg" width="21.287"
+                                                height="22.838" viewBox="0 0 21.287 22.838">
+                                                <g id="Group_139" data-name="Group 139" transform="translate(0 3.429)">
+                                                    <g id="Group_138" data-name="Group 138">
+                                                        <g id="Group_137" data-name="Group 137">
+                                                            <path id="Path_309" data-name="Path 309"
+                                                                d="M306.237,175.122l-1.175-.066-.255,10.584,1.175.065Z"
+                                                                transform="translate(-291.986 -170.676)"
+                                                                fill="#ff5104" />
+                                                            <rect id="Rectangle_760" data-name="Rectangle 760"
+                                                                width="1.1" height="10.584"
+                                                                transform="translate(9.749 4.413)" fill="#ff5104" />
+                                                            <path id="Path_310" data-name="Path 310"
+                                                                d="M159.849,185.633l-.255-10.584-1.175.066.255,10.584Z"
+                                                                transform="translate(-152.128 -170.67)"
+                                                                fill="#ff5104" />
+                                                            <path id="Path_311" data-name="Path 311"
+                                                                d="M17.379,76.867v1.789h1.864l1.479,16.8a.894.894,0,0,0,.891.816H34.4a.894.894,0,0,0,.891-.816l1.479-16.8h1.894V76.867Zm16.2,17.62H22.432L21.039,78.656H34.977Z"
+                                                                transform="translate(-17.379 -76.867)" fill="#ff5104" />
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                                <g id="Group_141" data-name="Group 141" transform="translate(6.231)">
+                                                    <g id="Group_140" data-name="Group 140">
+                                                        <path id="Path_312" data-name="Path 312"
+                                                            d="M164.41,0h-5.844a1.492,1.492,0,0,0-1.491,1.491V4.323h1.789V1.789h5.247V4.323H165.9V1.491A1.492,1.492,0,0,0,164.41,0Z"
+                                                            transform="translate(-157.076)" fill="#ff5104" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="c-table-ext-2-col-1">
+                                        <div class="form-group c-form-group-ext-2 c-select2-ext-4">
+                                            <select class="form-control js-select2">
+                                                <option selected="selected">orange</option>
+                                                <option>white</option>
+                                                <option selected="selected">purple</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-2">
+                                        <div class="form-group c-form-group-ext-2 c-select2-ext-4">
+                                            <select class="form-control js-select2">
+                                                <option selected="selected">orange</option>
+                                                <option>white</option>
+                                                <option selected="selected">purple</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-3">
+                                        <div class="form-group c-form-group-ext-2">
+                                            <input type="email" class="form-control c-form-control-ext-4"
+                                                id="exampleInputEmail1" aria-describedby="emailHelp" />
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-4">
+                                        <div class="form-group c-form-group-ext-2">
+                                            <input type="email" class="form-control c-form-control-ext-4"
+                                                id="exampleInputEmail1" aria-describedby="emailHelp" />
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-5">
+                                        <div class="form-group c-form-group-ext-2 c-select2-ext-5">
+                                            <div class="c-avatar-ext-3-container">
+                                                <div class="c-avatar-ext-3 active"
+                                                    style="background-image: url('./images/avatar.jpg');">
+                                                    <div
+                                                        class="d-none c-border-#DFDFDF c-border-1px border-solid c-px-16px c-py-13px c-bg-white c-w-206px c-shadow-102 z-1000 position-absolute c-top-32px c-right-100%-negative-60px">
+                                                        <div
+                                                            class="c-leading-20px c-text-20px c-right-negative-12.5px text-center c-text-white c-rounded-50% c-h-25px c-w-25px position-absolute c-top-negative-12.5px c-bg-#FF0000">
+                                                            x
+                                                        </div>
+                                                        <div class="c-mb-3px">
+                                                            Từ chối
+                                                        </div>
+                                                        <div class="c-avatar-ext-3-container c-mb-28px">
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        </div>
+                                                        <div class="c-mb-3px">
+                                                            Đồng ý
+                                                        </div>
+                                                        <div class="c-avatar-ext-3-container c-mb-28px">
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        </div>
+                                                        <div class="c-mb-3px">
+                                                            Đang chờ
+                                                        </div>
+                                                        <div class="c-avatar-ext-3-container">
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="c-avatar-ext-3 active"
+                                                    style="background-image: url('./images/avatar.jpg');">
+                                                    <div
+                                                        class="d-none c-border-#DFDFDF c-border-1px border-solid c-px-16px c-py-13px c-bg-white c-w-206px c-shadow-102 z-1000 position-absolute c-top-32px c-right-100%-negative-60px">
+                                                        <div
+                                                            class="c-leading-20px c-text-20px c-right-negative-12.5px text-center c-text-white c-rounded-50% c-h-25px c-w-25px position-absolute c-top-negative-12.5px c-bg-#FF0000">
+                                                            x
+                                                        </div>
+                                                        <div class="c-mb-3px">
+                                                            Từ chối
+                                                        </div>
+                                                        <div class="c-avatar-ext-3-container c-mb-28px">
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        </div>
+                                                        <div class="c-mb-3px">
+                                                            Đồng ý
+                                                        </div>
+                                                        <div class="c-avatar-ext-3-container c-mb-28px">
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        </div>
+                                                        <div class="c-mb-3px">
+                                                            Đang chờ
+                                                        </div>
+                                                        <div class="c-avatar-ext-3-container">
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="c-avatar-ext-3 active"
+                                                    style="background-image: url('./images/avatar.jpg');">
+                                                    <div
+                                                        class="d-none c-border-#DFDFDF c-border-1px border-solid c-px-16px c-py-13px c-bg-white c-w-206px c-shadow-102 z-1000 position-absolute c-top-32px c-right-100%-negative-60px">
+                                                        <div
+                                                            class="c-leading-20px c-text-20px c-right-negative-12.5px text-center c-text-white c-rounded-50% c-h-25px c-w-25px position-absolute c-top-negative-12.5px c-bg-#FF0000">
+                                                            x
+                                                        </div>
+                                                        <div class="c-mb-3px">
+                                                            Từ chối
+                                                        </div>
+                                                        <div class="c-avatar-ext-3-container c-mb-28px">
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        </div>
+                                                        <div class="c-mb-3px">
+                                                            Đồng ý
+                                                        </div>
+                                                        <div class="c-avatar-ext-3-container c-mb-28px">
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        </div>
+                                                        <div class="c-mb-3px">
+                                                            Đang chờ
+                                                        </div>
+                                                        <div class="c-avatar-ext-3-container">
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                            <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px"
+                                                                style="
+                                  background-image: url('./images/avatar.jpg');
+                                "></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="add-user" style="position: relative;">
+                                                    <div class="btn-add-user" style="
+                              margin-left: 5px;
+                              width: 30px;
+                              height: 30px;
+                              display: flex;
+                              border: 1px solid gray;
+                              border-radius: 50%;
+                              cursor: pointer;
+                            ">
+                                                        <svg style="width: 15px; margin: auto; color: gray;"
+                                                            aria-hidden="true" focusable="false" data-prefix="fas"
+                                                            data-icon="plus" class="svg-inline--fa fa-plus fa-w-14"
+                                                            role="img" xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 448 512">
+                                                            <path fill="currentColor"
+                                                                d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z">
+                                                            </path>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="popup-add-user"
+                                                        style="border-radius: 0.5rem; font-size: 14px; border: none; box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px -1px; overflow: hidden; position: absolute; width: 247px; background: white; z-index: 99999; padding: 10px; display: none;">
+                                                        <div style="margin-bottom: 10px;">
+                                                            ADD USER
+                                                        </div>
+                                                        <div style="display: flex;">
+                                                            <input type="text" class="form-control" style="
+                                  height: 36px;
+                                  border-top-right-radius: 0;
+                                  border-bottom-right-radius: 0;
+                                  border-right: 0;
+                                " placeholder="search user">
+                                                            <button class="form-control" style="
+                                  width: 32px;
+                                  display: flex;
+                                  padding: 0;
+                                  height: 36px;
+                                  border-top-left-radius: 0;
+                                  border-bottom-left-radius: 0;
+                                ">
+                                                                <svg style="min-width: 15px; margin: auto;"
+                                                                    aria-hidden="true" focusable="false"
+                                                                    data-prefix="fas" data-icon="search"
+                                                                    class="svg-inline--fa fa-search fa-w-16" role="img"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    viewBox="0 0 512 512">
+                                                                    <path fill="currentColor"
+                                                                        d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z">
+                                                                    </path>
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                        <div style="
+                                display: flex;
+                                border-bottom: 1px solid #e6e6e6;
+                                padding-bottom: 10px;
+                                padding-top: 10px;
+                              ">
+                                                            <div style="margin-right: 5px;">
+                                                                <div class="c-avatar-ext-3 active" style="
+                                    background-image: url('./images/avatar.jpg');
+                                  "></div>
+                                                            </div>
+                                                            <div style="line-height: 30px; width: 100%;">
+                                                                Valentine Maton
+                                                            </div>
+                                                            <div style="margin-left: 10px;">
+                                                                <button class="form-control"
+                                                                    style="height: 30px; width: 30px; padding: 0;">
+                                                                    +
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                        <div style="
+                                display: flex;
+                                border-bottom: 1px solid #e6e6e6;
+                                padding-bottom: 10px;
+                                padding-top: 10px;
+                              ">
+                                                            <div style="margin-right: 5px;">
+                                                                <div class="c-avatar-ext-3 active" style="
+                                    background-image: url('./images/avatar.jpg');
+                                  "></div>
+                                                            </div>
+                                                            <div style="line-height: 30px; width: 100%;">
+                                                                Valentine Maton
+                                                            </div>
+                                                            <div style="margin-left: 10px;">
+                                                                <button class="form-control"
+                                                                    style="height: 30px; width: 30px; padding: 0;">
+                                                                    +
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                        <div style="
+                                display: flex;
+                                border-bottom: 1px solid #e6e6e6;
+                                padding-bottom: 10px;
+                                padding-top: 10px;
+                              ">
+                                                            <div style="margin-right: 5px;">
+                                                                <div class="c-avatar-ext-3 active" style="
+                                    background-image: url('./images/avatar.jpg');
+                                  "></div>
+                                                            </div>
+                                                            <div style="line-height: 30px; width: 100%;">
+                                                                Valentine Maton
+                                                            </div>
+                                                            <div style="margin-left: 10px;">
+                                                                <button class="form-control"
+                                                                    style="height: 30px; width: 30px; padding: 0;">
+                                                                    +
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-6">
+                                        <div class="c-select2-ext-2-container">
+                                            <div class="c-select2-ext-2">
+                                                <select class="js-select2 form-control c-form-control-ext-1"
+                                                    name="state">
+                                                    <option value="AL">Lựa chọn</option>
+                                                    ...
+                                                    <option value="WY">Wyoming</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-7">
+                                        <a href="">
+                                            <svg id="delete" xmlns="http://www.w3.org/2000/svg" width="21.287"
+                                                height="22.838" viewBox="0 0 21.287 22.838">
+                                                <g id="Group_139" data-name="Group 139" transform="translate(0 3.429)">
+                                                    <g id="Group_138" data-name="Group 138">
+                                                        <g id="Group_137" data-name="Group 137">
+                                                            <path id="Path_309" data-name="Path 309"
+                                                                d="M306.237,175.122l-1.175-.066-.255,10.584,1.175.065Z"
+                                                                transform="translate(-291.986 -170.676)"
+                                                                fill="#ff5104" />
+                                                            <rect id="Rectangle_760" data-name="Rectangle 760"
+                                                                width="1.1" height="10.584"
+                                                                transform="translate(9.749 4.413)" fill="#ff5104" />
+                                                            <path id="Path_310" data-name="Path 310"
+                                                                d="M159.849,185.633l-.255-10.584-1.175.066.255,10.584Z"
+                                                                transform="translate(-152.128 -170.67)"
+                                                                fill="#ff5104" />
+                                                            <path id="Path_311" data-name="Path 311"
+                                                                d="M17.379,76.867v1.789h1.864l1.479,16.8a.894.894,0,0,0,.891.816H34.4a.894.894,0,0,0,.891-.816l1.479-16.8h1.894V76.867Zm16.2,17.62H22.432L21.039,78.656H34.977Z"
+                                                                transform="translate(-17.379 -76.867)" fill="#ff5104" />
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                                <g id="Group_141" data-name="Group 141" transform="translate(6.231)">
+                                                    <g id="Group_140" data-name="Group 140">
+                                                        <path id="Path_312" data-name="Path 312"
+                                                            d="M164.41,0h-5.844a1.492,1.492,0,0,0-1.491,1.491V4.323h1.789V1.789h5.247V4.323H165.9V1.491A1.492,1.492,0,0,0,164.41,0Z"
+                                                            transform="translate(-157.076)" fill="#ff5104" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="c-table-ext-2-col-1">
+                                        <div class="form-group c-form-group-ext-2 c-select2-ext-4">
+                                            <select class="form-control js-select2">
+                                                <option selected="selected">orange</option>
+                                                <option>white</option>
+                                                <option selected="selected">purple</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-2">
+                                        <div class="form-group c-form-group-ext-2 c-select2-ext-4">
+                                            <select class="form-control js-select2">
+                                                <option selected="selected">orange</option>
+                                                <option>white</option>
+                                                <option selected="selected">purple</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-3">
+                                        <div class="form-group c-form-group-ext-2">
+                                            <input type="email" class="form-control c-form-control-ext-4"
+                                                id="exampleInputEmail1" aria-describedby="emailHelp" />
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-4">
+                                        <div class="form-group c-form-group-ext-2">
+                                            <input type="email" class="form-control c-form-control-ext-4"
+                                                id="exampleInputEmail1" aria-describedby="emailHelp" />
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-5">
+                                        <div class="c-avatar-ext-3-container">
+                                            <div class="c-avatar-ext-3 active"
+                                                style="background-image: url('./images/avatar.jpg');">
+                                                <div
+                                                    class="d-none c-border-#DFDFDF c-border-1px border-solid c-px-16px c-py-13px c-bg-white c-w-206px c-shadow-102 z-1000 position-absolute c-top-32px c-right-100%-negative-60px">
+                                                    <div
+                                                        class="c-leading-20px c-text-20px c-right-negative-12.5px text-center c-text-white c-rounded-50% c-h-25px c-w-25px position-absolute c-top-negative-12.5px c-bg-#FF0000">
+                                                        x
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Từ chối
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container c-mb-28px">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Đồng ý
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container c-mb-28px">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Đang chờ
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="c-avatar-ext-3 active"
+                                                style="background-image: url('./images/avatar.jpg');">
+                                                <div
+                                                    class="d-none c-border-#DFDFDF c-border-1px border-solid c-px-16px c-py-13px c-bg-white c-w-206px c-shadow-102 z-1000 position-absolute c-top-32px c-right-100%-negative-60px">
+                                                    <div
+                                                        class="c-leading-20px c-text-20px c-right-negative-12.5px text-center c-text-white c-rounded-50% c-h-25px c-w-25px position-absolute c-top-negative-12.5px c-bg-#FF0000">
+                                                        x
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Từ chối
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container c-mb-28px">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Đồng ý
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container c-mb-28px">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Đang chờ
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="c-avatar-ext-3 active"
+                                                style="background-image: url('./images/avatar.jpg');">
+                                                <div
+                                                    class="d-none c-border-#DFDFDF c-border-1px border-solid c-px-16px c-py-13px c-bg-white c-w-206px c-shadow-102 z-1000 position-absolute c-top-32px c-right-100%-negative-60px">
+                                                    <div
+                                                        class="c-leading-20px c-text-20px c-right-negative-12.5px text-center c-text-white c-rounded-50% c-h-25px c-w-25px position-absolute c-top-negative-12.5px c-bg-#FF0000">
+                                                        x
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Từ chối
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container c-mb-28px">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Đồng ý
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container c-mb-28px">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                    </div>
+                                                    <div class="c-mb-3px">
+                                                        Đang chờ
+                                                    </div>
+                                                    <div class="c-avatar-ext-3-container">
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px active"
+                                                            style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                        <div class="c-avatar-ext-3 c-mr-9px c-w-38px c-h-38px" style="
+                                      background-image: url('./images/avatar.jpg');
+                                    "></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="add-user" style="position: relative;">
+                                                <div class="btn-add-user" style="
+                                  margin-left: 5px;
+                                  width: 30px;
+                                  height: 30px;
+                                  display: flex;
+                                  border: 1px solid gray;
+                                  border-radius: 50%;
+                                  cursor: pointer;
+                                ">
+                                                    <svg style="width: 15px; margin: auto; color: gray;"
+                                                        aria-hidden="true" focusable="false" data-prefix="fas"
+                                                        data-icon="plus" class="svg-inline--fa fa-plus fa-w-14"
+                                                        role="img" xmlns="http://www.w3.org/2000/svg"
+                                                        viewBox="0 0 448 512">
+                                                        <path fill="currentColor"
+                                                            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div class="popup-add-user"
+                                                    style="border-radius: 0.5rem; font-size: 14px; border: none; box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px -1px; overflow: hidden; position: absolute; width: 247px; background: white; z-index: 99999; padding: 10px; display: none;">
+                                                    <div style="margin-bottom: 10px;">
+                                                        ADD USER
+                                                    </div>
+                                                    <div style="display: flex;">
+                                                        <input type="text" class="form-control" style="
+                                      height: 36px;
+                                      border-top-right-radius: 0;
+                                      border-bottom-right-radius: 0;
+                                      border-right: 0;
+                                    " placeholder="search user">
+                                                        <button class="form-control" style="
+                                      width: 32px;
+                                      display: flex;
+                                      padding: 0;
+                                      height: 36px;
+                                      border-top-left-radius: 0;
+                                      border-bottom-left-radius: 0;
+                                    ">
+                                                            <svg style="min-width: 15px; margin: auto;"
+                                                                aria-hidden="true" focusable="false" data-prefix="fas"
+                                                                data-icon="search"
+                                                                class="svg-inline--fa fa-search fa-w-16" role="img"
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                viewBox="0 0 512 512">
+                                                                <path fill="currentColor"
+                                                                    d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z">
+                                                                </path>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div style="
+                                    display: flex;
+                                    border-bottom: 1px solid #e6e6e6;
+                                    padding-bottom: 10px;
+                                    padding-top: 10px;
+                                  ">
+                                                        <div style="margin-right: 5px;">
+                                                            <div class="c-avatar-ext-3 active" style="
+                                        background-image: url('./images/avatar.jpg');
+                                      "></div>
+                                                        </div>
+                                                        <div style="line-height: 30px; width: 100%;">
+                                                            Valentine Maton
+                                                        </div>
+                                                        <div style="margin-left: 10px;">
+                                                            <button class="form-control"
+                                                                style="height: 30px; width: 30px; padding: 0;">
+                                                                +
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div style="
+                                    display: flex;
+                                    border-bottom: 1px solid #e6e6e6;
+                                    padding-bottom: 10px;
+                                    padding-top: 10px;
+                                  ">
+                                                        <div style="margin-right: 5px;">
+                                                            <div class="c-avatar-ext-3 active" style="
+                                        background-image: url('./images/avatar.jpg');
+                                      "></div>
+                                                        </div>
+                                                        <div style="line-height: 30px; width: 100%;">
+                                                            Valentine Maton
+                                                        </div>
+                                                        <div style="margin-left: 10px;">
+                                                            <button class="form-control"
+                                                                style="height: 30px; width: 30px; padding: 0;">
+                                                                +
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div style="
+                                    display: flex;
+                                    border-bottom: 1px solid #e6e6e6;
+                                    padding-bottom: 10px;
+                                    padding-top: 10px;
+                                  ">
+                                                        <div style="margin-right: 5px;">
+                                                            <div class="c-avatar-ext-3 active" style="
+                                        background-image: url('./images/avatar.jpg');
+                                      "></div>
+                                                        </div>
+                                                        <div style="line-height: 30px; width: 100%;">
+                                                            Valentine Maton
+                                                        </div>
+                                                        <div style="margin-left: 10px;">
+                                                            <button class="form-control"
+                                                                style="height: 30px; width: 30px; padding: 0;">
+                                                                +
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-6">
+                                        <div class="c-select2-ext-2-container">
+                                            <div class="c-select2-ext-2">
+                                                <select class="js-select2 form-control c-form-control-ext-1"
+                                                    name="state">
+                                                    <option value="AL">Lựa chọn</option>
+                                                    ...
+                                                    <option value="WY">Wyoming</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="c-table-ext-2-col-7">
+                                        <a href="">
+                                            <svg id="delete" xmlns="http://www.w3.org/2000/svg" width="21.287"
+                                                height="22.838" viewBox="0 0 21.287 22.838">
+                                                <g id="Group_139" data-name="Group 139" transform="translate(0 3.429)">
+                                                    <g id="Group_138" data-name="Group 138">
+                                                        <g id="Group_137" data-name="Group 137">
+                                                            <path id="Path_309" data-name="Path 309"
+                                                                d="M306.237,175.122l-1.175-.066-.255,10.584,1.175.065Z"
+                                                                transform="translate(-291.986 -170.676)"
+                                                                fill="#ff5104" />
+                                                            <rect id="Rectangle_760" data-name="Rectangle 760"
+                                                                width="1.1" height="10.584"
+                                                                transform="translate(9.749 4.413)" fill="#ff5104" />
+                                                            <path id="Path_310" data-name="Path 310"
+                                                                d="M159.849,185.633l-.255-10.584-1.175.066.255,10.584Z"
+                                                                transform="translate(-152.128 -170.67)"
+                                                                fill="#ff5104" />
+                                                            <path id="Path_311" data-name="Path 311"
+                                                                d="M17.379,76.867v1.789h1.864l1.479,16.8a.894.894,0,0,0,.891.816H34.4a.894.894,0,0,0,.891-.816l1.479-16.8h1.894V76.867Zm16.2,17.62H22.432L21.039,78.656H34.977Z"
+                                                                transform="translate(-17.379 -76.867)" fill="#ff5104" />
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                                <g id="Group_141" data-name="Group 141" transform="translate(6.231)">
+                                                    <g id="Group_140" data-name="Group 140">
+                                                        <path id="Path_312" data-name="Path 312"
+                                                            d="M164.41,0h-5.844a1.492,1.492,0,0,0-1.491,1.491V4.323h1.789V1.789h5.247V4.323H165.9V1.491A1.492,1.492,0,0,0,164.41,0Z"
+                                                            transform="translate(-157.076)" fill="#ff5104" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="c-card-ext-2-footer">
+                        <div class="c-card-ext-2-footer-left">
+                            <div class="c-card-ext-2-create">
+                                <button class="btn c-btn-ext-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18.67" height="18.67"
+                                        viewBox="0 0 18.67 18.67">
+                                        <path id="Path_301" data-name="Path 301"
+                                            d="M10.875,0,6.6,4.274,2.327,0,0,2.327,4.274,6.6,0,10.875,2.327,13.2,6.6,8.928,10.875,13.2,13.2,10.875,8.928,6.6,13.2,2.327Z"
+                                            transform="translate(9.335) rotate(45)" fill="#fff" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="c-card-ext-2-footer-right">
+                            <div class="c-card-ext-2-btn-done">
+                                <button class="btn c-btn-ext-2">
+                                    <div class="c-btn-ext-2-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18.884" height="14.731"
+                                            viewBox="0 0 18.884 14.731">
+                                            <path id="Path_5969" data-name="Path 5969"
+                                                d="M8.961,16.1,4.82,11.956l-1.41,1.4,5.551,5.551L20.878,6.99l-1.4-1.4Z"
+                                                transform="translate(-2.702 -4.883)" fill="#fff" stroke="#fff"
+                                                stroke-width="1" />
+                                        </svg>
+                                        <div class="c-btn-ext-2-icon-layer"></div>
+                                    </div>
+                                    <div class="c-btn-ext-2-title">
+                                        Hoàn thành
+                                    </div>
+                                </button>
+                            </div>
+                            <div class="c-card-ext-2-btn-cancel">
+                                <button class="btn c-btn-ext-2">
+                                    <div class="c-btn-ext-2-title">
+                                        Cancel
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+    <script src="./js/tableHeadFixer.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <script>
+        $('input[name="birthday"]').daterangepicker({
+            singleDatePicker: true,
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".js-select2").select2({
+                width: "resolve",
+            });
+            // $(".js-table").tableHeadFixer();
+            // const $test = $('.dropdown');
+            $(document).click(function (e) {
+                $(".popup-add-user").hide();
+            });
+            $(".btn-add-user").click(function (event) {
+                event.stopPropagation();
+                $(this).closest(".add-user").find(".popup-add-user").show();
+                // $(".popup-add-user").show();
+                // $(this).closest(".add-user")
+            });
+            $(".popup-add-user").click(function () {
+                event.stopPropagation();
+                $(this).closest(".add-user").find(".popup-add-user").show();
+            });
+        });
+    </script>
+</body>
+
+</html>

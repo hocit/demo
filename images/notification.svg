@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34.375" height="37" viewBox="0 0 34.375 37">
+  <g id="Component_7_98" data-name="Component 7 – 98" transform="translate(0 2)">
+    <g id="Group_785" data-name="Group 785" transform="translate(-1676 -11)">
+      <g id="Group_787" data-name="Group 787" transform="translate(2 -2)">
+        <path id="Notification_Icon" data-name="Notification Icon" d="M11.25,26.25h7.5a3.75,3.75,0,1,1-7.5,0ZM1.875,24.376a1.875,1.875,0,0,1,0-3.75h.938A8.162,8.162,0,0,0,5.624,15V9.376A9.285,9.285,0,0,1,15,0a9.284,9.284,0,0,1,9.374,9.376V15a8.158,8.158,0,0,0,2.813,5.626h.938a1.875,1.875,0,0,1,0,3.75Z" transform="translate(1674 18)" fill="#bcbccb"/>
+        <g id="Notification_Badge" data-name="Notification Badge" transform="translate(1691.375 13)" fill="#ffc06a" stroke="#fff" stroke-width="2">
+          <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+          <circle cx="7.5" cy="7.5" r="8.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="61" height="43" viewBox="0 0 61 43">
+  <g id="Group_1231" data-name="Group 1231" transform="translate(2314 -1264)">
+    <g id="Rectangle_1990" data-name="Rectangle 1990" transform="translate(-2314 1264)" fill="#fff" stroke="#f25767" stroke-width="1">
+      <rect width="53" height="43" stroke="none"/>
+      <rect x="0.5" y="0.5" width="52" height="42" fill="none"/>
+    </g>
+    <text id="Today_List" data-name="Today
+List" transform="translate(-2291 1280)" fill="#464646" font-size="12" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-18.69" y="0">Today</tspan><tspan font-size="20"><tspan x="-18.71" y="19">List</tspan></tspan></text>
+    <rect id="Rectangle_1991" data-name="Rectangle 1991" width="7" height="24" transform="translate(-2266 1273)" fill="#fff"/>
+    <rect id="Rectangle_1992" data-name="Rectangle 1992" width="3" height="11" rx="1.5" transform="translate(-2253 1278) rotate(90)" fill="#f25767"/>
+    <rect id="Rectangle_1993" data-name="Rectangle 1993" width="3" height="11" rx="1.5" transform="translate(-2253 1284) rotate(90)" fill="#f25767"/>
+    <rect id="Rectangle_1994" data-name="Rectangle 1994" width="2" height="11" rx="1" transform="translate(-2253 1290) rotate(90)" fill="#f25767"/>
+  </g>
+</svg>

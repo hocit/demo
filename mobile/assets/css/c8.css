@@ -1,0 +1,99 @@
+.c8.footer {
+    height: 86px;
+    -webkit-box-shadow: 0px -3px 6px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px -3px 6px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px -3px 6px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 0 10px;
+    background: white;
+}
+
+.c8.footer .footer-menu {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    margin: auto 0;
+    width: 100%;
+}
+
+.c8.footer .footer-menu-link {
+    text-align: center;
+    color: #464646;
+}
+
+.c8.footer .footer-menu-link:hover {
+    color: #464646;
+    text-decoration: none;
+}
+
+.c8.footer .footer-menu-icon {
+    height: 36px;
+    width: 36px;
+    display: flex;
+    margin: auto;
+}
+
+.c8.footer .footer-menu-icon svg {
+    margin: auto;
+}
+
+.c8.footer .footer-menu-icon.active {
+    background: #F25767;
+    -webkit-box-shadow: 5px 10px 20px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 5px 10px 20px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 5px 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.c8.footer .footer-menu-icon.footer-menu-icon-dashboard.active svg path {
+    stroke: white;
+}
+
+.c8.footer .footer-menu-icon.footer-menu-icon-todaylist.active svg path,
+.c8.footer .footer-menu-icon.footer-menu-icon-todaylist.active svg rect,
+.c8.footer .footer-menu-icon.footer-menu-icon-statistical.active svg path,
+.c8.footer .footer-menu-icon.footer-menu-icon-statistical.active svg rect {
+    fill: white;
+}
+
+.c8.footer .footer-menu-icon-notification {
+    position: relative;
+}
+
+.c8.footer .footer-menu-icon-notification-title {
+    font-size: 6px;
+    color: #FFC06A;
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.c8.footer .footer-menu-icon.footer-menu-icon-notification.active svg path:nth-child(1),
+.c8.footer .footer-menu-icon.footer-menu-icon-notification.active svg path:nth-child(2) {
+    fill: white;
+}
+
+.c8.footer .footer-menu-title {
+    color: #464646;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.c8.footer .footer-menu-logo {
+    width: 63px;
+    height: 63px;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.16);
+    border-radius: 63px;
+    margin: auto;
+    display: flex;
+    margin-top: -30px;
+    background: white;
+}
+
+.c8.footer .footer-menu-logo svg {
+    margin: auto;
+}
