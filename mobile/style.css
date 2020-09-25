@@ -52,6 +52,13 @@ body {
 .pr-5px {
     padding-right: 5px;
 }
+.pl-10px {
+    padding-left: 10px;
+}
+
+.pr-10px {
+    padding-right: 10px;
+}
 
 .py-20px {
     padding: 20px 0;
