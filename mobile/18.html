@@ -461,9 +461,7 @@
     </script>
     <script>
         const header = document.querySelector(".header");
-        const headroom = new Headroom(header, {
-            scroller: document.querySelector(".body")
-        });
+        const headroom = new Headroom(header);
         headroom.init();
 
         $('.js-datepicker').datepicker({});

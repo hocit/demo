@@ -369,9 +369,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
     <script>
         const header = document.querySelector(".header");
-        const headroom = new Headroom(header, {
-            scroller: document.querySelector(".body")
-        });
+        const headroom = new Headroom(header);
         headroom.init();
 
         $('.js-datepicker').datepicker({});
