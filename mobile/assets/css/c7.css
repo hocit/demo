@@ -6,9 +6,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    max-width: 100%;
     position: fixed;
     z-index: 10;
     right: 0;
@@ -62,4 +60,10 @@
     border-radius: 35px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }

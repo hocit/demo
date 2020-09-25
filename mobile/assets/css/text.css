@@ -7,6 +7,28 @@
     color: #212121;
 }
 
+.text-c2 {
+    color: #4D4F5C;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.text-c3 {
+    color:#BCBCCB;
+    font-size: 12px;
+}
+
+.text-c4 {
+    font-size: 16px;
+    font-weight: bold;
+    color:#212121;
+}
+
+.text-c5 {
+    font-size: 12px;
+    color:#212121;
+}
+
 .text-\#419EE5 {
     color: #419EE5!important;
 }

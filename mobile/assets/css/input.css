@@ -1,0 +1,42 @@
+.input-c1 {
+    position: relative;
+}
+
+.input-c1 input {
+    height: 42px;
+    color: #4D4F5C;
+    border-radius: 5px;
+    border: 1px solid #CBCBCB;
+}
+
+.input-c1-search input {
+    padding-right: 40px;
+}
+
+.input-c1-search-popup {
+    position: absolute;
+    top: 56px;
+    left: 0;
+    background: white;
+    width: 100%;
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 15px;
+    max-height: 288px;
+    overflow: auto;
+}
+
+.input-c1.input-c1-date input {
+    padding-right: 42px;
+}
+
+.input-c1 svg {
+    position: absolute;
+    top: 11px;
+    right: 11px;
+    pointer-events: none;
+    cursor: pointer;
+}
