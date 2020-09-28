@@ -82,3 +82,7 @@ body {
 .bg-\#EEEEEE {
     background: #EEEEEE;
 }
+
+.datepicker-open,.popup-open {
+    overflow: hidden;
+}

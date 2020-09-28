@@ -37,3 +37,20 @@
     color: red;
     cursor: pointer;
 }
+
+.icon-c3 {
+    height: 42px;
+    color: #4D4F5C;
+    border-radius: 5px;
+    border: 1px solid #CBCBCB;
+    min-width: 42px;
+    display: flex;
+}
+
+.icon-c3 svg {
+    margin: auto;
+}
+
+.icon-c4 {
+    width: 20px;
+}
