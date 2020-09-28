@@ -77,12 +77,18 @@
 }
 
 .item-c3-date {
-    min-width: 140px;
-    max-width: 100%;
+    /* min-width: 140px; */
+    /* max-width: 100%; */
 }
 
 .item-c3-search {
-    min-width: calc(100% - 180px);
+    /* min-width: calc(100% - 180px); */
+    /* width: 100%; */
+}
+
+.item-c3-col-1 {
+    width: calc(100% - 30px)!important;
+    display: flex;
 }
 
 .item-c4 {

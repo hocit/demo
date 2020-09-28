@@ -1,5 +1,6 @@
 .input-c1 {
     position: relative;
+    width: 100%;
 }
 
 .input-c1 input {
@@ -11,6 +12,10 @@
 
 .input-c1-search input {
     padding-right: 40px;
+}
+
+.input-c1-date {
+    min-width: 140px;
 }
 
 .input-c1-search-popup {
